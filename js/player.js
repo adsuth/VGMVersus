@@ -9,8 +9,6 @@ var player;
 
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
-        height: '100%',
-        width: '80%',
         videoId: '',
         playerVars: {
             'playsinline': 1

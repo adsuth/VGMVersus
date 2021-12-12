@@ -14,29 +14,53 @@
     
     <script src="js\init.js" defer></script>
     <script src="js\player.js" defer></script>
+    <script src="js\frontend.js" defer></script>
     <!-- <script src="js\test.js" defer></script> -->
 
 </head>
 <body>
 
-    <header>
-        <h1 id="test_text">VGMB</h1>
+    <aside id="hamburger_wrapper" class="flex">
+        <section id="hamburger"></section>
+    </aside>
+
+    <header class="grid header_grid">
+        <p>0</p>
+        <h1 id="header_title">VGMB</h1>
+        <p id="header_score" >0</p>
     </header>
     
 
-    <section>
+    <section class="grid">
+        <aside>
+            <!-- ??? -->
+        </aside>
+
         <div id="player_container">
             <div id="player"></div>
-        </div>
+        </div>   
+        
+        <aside>
+            <!-- visual game select -->
+            <h3>Game</h3>
+            <div id="game_list" class="grid">
+                <button class="game_list_item button">Random</button>
 
-        <p id="song_data">
-        </p>        
+            </div>
 
+        </aside>
         
     </section>
 
-    <footer>
-        <button id="hb_menu"></button>
+    <p id="song_data">
+    </p>  
+
+    <footer class="flex">
+        <button id="btn_mute" class="button">Mute</button>
+        <input type="range" id="inp_volume">
+        <input type="text" id="answer_area">
+        <button type="button" id="btn_next" class="button">Next</button>
+
     </footer>
 
     

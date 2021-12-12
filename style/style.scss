@@ -1,0 +1,214 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(#222, #333);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+html {
+    --fontBody: "Montserrat", sans-serif;
+    --fontTitle: "Montserrat", sans-serif;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+// font styling
+h1, h3, p, button {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--fontBody);
+    font-weight: 400;
+}
+
+header {
+    // outline: magenta solid 1px;
+    height: calc( (1 /12) *100% );
+    background: #333;
+
+    grid-template-columns: 1fr 3fr 1fr;
+    * {
+        // outline: magenta solid 1px;
+    }
+
+    h1 {
+        font-family: var(--fontTitle);
+        font-weight: 800;
+        font-size: 2rem;
+    }
+
+}
+
+section {
+    height: calc( (8 /12) *100% );
+    grid-template-columns: 1fr 3fr 1fr;
+    background: #000;
+
+    *{
+        // outline: cyan solid 1px;
+    }
+
+    #player_container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        iframe {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    ul {
+        display: flex;
+        gap: 5vw;
+
+    }
+
+    .song_data {
+        list-style-type: none;
+        padding: 2vh 0;
+        width: 80%;
+        color: #fff;
+        font-family: var(--fontBody);
+        background: #333;
+        border-radius: 5vw;
+        margin: 0 auto;
+
+        li:nth-child(odd) {
+            font-weight: 800;
+        }
+
+    }
+
+    aside {
+        height: 100%;
+        background: linear-gradient(#222, #333);
+        
+        h3 {
+            min-height: 10%;
+            padding: 2.5% 0;
+        }
+
+        #game_list {
+            overflow-y: scroll;
+            scrollbar-width: none;
+            height: 90%;
+            grid-template-rows: auto;
+            align-items: start;
+
+            button {
+                padding: 1rem 2rem;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+
+
+}
+
+footer {
+    height: calc( (3 /12) *100% );
+    // outline: yellow solid 1px;
+    gap: 0 2.5%;
+
+    button {
+        padding: 1rem 2rem;
+    }
+
+    #answer_area {
+        background: #666;
+        text-align: left;
+        padding: 0.25rem
+
+    }
+}
+
+// menus
+#hamburger {
+    width: 60%;
+    height: 80%;
+    background: #666;
+    position: relative;
+    z-index: 6;
+    border-radius: 5vw;
+}
+
+#hamburger_wrapper{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+// Generic classes
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #666;
+    border-radius: 5vw;
+    cursor: pointer;
+}
+
+// misc
+::selection {
+    background-color: #666;
+}
+
+/*Scroll bar nav*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:#FFF;    
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(204,204,204,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(204,204,204,0.4); 
+}

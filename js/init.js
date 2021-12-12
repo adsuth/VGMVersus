@@ -1,9 +1,6 @@
-var SONG = {
-    all_songs: null,
-    random_songs: null,
-    current_song: null,
-    
-}
+var songs_all = []
+var songs_random = []
+var song_current = {}
 
 function random_init() {
     /*
@@ -18,10 +15,10 @@ function random_init() {
         success: function(data) { 
             
             for ( let game in data ) {
-                SONG.all_songs = SONG.all_songs.concat( data[game] )
+                songs_all = songs_all.concat( data[game] )
             }
 
-            SONG.random_songs = shuffleArray( SONG.all_songs.slice(0) )
+            songs_random = shuffleArray( songs_all.slice(0) )
 
         },
         async: false
@@ -44,7 +41,7 @@ function getRandomIndex(arr) {
 }
 
 function getSong() {
-    let song = song_list.pop()
+    let song = songs_random.pop()
     return formatSongUrl( song.url )
 }
 
