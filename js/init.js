@@ -1,6 +1,6 @@
 var songs_all = []
 var songs_random = []
-var song_current = {}
+var song_current = null
 
 function random_init() {
     /*
@@ -42,6 +42,7 @@ function getRandomIndex(arr) {
 
 function getSong() {
     let song = songs_random.pop()
+    song_current = song
     return formatSongUrl( song.url )
 }
 
