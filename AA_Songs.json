@@ -1,2099 +1,2447 @@
 {
     "Phoenix Wright: Ace Attorney": [{
-        "id": 0,
+        "index": 0,
         "name": "Courtroom Lobby ~ Beginning Overture",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/h29zK6_VstU"
+        "url": "https://youtu.be/h29zK6_VstU",
+        "id": "h29zK6_VstU"
     }, {
-        "id": 1,
+        "index": 1,
         "name": "Trial",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/UEGVxLs6Sr0"
+        "url": "https://youtu.be/UEGVxLs6Sr0",
+        "id": "UEGVxLs6Sr0"
     }, {
-        "id": 2,
+        "index": 2,
         "name": "Logic and Trick",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/GDP4ds-ozOI"
+        "url": "https://youtu.be/GDP4ds-ozOI",
+        "id": "GDP4ds-ozOI"
     }, {
-        "id": 3,
+        "index": 3,
         "name": "Questioning ~ Moderato 2001",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/9_sAzyTCZzQ"
+        "url": "https://youtu.be/9_sAzyTCZzQ",
+        "id": "9_sAzyTCZzQ"
     }, {
-        "id": 4,
+        "index": 4,
         "name": "Phoenix Wright ~ Objection! 2001",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/ANcuqk7x33o"
+        "url": "https://youtu.be/ANcuqk7x33o",
+        "id": "ANcuqk7x33o"
     }, {
-        "id": 5,
+        "index": 5,
         "name": "Questioning ~ Allegro 2001",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/HK2VLhbSaoc"
+        "url": "https://youtu.be/HK2VLhbSaoc",
+        "id": "HK2VLhbSaoc"
     }, {
-        "id": 6,
+        "index": 6,
         "name": "Pressing Pursuit ~ Cornered",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/UxnvGDK0WGM"
+        "url": "https://youtu.be/UxnvGDK0WGM",
+        "id": "UxnvGDK0WGM"
     }, {
-        "id": 7,
+        "index": 7,
         "name": "Telling the Truth 2001",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/0nPfjHuKtw8"
+        "url": "https://youtu.be/0nPfjHuKtw8",
+        "id": "0nPfjHuKtw8"
     }, {
-        "id": 8,
+        "index": 8,
         "name": "Suspense",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/YmYPxdQpwpQ"
+        "url": "https://youtu.be/YmYPxdQpwpQ",
+        "id": "YmYPxdQpwpQ"
     }, {
-        "id": 9,
+        "index": 9,
         "name": "Pressing Pursuit ~ Cornered - Variation",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/lAWdWk6a2gg"
+        "url": "https://youtu.be/lAWdWk6a2gg",
+        "id": "lAWdWk6a2gg"
     }, {
-        "id": 10,
+        "index": 10,
         "name": "Victory! ~ The First Victory",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/SPOFjeHS_hc"
+        "url": "https://youtu.be/SPOFjeHS_hc",
+        "id": "SPOFjeHS_hc"
     }, {
-        "id": 11,
+        "index": 11,
         "name": "Maya Fey ~ Turnabout Sisters Theme 2001",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/upOhRRYVGkA"
+        "url": "https://youtu.be/upOhRRYVGkA",
+        "id": "upOhRRYVGkA"
     }, {
-        "id": 12,
+        "index": 12,
         "name": "Investigation ~ Opening 2001",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/_ItfF7ZGDgE"
+        "url": "https://youtu.be/_ItfF7ZGDgE",
+        "id": "_ItfF7ZGDgE"
     }, {
-        "id": 13,
+        "index": 13,
         "name": "Detention Center ~ Jailers' Elegy",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/B8eTxPdU4sQ"
+        "url": "https://youtu.be/B8eTxPdU4sQ",
+        "id": "B8eTxPdU4sQ"
     }, {
-        "id": 14,
+        "index": 14,
         "name": "Dick Gumshoe ~ Detective Gumshoe, Pal",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/pLtzOZe1vZI"
+        "url": "https://youtu.be/pLtzOZe1vZI",
+        "id": "pLtzOZe1vZI"
     }, {
-        "id": 15,
+        "index": 15,
         "name": "Recollection ~ Heartbroken Maya",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/KbFlZQfXFjc"
+        "url": "https://youtu.be/KbFlZQfXFjc",
+        "id": "KbFlZQfXFjc"
     }, {
-        "id": 16,
+        "index": 16,
         "name": "Marvin Grossberg ~ Old Age, Regret, Retribution",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/dr4fdf8F3Yk"
+        "url": "https://youtu.be/dr4fdf8F3Yk",
+        "id": "dr4fdf8F3Yk"
     }, {
-        "id": 17,
+        "index": 17,
         "name": "Happy People",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/oVbFMCFl9xE"
+        "url": "https://youtu.be/oVbFMCFl9xE",
+        "id": "oVbFMCFl9xE"
     }, {
-        "id": 18,
+        "index": 18,
         "name": "Recollection ~ Light and Shadow of the Film Studio",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/d1JT6ZDqIE0"
+        "url": "https://youtu.be/d1JT6ZDqIE0",
+        "id": "d1JT6ZDqIE0"
     }, {
-        "id": 19,
+        "index": 19,
         "name": "The Steel Samurai",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/UPdY_f1ybn8"
+        "url": "https://youtu.be/UPdY_f1ybn8",
+        "id": "UPdY_f1ybn8"
     }, {
-        "id": 20,
+        "index": 20,
         "name": "Recollection ~ The DL-6 Incident",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/V32y9gHJP0E"
+        "url": "https://youtu.be/V32y9gHJP0E",
+        "id": "V32y9gHJP0E"
     }, {
-        "id": 21,
+        "index": 21,
         "name": "Investigation ~ Core 2001",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/e_FwZ6E5adA"
+        "url": "https://youtu.be/e_FwZ6E5adA",
+        "id": "e_FwZ6E5adA"
     }, {
-        "id": 22,
+        "index": 22,
         "name": "Recollection ~ Class Trial",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/EtMfvQc-Rh8"
+        "url": "https://youtu.be/EtMfvQc-Rh8",
+        "id": "EtMfvQc-Rh8"
     }, {
-        "id": 23,
+        "index": 23,
         "name": "Turnabout Sisters Ballad",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Sz-m7l_QoEo"
+        "url": "https://youtu.be/Sz-m7l_QoEo",
+        "id": "Sz-m7l_QoEo"
     }, {
-        "id": 24,
+        "index": 24,
         "name": "End",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/en8l-_-rBgw"
+        "url": "https://youtu.be/en8l-_-rBgw",
+        "id": "en8l-_-rBgw"
     }, {
-        "id": 25,
+        "index": 25,
         "name": "Recollection ~ The SL-9 Incident",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/JMg6N9PuOi8"
+        "url": "https://youtu.be/JMg6N9PuOi8",
+        "id": "JMg6N9PuOi8"
     }, {
-        "id": 26,
+        "index": 26,
         "name": "Ema Skye ~ Turnabout Sisters Theme 2005",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/2FXO-QVjh9g"
+        "url": "https://youtu.be/2FXO-QVjh9g",
+        "id": "2FXO-QVjh9g"
     }, {
-        "id": 27,
+        "index": 27,
         "name": "The Blue Badger ~ I Want to Protect You",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/5_tPakMnuyI"
+        "url": "https://youtu.be/5_tPakMnuyI",
+        "id": "5_tPakMnuyI"
     }, {
-        "id": 28,
+        "index": 28,
         "name": "Jake Marshall ~ The Detective from the Wild West",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/obVQPIEPdRU"
+        "url": "https://youtu.be/obVQPIEPdRU",
+        "id": "obVQPIEPdRU"
     }, {
-        "id": 29,
+        "index": 29,
         "name": "Damon Gant ~ Swimming, Anyone?",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/HNBhziViepg"
+        "url": "https://youtu.be/HNBhziViepg",
+        "id": "HNBhziViepg"
     }, {
-        "id": 30,
+        "index": 30,
         "name": "Rise from the Ashes - End",
         "game": "Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/ANcWZHFIcIM"
+        "url": "https://youtu.be/ANcWZHFIcIM",
+        "id": "ANcWZHFIcIM"
     }],
     "Phoenix Wright: Justice for All": [{
-        "id": 31,
+        "index": 31,
         "name": "Courtroom Lobby ~ Another Overture",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/3tgDWKlJsSM"
+        "url": "https://youtu.be/3tgDWKlJsSM",
+        "id": "3tgDWKlJsSM"
     }, {
-        "id": 32,
+        "index": 32,
         "name": "Trial",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/_HaMSS7-lwQ"
+        "url": "https://youtu.be/_HaMSS7-lwQ",
+        "id": "_HaMSS7-lwQ"
     }, {
-        "id": 33,
+        "index": 33,
         "name": "Trick and Magic",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/-i5tt2-V2SE"
+        "url": "https://youtu.be/-i5tt2-V2SE",
+        "id": "-i5tt2-V2SE"
     }, {
-        "id": 34,
+        "index": 34,
         "name": "Questioning ~ Moderato 2002",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/lP06Gve7VWg"
+        "url": "https://youtu.be/lP06Gve7VWg",
+        "id": "lP06Gve7VWg"
     }, {
-        "id": 35,
+        "index": 35,
         "name": "Phoenix Wright ~ Objection! 2002",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/36pwF_fh5b0"
+        "url": "https://youtu.be/36pwF_fh5b0",
+        "id": "36pwF_fh5b0"
     }, {
-        "id": 36,
+        "index": 36,
         "name": "Questioning ~ Allegro 2002",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/gBfFRGY-vto"
+        "url": "https://youtu.be/gBfFRGY-vto",
+        "id": "gBfFRGY-vto"
     }, {
-        "id": 37,
+        "index": 37,
         "name": "Pressing Pursuit ~ Cross-Examine",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/7Cl98sQPDhU"
+        "url": "https://youtu.be/7Cl98sQPDhU",
+        "id": "7Cl98sQPDhU"
     }, {
-        "id": 38,
+        "index": 38,
         "name": "Telling the Truth 2002",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/wVkyy04CkTk"
+        "url": "https://youtu.be/wVkyy04CkTk",
+        "id": "wVkyy04CkTk"
     }, {
-        "id": 39,
+        "index": 39,
         "name": "Pressing Pursuit ~ Cross-Examine - Variation",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/02oEoK84490"
+        "url": "https://youtu.be/02oEoK84490",
+        "id": "02oEoK84490"
     }, {
-        "id": 40,
+        "index": 40,
         "name": "Victory! ~ Another Victory",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/-Q2X1uoWEdI"
+        "url": "https://youtu.be/-Q2X1uoWEdI",
+        "id": "-Q2X1uoWEdI"
     }, {
-        "id": 41,
+        "index": 41,
         "name": "Maya Fey ~ Turnabout Sisters Theme 2002",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/GjmCbOFI1bk"
+        "url": "https://youtu.be/GjmCbOFI1bk",
+        "id": "GjmCbOFI1bk"
     }, {
-        "id": 42,
+        "index": 42,
         "name": "Investigation ~ Opening 2002",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/f54XlAqBDug"
+        "url": "https://youtu.be/f54XlAqBDug",
+        "id": "f54XlAqBDug"
     }, {
-        "id": 43,
+        "index": 43,
         "name": "Detention Center ~ Elegy of Surveillance Cameras",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/z6kKqU-FkRc"
+        "url": "https://youtu.be/z6kKqU-FkRc",
+        "id": "z6kKqU-FkRc"
     }, {
-        "id": 44,
+        "index": 44,
         "name": "Psyche-Lock",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/9yA3qrxxues"
+        "url": "https://youtu.be/9yA3qrxxues",
+        "id": "9yA3qrxxues"
     }, {
-        "id": 45,
+        "index": 45,
         "name": "Kurain Village",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/VXS56M5wLJE"
+        "url": "https://youtu.be/VXS56M5wLJE",
+        "id": "VXS56M5wLJE"
     }, {
-        "id": 46,
+        "index": 46,
         "name": "Recollection ~ Scars Etched by Flame",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/72LiIZ3M8jM"
+        "url": "https://youtu.be/72LiIZ3M8jM",
+        "id": "72LiIZ3M8jM"
     }, {
-        "id": 47,
+        "index": 47,
         "name": "Eccentric",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/vYPL7ZN4E_o"
+        "url": "https://youtu.be/vYPL7ZN4E_o",
+        "id": "vYPL7ZN4E_o"
     }, {
-        "id": 48,
+        "index": 48,
         "name": "Berry Big Circus",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/UjvOaYK7SgM"
+        "url": "https://youtu.be/UjvOaYK7SgM",
+        "id": "UjvOaYK7SgM"
     }, {
-        "id": 49,
+        "index": 49,
         "name": "More Happy People",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/HtlWpGcCl5k"
+        "url": "https://youtu.be/HtlWpGcCl5k",
+        "id": "HtlWpGcCl5k"
     }, {
-        "id": 50,
+        "index": 50,
         "name": "Recollection ~ True Pain",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/sAqnzsnw1m0"
+        "url": "https://youtu.be/sAqnzsnw1m0",
+        "id": "sAqnzsnw1m0"
     }, {
-        "id": 51,
+        "index": 51,
         "name": "Shelly de Killer ~ A Murderous Gentlemans Pleasure",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Gr4ELHLTV-A"
+        "url": "https://youtu.be/Gr4ELHLTV-A",
+        "id": "Gr4ELHLTV-A"
     }, {
-        "id": 52,
+        "index": 52,
         "name": "Pearl Fey ~ Pearly Questioning",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/sAM-XMc8OAc"
+        "url": "https://youtu.be/sAM-XMc8OAc",
+        "id": "sAM-XMc8OAc"
     }, {
-        "id": 53,
+        "index": 53,
         "name": "Investigation ~ Middle Stage 2002",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/dcuK7tHFg6M"
+        "url": "https://youtu.be/dcuK7tHFg6M",
+        "id": "dcuK7tHFg6M"
     }, {
-        "id": 54,
+        "index": 54,
         "name": "Great Revival ~ Miles Edgeworth",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/QI55FRv28Kw"
+        "url": "https://youtu.be/QI55FRv28Kw",
+        "id": "QI55FRv28Kw"
     }, {
-        "id": 55,
+        "index": 55,
         "name": "Investigation ~ Core 2002",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/jNPkCfUHgtI"
+        "url": "https://youtu.be/jNPkCfUHgtI",
+        "id": "jNPkCfUHgtI"
     }, {
-        "id": 56,
+        "index": 56,
         "name": "Hotline of Fate",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/aC_-WxlTMVQ"
+        "url": "https://youtu.be/aC_-WxlTMVQ",
+        "id": "aC_-WxlTMVQ"
     }, {
-        "id": 57,
+        "index": 57,
         "name": "Recollection ~ Steel Samurai's Ballad",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/VzW7ou4UaZg"
+        "url": "https://youtu.be/VzW7ou4UaZg",
+        "id": "VzW7ou4UaZg"
     }, {
-        "id": 58,
+        "index": 58,
         "name": "Great Revival ~ Franziska von Karma",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/kkfX4Y-WkDs"
+        "url": "https://youtu.be/kkfX4Y-WkDs",
+        "id": "kkfX4Y-WkDs"
     }, {
-        "id": 59,
+        "index": 59,
         "name": "End",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/4GeSY3Kkbgc"
+        "url": "https://youtu.be/4GeSY3Kkbgc",
+        "id": "4GeSY3Kkbgc"
     }, {
-        "id": 60,
+        "index": 60,
         "name": "Prosecutors' Murmur ~ Expecting the Next Meeting",
         "game": "Phoenix Wright: Justice for All",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/hNMXmNUKH4s"
+        "url": "https://youtu.be/hNMXmNUKH4s",
+        "id": "hNMXmNUKH4s"
     }],
     "Phoenix Wright: Trials and Tribulations": [{
-        "id": 61,
+        "index": 61,
         "name": "Courtroom Lobby ~ Neverending Overture",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/QI_0ECz59ug"
+        "url": "https://youtu.be/QI_0ECz59ug",
+        "id": "QI_0ECz59ug"
     }, {
-        "id": 62,
+        "index": 62,
         "name": "Trial",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/_TePxy7Hc3M"
+        "url": "https://youtu.be/_TePxy7Hc3M",
+        "id": "_TePxy7Hc3M"
     }, {
-        "id": 63,
+        "index": 63,
         "name": "Questioning ~ Moderato 2004",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/9IoF2nhr1Jk"
+        "url": "https://youtu.be/9IoF2nhr1Jk",
+        "id": "9IoF2nhr1Jk"
     }, {
-        "id": 64,
+        "index": 64,
         "name": "Phoenix Wright ~ Objection! 2004",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/lpSpJqFVMtc"
+        "url": "https://youtu.be/lpSpJqFVMtc",
+        "id": "lpSpJqFVMtc"
     }, {
-        "id": 65,
+        "index": 65,
         "name": "Questioning ~ Allegro 2004",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/b6pvnwwbNFA"
+        "url": "https://youtu.be/b6pvnwwbNFA",
+        "id": "b6pvnwwbNFA"
     }, {
-        "id": 66,
+        "index": 66,
         "name": "Pressing Pursuit ~ Caught",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/wP1DJ_D4chA"
+        "url": "https://youtu.be/wP1DJ_D4chA",
+        "id": "wP1DJ_D4chA"
     }, {
-        "id": 67,
+        "index": 67,
         "name": "Telling the Truth 2004",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/UtXiYk1WUwQ"
+        "url": "https://youtu.be/UtXiYk1WUwQ",
+        "id": "UtXiYk1WUwQ"
     }, {
-        "id": 68,
+        "index": 68,
         "name": "Pressing Pursuit ~ Caught - Variation",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/DCm4mlQi4Rc"
+        "url": "https://youtu.be/DCm4mlQi4Rc",
+        "id": "DCm4mlQi4Rc"
     }, {
-        "id": 69,
+        "index": 69,
         "name": "Victory! Endless Victory",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Hy-qT6qfZSA"
+        "url": "https://youtu.be/Hy-qT6qfZSA",
+        "id": "Hy-qT6qfZSA"
     }, {
-        "id": 70,
+        "index": 70,
         "name": "Investigation ~ Opening 2004",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/_6nkTj26ghk"
+        "url": "https://youtu.be/_6nkTj26ghk",
+        "id": "_6nkTj26ghk"
     }, {
-        "id": 71,
+        "index": 71,
         "name": "Detention Center ~ Prisoner's Elegy",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/xBk1GIy3m4I"
+        "url": "https://youtu.be/xBk1GIy3m4I",
+        "id": "xBk1GIy3m4I"
     }, {
-        "id": 72,
+        "index": 72,
         "name": "Lordly Tailor Department Store",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/JKXJSVafDag"
+        "url": "https://youtu.be/JKXJSVafDag",
+        "id": "JKXJSVafDag"
     }, {
-        "id": 73,
+        "index": 73,
         "name": "Mask\u2606deMasque ~ Pleeeeease Listen!",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/t1rjTDfLhLM"
+        "url": "https://youtu.be/t1rjTDfLhLM",
+        "id": "t1rjTDfLhLM"
     }, {
-        "id": 74,
+        "index": 74,
         "name": "Luke Atmey ~ I Just Want Love",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/QJa9u_5_zK4"
+        "url": "https://youtu.be/QJa9u_5_zK4",
+        "id": "QJa9u_5_zK4"
     }, {
-        "id": 75,
+        "index": 75,
         "name": "Larry Butz ~ When Something Smells, It's Usually Me",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Ry87VcpXwjo"
+        "url": "https://youtu.be/Ry87VcpXwjo",
+        "id": "Ry87VcpXwjo"
     }, {
-        "id": 76,
+        "index": 76,
         "name": "Godot ~ The Fragrance of Black Coffee",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/2DTjNriHboA"
+        "url": "https://youtu.be/2DTjNriHboA",
+        "id": "2DTjNriHboA"
     }, {
-        "id": 77,
+        "index": 77,
         "name": "Beauty Hermitage",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/ZI0JFEHElUA"
+        "url": "https://youtu.be/ZI0JFEHElUA",
+        "id": "ZI0JFEHElUA"
     }, {
-        "id": 78,
+        "index": 78,
         "name": "Victor Kudo ~ A Painful Declaration, and a War Song",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/MIQXomPzm2I"
+        "url": "https://youtu.be/MIQXomPzm2I",
+        "id": "MIQXomPzm2I"
     }, {
-        "id": 79,
+        "index": 79,
         "name": "Furio Tigre ~ Swingin' Tiger",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/iFQ8wVjTPiE"
+        "url": "https://youtu.be/iFQ8wVjTPiE",
+        "id": "iFQ8wVjTPiE"
     }, {
-        "id": 80,
+        "index": 80,
         "name": "Recollection ~ You Have Regrets",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/maqy9IuJjCo"
+        "url": "https://youtu.be/maqy9IuJjCo",
+        "id": "maqy9IuJjCo"
     }, {
-        "id": 81,
+        "index": 81,
         "name": "Recollection ~ The Scenery Seen from Dusky Bridge",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/76RcshkmOYk"
+        "url": "https://youtu.be/76RcshkmOYk",
+        "id": "76RcshkmOYk"
     }, {
-        "id": 82,
+        "index": 82,
         "name": "Hazakura Temple",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/yDHWjWSxj2s"
+        "url": "https://youtu.be/yDHWjWSxj2s",
+        "id": "yDHWjWSxj2s"
     }, {
-        "id": 83,
+        "index": 83,
         "name": "Elise Deauxnim ~ Gentle Melody",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/i_t_dhE1zIE"
+        "url": "https://youtu.be/i_t_dhE1zIE",
+        "id": "i_t_dhE1zIE"
     }, {
-        "id": 84,
+        "index": 84,
         "name": "Investigation ~ Middle Stage 2004",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/6TjCzeXciV0"
+        "url": "https://youtu.be/6TjCzeXciV0",
+        "id": "6TjCzeXciV0"
     }, {
-        "id": 85,
+        "index": 85,
         "name": "Dahlia Hawthorne ~ Distant Traces of Beauty",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/5quxFte-97o"
+        "url": "https://youtu.be/5quxFte-97o",
+        "id": "5quxFte-97o"
     }, {
-        "id": 86,
+        "index": 86,
         "name": "Recollection ~ The Bitter Taste of Truth",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/S-DHBEW9Lc8"
+        "url": "https://youtu.be/S-DHBEW9Lc8",
+        "id": "S-DHBEW9Lc8"
     }, {
-        "id": 87,
+        "index": 87,
         "name": "Pressing Pursuit ~ Cornered 2004",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/hU6SWlTmapk"
+        "url": "https://youtu.be/hU6SWlTmapk",
+        "id": "hU6SWlTmapk"
     }, {
-        "id": 88,
+        "index": 88,
         "name": "End",
         "game": "Phoenix Wright: Trials and Tribulations",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/8bzmOd8KP7c"
+        "url": "https://youtu.be/8bzmOd8KP7c",
+        "id": "8bzmOd8KP7c"
     }],
     "Apollo Justice: Ace Attorney": [{
-        "id": 89,
+        "index": 89,
         "name": "Courtroom Lobby ~ New Prelude",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/4t7gYBQV_po"
+        "url": "https://youtu.be/4t7gYBQV_po",
+        "id": "4t7gYBQV_po"
     }, {
-        "id": 90,
+        "index": 90,
         "name": "Trial",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/w_lPgaV2bXw"
+        "url": "https://youtu.be/w_lPgaV2bXw",
+        "id": "w_lPgaV2bXw"
     }, {
-        "id": 91,
+        "index": 91,
         "name": "Cross Examination ~ Moderate 2007",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/D4ragdexomw"
+        "url": "https://youtu.be/D4ragdexomw",
+        "id": "D4ragdexomw"
     }, {
-        "id": 92,
+        "index": 92,
         "name": "Trance Logic",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/MfG8_1JpEcs"
+        "url": "https://youtu.be/MfG8_1JpEcs",
+        "id": "MfG8_1JpEcs"
     }, {
-        "id": 93,
+        "index": 93,
         "name": "Cross Examination ~ Allegro 2007",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/ZSUD7ccpZx0"
+        "url": "https://youtu.be/ZSUD7ccpZx0",
+        "id": "ZSUD7ccpZx0"
     }, {
-        "id": 94,
+        "index": 94,
         "name": "Tell the Truth 2007",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/58uoTlVgRNU"
+        "url": "https://youtu.be/58uoTlVgRNU",
+        "id": "58uoTlVgRNU"
     }, {
-        "id": 95,
+        "index": 95,
         "name": "Thrill Theme ~ Suspense",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/lUUOVls2GkM"
+        "url": "https://youtu.be/lUUOVls2GkM",
+        "id": "lUUOVls2GkM"
     }, {
-        "id": 96,
+        "index": 96,
         "name": "Trucy's Theme ~ Child of Magic",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/nyeM6Kywxp0"
+        "url": "https://youtu.be/nyeM6Kywxp0",
+        "id": "nyeM6Kywxp0"
     }, {
-        "id": 97,
+        "index": 97,
         "name": "Ema Skye ~ Scientific Detective",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/c7rywnWMLyc"
+        "url": "https://youtu.be/c7rywnWMLyc",
+        "id": "c7rywnWMLyc"
     }, {
-        "id": 98,
+        "index": 98,
         "name": "Percieve ~ Surging Eyes",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/u6ikBJePm_w"
+        "url": "https://youtu.be/u6ikBJePm_w",
+        "id": "u6ikBJePm_w"
     }, {
-        "id": 99,
+        "index": 99,
         "name": "Detention Center ~ Tragicomic Interview",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/ZrZ_pX0rK1M"
+        "url": "https://youtu.be/ZrZ_pX0rK1M",
+        "id": "ZrZ_pX0rK1M"
     }, {
-        "id": 100,
+        "index": 100,
         "name": "Eccentric 2007",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/xLYLW8YLQ-8"
+        "url": "https://youtu.be/xLYLW8YLQ-8",
+        "id": "xLYLW8YLQ-8"
     }, {
-        "id": 101,
+        "index": 101,
         "name": "Investigation ~ Opening 2007",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/mvOZR_ag2Ms"
+        "url": "https://youtu.be/mvOZR_ag2Ms",
+        "id": "mvOZR_ag2Ms"
     }, {
-        "id": 102,
+        "index": 102,
         "name": "Kitaki Family",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/4Tnc50uX2e4"
+        "url": "https://youtu.be/4Tnc50uX2e4",
+        "id": "4Tnc50uX2e4"
     }, {
-        "id": 103,
+        "index": 103,
         "name": "Recollection ~ A Fate Smeared by Tricks and Gadgets",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/jmZ4NoTDtsQ"
+        "url": "https://youtu.be/jmZ4NoTDtsQ",
+        "id": "jmZ4NoTDtsQ"
     }, {
-        "id": 104,
+        "index": 104,
         "name": "Recollection ~ A Hurt Fox",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/AYVPqAmx6jU"
+        "url": "https://youtu.be/AYVPqAmx6jU",
+        "id": "AYVPqAmx6jU"
     }, {
-        "id": 105,
+        "index": 105,
         "name": "The Guitar's Serenade",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/iQbbu_YAt2Y"
+        "url": "https://youtu.be/iQbbu_YAt2Y",
+        "id": "iQbbu_YAt2Y"
     }, {
-        "id": 106,
+        "index": 106,
         "name": "Troupe Gramarye",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/HP3FMYYb12Q"
+        "url": "https://youtu.be/HP3FMYYb12Q",
+        "id": "HP3FMYYb12Q"
     }, {
-        "id": 107,
+        "index": 107,
         "name": "Ace Attorney 4 ~ End",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/cURga_rrpcc"
+        "url": "https://youtu.be/cURga_rrpcc",
+        "id": "cURga_rrpcc"
     }, {
-        "id": 108,
+        "index": 108,
         "name": "Solitary Confinement ~ Darkness Theme",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/zAf5yfgICrE"
+        "url": "https://youtu.be/zAf5yfgICrE",
+        "id": "zAf5yfgICrE"
     }, {
-        "id": 109,
+        "index": 109,
         "name": "Recollection ~ Forgotten Legend",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/cywf8AbDi_4"
+        "url": "https://youtu.be/cywf8AbDi_4",
+        "id": "cywf8AbDi_4"
     }, {
-        "id": 110,
+        "index": 110,
         "name": "Psyche Lock 2007",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/OK5H_1lxENE"
+        "url": "https://youtu.be/OK5H_1lxENE",
+        "id": "OK5H_1lxENE"
     }, {
-        "id": 111,
+        "index": 111,
         "name": "Lamiroir ~ Landscape Painter in Sound",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/m5L-2IJPrq4"
+        "url": "https://youtu.be/m5L-2IJPrq4",
+        "id": "m5L-2IJPrq4"
     }, {
-        "id": 112,
+        "index": 112,
         "name": "Investigation ~ Core 2007",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/093VR-LJ6H8"
+        "url": "https://youtu.be/093VR-LJ6H8",
+        "id": "093VR-LJ6H8"
     }, {
-        "id": 113,
+        "index": 113,
         "name": "Drew Studio",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/9ExdtJJs11E"
+        "url": "https://youtu.be/9ExdtJJs11E",
+        "id": "9ExdtJJs11E"
     }, {
-        "id": 114,
+        "index": 114,
         "name": "We Won the Case! ~ Our Victory",
         "game": "Apollo Justice: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/cF5z4tmHG68"
+        "url": "https://youtu.be/cF5z4tmHG68",
+        "id": "cF5z4tmHG68"
     }],
     "Ace Attorney Investigations 2": [{
-        "id": 115,
+        "index": 115,
         "name": "Logic ~ Truth of the Crime Scene",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/brJeGQeB594"
+        "url": "https://youtu.be/brJeGQeB594",
+        "id": "brJeGQeB594"
     }, {
-        "id": 116,
+        "index": 116,
         "name": "Trick Analyze",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/an_D8LrwWy8"
+        "url": "https://youtu.be/an_D8LrwWy8",
+        "id": "an_D8LrwWy8"
     }, {
-        "id": 117,
+        "index": 117,
         "name": "Logic Chess ~ Opening",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/D8vRTuYhN1M"
+        "url": "https://youtu.be/D8vRTuYhN1M",
+        "id": "D8vRTuYhN1M"
     }, {
-        "id": 118,
+        "index": 118,
         "name": "Confrontation ~ Moderato 2011",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/GZ9EW272TRA"
+        "url": "https://youtu.be/GZ9EW272TRA",
+        "id": "GZ9EW272TRA"
     }, {
-        "id": 119,
+        "index": 119,
         "name": "Miles Edgeworth ~ Objection! 2011",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/WqST5c8_L8o"
+        "url": "https://youtu.be/WqST5c8_L8o",
+        "id": "WqST5c8_L8o"
     }, {
-        "id": 120,
+        "index": 120,
         "name": "Confess the Truth 2011",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/TLjV1qL3Gd4"
+        "url": "https://youtu.be/TLjV1qL3Gd4",
+        "id": "TLjV1qL3Gd4"
     }, {
-        "id": 121,
+        "index": 121,
         "name": "Investigation ~ Middlegame 2011",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/8IWSvl2SUVY"
+        "url": "https://youtu.be/8IWSvl2SUVY",
+        "id": "8IWSvl2SUVY"
     }, {
-        "id": 122,
+        "index": 122,
         "name": "Raymond Shields ~ Joking Motive",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Ul5vjkYMqMg"
+        "url": "https://youtu.be/Ul5vjkYMqMg",
+        "id": "Ul5vjkYMqMg"
     }, {
-        "id": 123,
+        "index": 123,
         "name": "Sebastian Debeste ~ First-Class Reasoning",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/oD_mAu_0l-8"
+        "url": "https://youtu.be/oD_mAu_0l-8",
+        "id": "oD_mAu_0l-8"
     }, {
-        "id": 124,
+        "index": 124,
         "name": "Confrontation ~ Allegro 2011",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/NDGYy9y6A5c"
+        "url": "https://youtu.be/NDGYy9y6A5c",
+        "id": "NDGYy9y6A5c"
     }, {
-        "id": 125,
+        "index": 125,
         "name": "Justine Courtney ~ Goddess of Law",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/J0AByfS8E-0"
+        "url": "https://youtu.be/J0AByfS8E-0",
+        "id": "J0AByfS8E-0"
     }, {
-        "id": 126,
+        "index": 126,
         "name": "Prosecutorial Investigation Committee ~ Rigorous Justice",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/KT75V6m7uUc"
+        "url": "https://youtu.be/KT75V6m7uUc",
+        "id": "KT75V6m7uUc"
     }, {
-        "id": 127,
+        "index": 127,
         "name": "Lamenting People",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/-ZdSk37qd6k"
+        "url": "https://youtu.be/-ZdSk37qd6k",
+        "id": "-ZdSk37qd6k"
     }, {
-        "id": 128,
+        "index": 128,
         "name": "Strange People",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/ZoyCfawMScA"
+        "url": "https://youtu.be/ZoyCfawMScA",
+        "id": "ZoyCfawMScA"
     }, {
-        "id": 129,
+        "index": 129,
         "name": "Reproducing the Scene ~ The Gentleman Thief's Secret Weapon 2011",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/ZW2E-mzE2LE"
+        "url": "https://youtu.be/ZW2E-mzE2LE",
+        "id": "ZW2E-mzE2LE"
     }, {
-        "id": 130,
+        "index": 130,
         "name": "Investigation ~ Core 2011",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/2P7_piv0HGA"
+        "url": "https://youtu.be/2P7_piv0HGA",
+        "id": "2P7_piv0HGA"
     }, {
-        "id": 131,
+        "index": 131,
         "name": "Patricia Roland ~ Hug and Kiss",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/tX4aNNVgJts"
+        "url": "https://youtu.be/tX4aNNVgJts",
+        "id": "tX4aNNVgJts"
     }, {
-        "id": 132,
+        "index": 132,
         "name": "Sirhan Dogen ~ Tone of an Assassin",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/3yFymnahecY"
+        "url": "https://youtu.be/3yFymnahecY",
+        "id": "3yFymnahecY"
     }, {
-        "id": 133,
+        "index": 133,
         "name": "Confrontation ~ Presto 2011",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/dBymcg6lDWY"
+        "url": "https://youtu.be/dBymcg6lDWY",
+        "id": "dBymcg6lDWY"
     }, {
-        "id": 134,
+        "index": 134,
         "name": "Pursuit ~ Wanting to Find the Truth",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/AVA2z_zbWwA"
+        "url": "https://youtu.be/AVA2z_zbWwA",
+        "id": "AVA2z_zbWwA"
     }, {
-        "id": 135,
+        "index": 135,
         "name": "Gregory Edgeworth ~ A Defense Attorney's Knowledge",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/bwkZoJ-WO2M"
+        "url": "https://youtu.be/bwkZoJ-WO2M",
+        "id": "bwkZoJ-WO2M"
     }, {
-        "id": 136,
+        "index": 136,
         "name": "Jeffrey Master ~ Sweet Happiness",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Es03S2ZvIZk"
+        "url": "https://youtu.be/Es03S2ZvIZk",
+        "id": "Es03S2ZvIZk"
     }, {
-        "id": 137,
+        "index": 137,
         "name": "Restless People",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/M3p1yl_N-wg"
+        "url": "https://youtu.be/M3p1yl_N-wg",
+        "id": "M3p1yl_N-wg"
     }, {
-        "id": 138,
+        "index": 138,
         "name": "Reminiscence ~ IS-7 Incident",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/m0JEmrfrtuQ"
+        "url": "https://youtu.be/m0JEmrfrtuQ",
+        "id": "m0JEmrfrtuQ"
     }, {
-        "id": 139,
+        "index": 139,
         "name": "Trick Break",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/m_rXxSd8wso"
+        "url": "https://youtu.be/m_rXxSd8wso",
+        "id": "m_rXxSd8wso"
     }, {
-        "id": 140,
+        "index": 140,
         "name": "Katherine Hall ~ Sweet Dance",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/H0G4uTBgcyU"
+        "url": "https://youtu.be/H0G4uTBgcyU",
+        "id": "H0G4uTBgcyU"
     }, {
-        "id": 141,
+        "index": 141,
         "name": "Dane Gustavia ~ Brandished Flavor",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/cmTyLRbgmy4"
+        "url": "https://youtu.be/cmTyLRbgmy4",
+        "id": "cmTyLRbgmy4"
     }, {
-        "id": 142,
+        "index": 142,
         "name": "Trifle of Fate",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/uI0KEvRsGtA"
+        "url": "https://youtu.be/uI0KEvRsGtA",
+        "id": "uI0KEvRsGtA"
     }, {
-        "id": 143,
+        "index": 143,
         "name": "Reminiscence ~ The Girl's Lost Memories",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/g1e1EFqVIj4"
+        "url": "https://youtu.be/g1e1EFqVIj4",
+        "id": "g1e1EFqVIj4"
     }, {
-        "id": 144,
+        "index": 144,
         "name": "Bonds ~ A Heart that Believes",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/5E6ZL5Y44EM"
+        "url": "https://youtu.be/5E6ZL5Y44EM",
+        "id": "5E6ZL5Y44EM"
     }, {
-        "id": 145,
+        "index": 145,
         "name": "John Marsh ~ Pointed Age",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/mS6ceDuYKn4"
+        "url": "https://youtu.be/mS6ceDuYKn4",
+        "id": "mS6ceDuYKn4"
     }, {
-        "id": 146,
+        "index": 146,
         "name": "The Mighty Moozilla",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/QLaUS3ItIdo"
+        "url": "https://youtu.be/QLaUS3ItIdo",
+        "id": "QLaUS3ItIdo"
     }, {
-        "id": 147,
+        "index": 147,
         "name": "Reminiscence ~ The Fall of the House of Lang",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/QkXn8XhXglc"
+        "url": "https://youtu.be/QkXn8XhXglc",
+        "id": "QkXn8XhXglc"
     }, {
-        "id": 148,
+        "index": 148,
         "name": "Logic Chess ~ Endgame",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/UD2sCdQZ3Ek"
+        "url": "https://youtu.be/UD2sCdQZ3Ek",
+        "id": "UD2sCdQZ3Ek"
     }, {
-        "id": 149,
+        "index": 149,
         "name": "Sebastian Debeste ~ First-Class Farewell",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/yIenrJpjPps"
+        "url": "https://youtu.be/yIenrJpjPps",
+        "id": "yIenrJpjPps"
     }, {
-        "id": 150,
+        "index": 150,
         "name": "Zheng Fa ~ Land of the Phoenix",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/WlpXqyYk-Rc"
+        "url": "https://youtu.be/WlpXqyYk-Rc",
+        "id": "WlpXqyYk-Rc"
     }, {
-        "id": 151,
+        "index": 151,
         "name": "Reminiscence ~ SS-5 Incident",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/bfmA70XK0uw"
+        "url": "https://youtu.be/bfmA70XK0uw",
+        "id": "bfmA70XK0uw"
     }, {
-        "id": 152,
+        "index": 152,
         "name": "Solution! Calm Moment",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/34mjLPPeGuo"
+        "url": "https://youtu.be/34mjLPPeGuo",
+        "id": "34mjLPPeGuo"
     }, {
-        "id": 153,
+        "index": 153,
         "name": "Prosecutor's Murmur ~ Each One's Path",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/TvgmK_6VwpI"
+        "url": "https://youtu.be/TvgmK_6VwpI",
+        "id": "TvgmK_6VwpI"
     }, {
-        "id": 154,
+        "index": 154,
         "name": "Gyakuten Kenji 2 ~ Great Revival",
         "game": "Ace Attorney Investigations 2",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/LDDziqDSNFk"
+        "url": "https://youtu.be/LDDziqDSNFk",
+        "id": "LDDziqDSNFk"
     }],
     "Professor Layton vs. Phoenix Wright: Ace Attorney": [{
-        "id": 155,
+        "index": 155,
         "name": "Main Theme",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/yz0-xcOY_8c"
+        "url": "https://youtu.be/yz0-xcOY_8c",
+        "id": "yz0-xcOY_8c"
     }, {
-        "id": 156,
+        "index": 156,
         "name": "Professor Layton's Theme",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/uiCf_Urxggc"
+        "url": "https://youtu.be/uiCf_Urxggc",
+        "id": "uiCf_Urxggc"
     }, {
-        "id": 157,
+        "index": 157,
         "name": "About Town",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/yIzrWD9BArY"
+        "url": "https://youtu.be/yIzrWD9BArY",
+        "id": "yIzrWD9BArY"
     }, {
-        "id": 158,
+        "index": 158,
         "name": "Bewitching Puzzles",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/IZTAkpQFzy8"
+        "url": "https://youtu.be/IZTAkpQFzy8",
+        "id": "IZTAkpQFzy8"
     }, {
-        "id": 159,
+        "index": 159,
         "name": "An Uneasy Atmosphere",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/nNMot7V0v_4"
+        "url": "https://youtu.be/nNMot7V0v_4",
+        "id": "nNMot7V0v_4"
     }, {
-        "id": 160,
+        "index": 160,
         "name": "A Strange Story",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/iITPvwDLGuM"
+        "url": "https://youtu.be/iITPvwDLGuM",
+        "id": "iITPvwDLGuM"
     }, {
-        "id": 161,
+        "index": 161,
         "name": "More Puzzles",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/_WOON2SL9C0"
+        "url": "https://youtu.be/_WOON2SL9C0",
+        "id": "_WOON2SL9C0"
     }, {
-        "id": 162,
+        "index": 162,
         "name": "Suspense",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/ofVMdUFXei0"
+        "url": "https://youtu.be/ofVMdUFXei0",
+        "id": "ofVMdUFXei0"
     }, {
-        "id": 163,
+        "index": 163,
         "name": "Crisis",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/C249zaNASM0"
+        "url": "https://youtu.be/C249zaNASM0",
+        "id": "C249zaNASM0"
     }, {
-        "id": 164,
+        "index": 164,
         "name": "Labyrinthia",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/khyiGtVh4PA"
+        "url": "https://youtu.be/khyiGtVh4PA",
+        "id": "khyiGtVh4PA"
     }, {
-        "id": 165,
+        "index": 165,
         "name": "A Pleasant Afternoon",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/9z9C1cmB9rI"
+        "url": "https://youtu.be/9z9C1cmB9rI",
+        "id": "9z9C1cmB9rI"
     }, {
-        "id": 166,
+        "index": 166,
         "name": "The Dark Forest",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/frOTy-wwPr0"
+        "url": "https://youtu.be/frOTy-wwPr0",
+        "id": "frOTy-wwPr0"
     }, {
-        "id": 167,
+        "index": 167,
         "name": "After Hours",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/KWWqrW-3VCg"
+        "url": "https://youtu.be/KWWqrW-3VCg",
+        "id": "KWWqrW-3VCg"
     }, {
-        "id": 168,
+        "index": 168,
         "name": "Quiet Moments",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/jG-cO1zylOs"
+        "url": "https://youtu.be/jG-cO1zylOs",
+        "id": "jG-cO1zylOs"
     }, {
-        "id": 169,
+        "index": 169,
         "name": "Puzzle Deductions",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/h3Ysg4Tlu-4"
+        "url": "https://youtu.be/h3Ysg4Tlu-4",
+        "id": "h3Ysg4Tlu-4"
     }, {
-        "id": 170,
+        "index": 170,
         "name": "The Professor's Deductions",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/HNZlKL1X70U"
+        "url": "https://youtu.be/HNZlKL1X70U",
+        "id": "HNZlKL1X70U"
     }, {
-        "id": 171,
+        "index": 171,
         "name": "Tavern",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/TQ0FNgZR0mM"
+        "url": "https://youtu.be/TQ0FNgZR0mM",
+        "id": "TQ0FNgZR0mM"
     }, {
-        "id": 172,
+        "index": 172,
         "name": "Into the Forest",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/NwB0mcahSSA"
+        "url": "https://youtu.be/NwB0mcahSSA",
+        "id": "NwB0mcahSSA"
     }, {
-        "id": 173,
+        "index": 173,
         "name": "The Underground Ruins",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/_HwF8WQcyy8"
+        "url": "https://youtu.be/_HwF8WQcyy8",
+        "id": "_HwF8WQcyy8"
     }, {
-        "id": 174,
+        "index": 174,
         "name": "The Hidden Garden",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/AnuL37YK2qI"
+        "url": "https://youtu.be/AnuL37YK2qI",
+        "id": "AnuL37YK2qI"
     }, {
-        "id": 175,
+        "index": 175,
         "name": "Espella's Theme 1",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Iapf7Adg3nE"
+        "url": "https://youtu.be/Iapf7Adg3nE",
+        "id": "Iapf7Adg3nE"
     }, {
-        "id": 176,
+        "index": 176,
         "name": "Courtroom Lounge ~ Opening Prelude",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Kk-41BWJ-_4"
+        "url": "https://youtu.be/Kk-41BWJ-_4",
+        "id": "Kk-41BWJ-_4"
     }, {
-        "id": 177,
+        "index": 177,
         "name": "Court Begins",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/OXwj-FGljGM"
+        "url": "https://youtu.be/OXwj-FGljGM",
+        "id": "OXwj-FGljGM"
     }, {
-        "id": 178,
+        "index": 178,
         "name": "Logic and Tricks",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/qZvUXs9eyQw"
+        "url": "https://youtu.be/qZvUXs9eyQw",
+        "id": "qZvUXs9eyQw"
     }, {
-        "id": 179,
+        "index": 179,
         "name": "Suspense",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/VSqysaXAnRQ"
+        "url": "https://youtu.be/VSqysaXAnRQ",
+        "id": "VSqysaXAnRQ"
     }, {
-        "id": 180,
+        "index": 180,
         "name": "Cross-Examination ~ Moderato",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/M9dv9V7WwGg"
+        "url": "https://youtu.be/M9dv9V7WwGg",
+        "id": "M9dv9V7WwGg"
     }, {
-        "id": 181,
+        "index": 181,
         "name": "Phoenix Wright ~ Objection!",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/BEiaYPPB9MM"
+        "url": "https://youtu.be/BEiaYPPB9MM",
+        "id": "BEiaYPPB9MM"
     }, {
-        "id": 182,
+        "index": 182,
         "name": "Cross-Examination ~ Allegro",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/1creoO6ESmE"
+        "url": "https://youtu.be/1creoO6ESmE",
+        "id": "1creoO6ESmE"
     }, {
-        "id": 183,
+        "index": 183,
         "name": "Confess the Truth",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/H5khFZckcOo"
+        "url": "https://youtu.be/H5khFZckcOo",
+        "id": "H5khFZckcOo"
     }, {
-        "id": 184,
+        "index": 184,
         "name": "Cornered",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/FfM70egWauo"
+        "url": "https://youtu.be/FfM70egWauo",
+        "id": "FfM70egWauo"
     }, {
-        "id": 185,
+        "index": 185,
         "name": "Won the Case! ~ First Victory",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/i6FXbxkxRAI"
+        "url": "https://youtu.be/i6FXbxkxRAI",
+        "id": "i6FXbxkxRAI"
     }, {
-        "id": 186,
+        "index": 186,
         "name": "Deathknell Dungeon ~ The Magical Prelude",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/WKGEU9XS894"
+        "url": "https://youtu.be/WKGEU9XS894",
+        "id": "WKGEU9XS894"
     }, {
-        "id": 187,
+        "index": 187,
         "name": "Witches' Court Convenes",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/XP-etC_SJTs"
+        "url": "https://youtu.be/XP-etC_SJTs",
+        "id": "XP-etC_SJTs"
     }, {
-        "id": 188,
+        "index": 188,
         "name": "Zacharias Barnham ~ The Sword of Labyrinthia",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/jfWHX3vkVxk"
+        "url": "https://youtu.be/jfWHX3vkVxk",
+        "id": "jfWHX3vkVxk"
     }, {
-        "id": 189,
+        "index": 189,
         "name": "Mass Inquisition ~ Moderato",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/bbPdFM4FQNI"
+        "url": "https://youtu.be/bbPdFM4FQNI",
+        "id": "bbPdFM4FQNI"
     }, {
-        "id": 190,
+        "index": 190,
         "name": "Logic and Witchcraft",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/QLJtSws3rBs"
+        "url": "https://youtu.be/QLJtSws3rBs",
+        "id": "QLJtSws3rBs"
     }, {
-        "id": 191,
+        "index": 191,
         "name": "Hit or Miss ~ Suspense",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/yc40IgjWOXo"
+        "url": "https://youtu.be/yc40IgjWOXo",
+        "id": "yc40IgjWOXo"
     }, {
-        "id": 192,
+        "index": 192,
         "name": "Phoenix Wright ~ Objection! 2012",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/N_Mtx_4nJj0"
+        "url": "https://youtu.be/N_Mtx_4nJj0",
+        "id": "N_Mtx_4nJj0"
     }, {
-        "id": 193,
+        "index": 193,
         "name": "Mass Inquisition ~ Allegro",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/VPgXjUhyRm8"
+        "url": "https://youtu.be/VPgXjUhyRm8",
+        "id": "VPgXjUhyRm8"
     }, {
-        "id": 194,
+        "index": 194,
         "name": "Confess the Truth 2012",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/qtwczv_JACk"
+        "url": "https://youtu.be/qtwczv_JACk",
+        "id": "qtwczv_JACk"
     }, {
-        "id": 195,
+        "index": 195,
         "name": "Courtroom Magic",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/DD4VCSyUMr8"
+        "url": "https://youtu.be/DD4VCSyUMr8",
+        "id": "DD4VCSyUMr8"
     }, {
-        "id": 196,
+        "index": 196,
         "name": "Reminiscing ~ Fated Magic",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/1tKs6HX3Nzc"
+        "url": "https://youtu.be/1tKs6HX3Nzc",
+        "id": "1tKs6HX3Nzc"
     }, {
-        "id": 197,
+        "index": 197,
         "name": "Courtroom Jester ~ Cheers!",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Sm1VyM3nmro"
+        "url": "https://youtu.be/Sm1VyM3nmro",
+        "id": "Sm1VyM3nmro"
     }, {
-        "id": 198,
+        "index": 198,
         "name": "Reminiscing ~ A Golden Message",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/y7vVPch49oI"
+        "url": "https://youtu.be/y7vVPch49oI",
+        "id": "y7vVPch49oI"
     }, {
-        "id": 199,
+        "index": 199,
         "name": "Newton Belduke ~ Twilight Memories",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/bRuWkG7Qgk0"
+        "url": "https://youtu.be/bRuWkG7Qgk0",
+        "id": "bRuWkG7Qgk0"
     }, {
-        "id": 200,
+        "index": 200,
         "name": "The Trial of the Great Witch",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/R7czv7Ij3iM"
+        "url": "https://youtu.be/R7czv7Ij3iM",
+        "id": "R7czv7Ij3iM"
     }, {
-        "id": 201,
+        "index": 201,
         "name": "Cornered ~ Spell-breaker",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/FYg0J2rE0Aw"
+        "url": "https://youtu.be/FYg0J2rE0Aw",
+        "id": "FYg0J2rE0Aw"
     }, {
-        "id": 202,
+        "index": 202,
         "name": "The Final Witness",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/CXb2Fil6Vjc"
+        "url": "https://youtu.be/CXb2Fil6Vjc",
+        "id": "CXb2Fil6Vjc"
     }, {
-        "id": 203,
+        "index": 203,
         "name": "Turnabout Sisters ~ Music Box Melody",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/1hbiQzWGkXA"
+        "url": "https://youtu.be/1hbiQzWGkXA",
+        "id": "1hbiQzWGkXA"
     }, {
-        "id": 204,
+        "index": 204,
         "name": "Rainy Night",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/E5WMPde1qvY"
+        "url": "https://youtu.be/E5WMPde1qvY",
+        "id": "E5WMPde1qvY"
     }, {
-        "id": 205,
+        "index": 205,
         "name": "In-Flight",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/6yGubtXKPuk"
+        "url": "https://youtu.be/6yGubtXKPuk",
+        "id": "6yGubtXKPuk"
     }, {
-        "id": 206,
+        "index": 206,
         "name": "Judgment ~ Witch Trial",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/C-dcSSnzHnY"
+        "url": "https://youtu.be/C-dcSSnzHnY",
+        "id": "C-dcSSnzHnY"
     }, {
-        "id": 207,
+        "index": 207,
         "name": "Professor Layton's Theme 2",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/ZJ2HOKwkExo"
+        "url": "https://youtu.be/ZJ2HOKwkExo",
+        "id": "ZJ2HOKwkExo"
     }, {
-        "id": 208,
+        "index": 208,
         "name": "Espella's Theme 2",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/uQjcAvGTD7M"
+        "url": "https://youtu.be/uQjcAvGTD7M",
+        "id": "uQjcAvGTD7M"
     }, {
-        "id": 209,
+        "index": 209,
         "name": "Tale's End",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/l_2bCujQP1k"
+        "url": "https://youtu.be/l_2bCujQP1k",
+        "id": "l_2bCujQP1k"
     }, {
-        "id": 210,
+        "index": 210,
         "name": "Ending Theme",
         "game": "Professor Layton vs. Phoenix Wright: Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/tCnrIrhqCZs"
+        "url": "https://youtu.be/tCnrIrhqCZs",
+        "id": "tCnrIrhqCZs"
     }],
     "Phoenix Wright: Dual Destinies": [{
-        "id": 211,
+        "index": 211,
         "name": "Ace Attorney 5 ~ Prologue",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/OYvz3wIXMbs"
+        "url": "https://youtu.be/OYvz3wIXMbs",
+        "id": "OYvz3wIXMbs"
     }, {
-        "id": 212,
+        "index": 212,
         "name": "Courtroom Lobby ~ Prelude to the Future",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Pzh9N4Zjnrw"
+        "url": "https://youtu.be/Pzh9N4Zjnrw",
+        "id": "Pzh9N4Zjnrw"
     }, {
-        "id": 213,
+        "index": 213,
         "name": "Ace Attorney 5 ~ Court Begins",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/YD1ULJRRKxY"
+        "url": "https://youtu.be/YD1ULJRRKxY",
+        "id": "YD1ULJRRKxY"
     }, {
-        "id": 214,
+        "index": 214,
         "name": "Cross Examination ~ Moderato",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/HmTs0SJOjqo"
+        "url": "https://youtu.be/HmTs0SJOjqo",
+        "id": "HmTs0SJOjqo"
     }, {
-        "id": 215,
+        "index": 215,
         "name": "Logic Trinity",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/CQpdHIaIe-4"
+        "url": "https://youtu.be/CQpdHIaIe-4",
+        "id": "CQpdHIaIe-4"
     }, {
-        "id": 216,
+        "index": 216,
         "name": "Phoenix Wright ~ Objection! 2013",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Yy7NVfkEsvQ"
+        "url": "https://youtu.be/Yy7NVfkEsvQ",
+        "id": "Yy7NVfkEsvQ"
     }, {
-        "id": 217,
+        "index": 217,
         "name": "Cross Examination ~ Allegro",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/LICY7XMIye0"
+        "url": "https://youtu.be/LICY7XMIye0",
+        "id": "LICY7XMIye0"
     }, {
-        "id": 218,
+        "index": 218,
         "name": "Suspense 2013",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/GydOOvAbNOM"
+        "url": "https://youtu.be/GydOOvAbNOM",
+        "id": "GydOOvAbNOM"
     }, {
-        "id": 219,
+        "index": 219,
         "name": "Pursuit ~ Keep Pressing On",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/JpTQ7fr2yeM"
+        "url": "https://youtu.be/JpTQ7fr2yeM",
+        "id": "JpTQ7fr2yeM"
     }, {
-        "id": 220,
+        "index": 220,
         "name": "Announce the Truth 2013",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/RuuWozX8P5o"
+        "url": "https://youtu.be/RuuWozX8P5o",
+        "id": "RuuWozX8P5o"
     }, {
-        "id": 221,
+        "index": 221,
         "name": "Nine-Tails Vale ~ Home of the Youkai",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/_W_rJAWWM0U"
+        "url": "https://youtu.be/_W_rJAWWM0U",
+        "id": "_W_rJAWWM0U"
     }, {
-        "id": 222,
+        "index": 222,
         "name": "Mysterious! The Legend of Tenma Taro",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/sS1wCAkBbck"
+        "url": "https://youtu.be/sS1wCAkBbck",
+        "id": "sS1wCAkBbck"
     }, {
-        "id": 223,
+        "index": 223,
         "name": "Go Forth! Amazing Nine-Tails",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/OfZ6uX-MMtQ"
+        "url": "https://youtu.be/OfZ6uX-MMtQ",
+        "id": "OfZ6uX-MMtQ"
     }, {
-        "id": 224,
+        "index": 224,
         "name": "Trucy's Theme ~ Child of Magic 2013",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/NQaCuEkFFZU"
+        "url": "https://youtu.be/NQaCuEkFFZU",
+        "id": "NQaCuEkFFZU"
     }, {
-        "id": 225,
+        "index": 225,
         "name": "Athena Cykes ~ Let's Do This!",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/w9ep6aD7AQM"
+        "url": "https://youtu.be/w9ep6aD7AQM",
+        "id": "w9ep6aD7AQM"
     }, {
-        "id": 226,
+        "index": 226,
         "name": "Bobby Fulbright ~ Our Secret Word is Justice!",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/-ZrzXphC1l4"
+        "url": "https://youtu.be/-ZrzXphC1l4",
+        "id": "-ZrzXphC1l4"
     }, {
-        "id": 227,
+        "index": 227,
         "name": "Investigation ~ Opening 2013",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Gl8TteaY0ig"
+        "url": "https://youtu.be/Gl8TteaY0ig",
+        "id": "Gl8TteaY0ig"
     }, {
-        "id": 228,
+        "index": 228,
         "name": "Detention Center ~ Elegy of the Bulletproof Glass",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/i0DMkY-YDsw"
+        "url": "https://youtu.be/i0DMkY-YDsw",
+        "id": "i0DMkY-YDsw"
     }, {
-        "id": 229,
+        "index": 229,
         "name": "Florent L'Belle ~ Je suis L'Belle",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/El52iOqCAks"
+        "url": "https://youtu.be/El52iOqCAks",
+        "id": "El52iOqCAks"
     }, {
-        "id": 230,
+        "index": 230,
         "name": "Simon Blackquill ~ Distorted Swordsmanship",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/8Q0BwOvHzTk"
+        "url": "https://youtu.be/8Q0BwOvHzTk",
+        "id": "8Q0BwOvHzTk"
     }, {
-        "id": 231,
+        "index": 231,
         "name": "Apollo Justice ~ A New Chapter of Trials! 2013",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Y_EfUOJlBGY"
+        "url": "https://youtu.be/Y_EfUOJlBGY",
+        "id": "Y_EfUOJlBGY"
     }, {
-        "id": 232,
+        "index": 232,
         "name": "Revisualization ~ Synaptic Resonance",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/-jiBeQctWa8"
+        "url": "https://youtu.be/-jiBeQctWa8",
+        "id": "-jiBeQctWa8"
     }, {
-        "id": 233,
+        "index": 233,
         "name": "Private School Themis Legal Academy ~ Our Precious School",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/9zA4yO6-XYc"
+        "url": "https://youtu.be/9zA4yO6-XYc",
+        "id": "9zA4yO6-XYc"
     }, {
-        "id": 234,
+        "index": 234,
         "name": "Lively People",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/bXUTeyZBEWA"
+        "url": "https://youtu.be/bXUTeyZBEWA",
+        "id": "bXUTeyZBEWA"
     }, {
-        "id": 235,
+        "index": 235,
         "name": "Suspicious People",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/hynQcpm71DY"
+        "url": "https://youtu.be/hynQcpm71DY",
+        "id": "hynQcpm71DY"
     }, {
-        "id": 236,
+        "index": 236,
         "name": "Difficult People",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/VtkILcf6ijM"
+        "url": "https://youtu.be/VtkILcf6ijM",
+        "id": "VtkILcf6ijM"
     }, {
-        "id": 237,
+        "index": 237,
         "name": "Apollo Justice ~ I'm Fine!",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/pznMi0VqOBY"
+        "url": "https://youtu.be/pznMi0VqOBY",
+        "id": "pznMi0VqOBY"
     }, {
-        "id": 238,
+        "index": 238,
         "name": "Mood Matrix ~ Commence the Psychological Analysis!",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/YPB7izLB8LY"
+        "url": "https://youtu.be/YPB7izLB8LY",
+        "id": "YPB7izLB8LY"
     }, {
-        "id": 239,
+        "index": 239,
         "name": "Running Wild - Mood Matrix ~ Get A Grip On Yourself",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/mhqfKLwP-XY"
+        "url": "https://youtu.be/mhqfKLwP-XY",
+        "id": "mhqfKLwP-XY"
     }, {
-        "id": 240,
+        "index": 240,
         "name": "Reminiscence ~ Wandering Heart",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/7Hs1P2eSv0o"
+        "url": "https://youtu.be/7Hs1P2eSv0o",
+        "id": "7Hs1P2eSv0o"
     }, {
-        "id": 241,
+        "index": 241,
         "name": "Athena Cykes ~ Courtroom R\u00e9volutionnaire",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/HmCF8txfZnQ"
+        "url": "https://youtu.be/HmCF8txfZnQ",
+        "id": "HmCF8txfZnQ"
     }, {
-        "id": 242,
+        "index": 242,
         "name": "Yuri Cosmos ~ Head of the Center of the Universe",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/vWLm-mq-51w"
+        "url": "https://youtu.be/vWLm-mq-51w",
+        "id": "vWLm-mq-51w"
     }, {
-        "id": 243,
+        "index": 243,
         "name": "Robot Laboratory ~ Unerasable Past",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Ui8I7JsrygA"
+        "url": "https://youtu.be/Ui8I7JsrygA",
+        "id": "Ui8I7JsrygA"
     }, {
-        "id": 244,
+        "index": 244,
         "name": "Investigation ~ Examination",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/oDb_lh6ti1A"
+        "url": "https://youtu.be/oDb_lh6ti1A",
+        "id": "oDb_lh6ti1A"
     }, {
-        "id": 245,
+        "index": 245,
         "name": "Pearl Fey ~ With Pearly 2013",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/t5GM0T3LAx0"
+        "url": "https://youtu.be/t5GM0T3LAx0",
+        "id": "t5GM0T3LAx0"
     }, {
-        "id": 246,
+        "index": 246,
         "name": "Chains of the Heart ~ Psyche Lock 2013",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/wGFB8hysNMw"
+        "url": "https://youtu.be/wGFB8hysNMw",
+        "id": "wGFB8hysNMw"
     }, {
-        "id": 247,
+        "index": 247,
         "name": "Miles Edgeworth ~ Great Revival 2013",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/HGe9SvnMzG0"
+        "url": "https://youtu.be/HGe9SvnMzG0",
+        "id": "HGe9SvnMzG0"
     }, {
-        "id": 248,
+        "index": 248,
         "name": "Reminiscence ~ A Sad Memory",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/n42kjrhOMzs"
+        "url": "https://youtu.be/n42kjrhOMzs",
+        "id": "n42kjrhOMzs"
     }, {
-        "id": 249,
+        "index": 249,
         "name": "Investigation ~ Core 2013",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/3AtY_tT9iL0"
+        "url": "https://youtu.be/3AtY_tT9iL0",
+        "id": "3AtY_tT9iL0"
     }, {
-        "id": 250,
+        "index": 250,
         "name": "Illegal of Fate",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/zUy4wWY1we0"
+        "url": "https://youtu.be/zUy4wWY1we0",
+        "id": "zUy4wWY1we0"
     }, {
-        "id": 251,
+        "index": 251,
         "name": "The Dark Age of Law",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/aDQ_OlECScY"
+        "url": "https://youtu.be/aDQ_OlECScY",
+        "id": "aDQ_OlECScY"
     }, {
-        "id": 252,
+        "index": 252,
         "name": "Phantom ~ UNKNOWN",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/_-2RaUeElS4"
+        "url": "https://youtu.be/_-2RaUeElS4",
+        "id": "_-2RaUeElS4"
     }, {
-        "id": 253,
+        "index": 253,
         "name": "Pursuit ~ Keep Pressing On (Variation)",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/MLmGJ1sdNPI"
+        "url": "https://youtu.be/MLmGJ1sdNPI",
+        "id": "MLmGJ1sdNPI"
     }, {
-        "id": 254,
+        "index": 254,
         "name": "Won the Case! ~ Everyone's Victory",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/KEzxmtjkeAc"
+        "url": "https://youtu.be/KEzxmtjkeAc",
+        "id": "KEzxmtjkeAc"
     }, {
-        "id": 255,
+        "index": 255,
         "name": "Ace Attorney 5 ~ End",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/WfFvmxG-6fU"
+        "url": "https://youtu.be/WfFvmxG-6fU",
+        "id": "WfFvmxG-6fU"
     }, {
-        "id": 256,
+        "index": 256,
         "name": "Shipshape Aquarium ~ A Refreshing Sea",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/GJTFosLi5fU"
+        "url": "https://youtu.be/GJTFosLi5fU",
+        "id": "GJTFosLi5fU"
     }, {
-        "id": 257,
+        "index": 257,
         "name": "Cap'n Orla's Swashbucklers ~ Adventures Across the Seven Seas",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Gp4Mz_XW_uQ"
+        "url": "https://youtu.be/Gp4Mz_XW_uQ",
+        "id": "Gp4Mz_XW_uQ"
     }, {
-        "id": 258,
+        "index": 258,
         "name": "Reminiscence ~ Departure from Regret",
         "game": "Phoenix Wright: Dual Destinies",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/uJy3Plbgt_U"
+        "url": "https://youtu.be/uJy3Plbgt_U",
+        "id": "uJy3Plbgt_U"
     }],
     "The Great Ace Attorney": [{
-        "id": 259,
+        "index": 259,
         "name": "Naruhodou Ryuunosuke ~ Prelude of an Adventure",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/9SxIJ7hXVsw"
+        "url": "https://youtu.be/9SxIJ7hXVsw",
+        "id": "9SxIJ7hXVsw"
     }, {
-        "id": 260,
+        "index": 260,
         "name": "The Great Court Anteroom",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/lmDtVFAOCCQ"
+        "url": "https://youtu.be/lmDtVFAOCCQ",
+        "id": "lmDtVFAOCCQ"
     }, {
-        "id": 261,
+        "index": 261,
         "name": "Court Begins",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/VXnUBflGR_o"
+        "url": "https://youtu.be/VXnUBflGR_o",
+        "id": "VXnUBflGR_o"
     }, {
-        "id": 262,
+        "index": 262,
         "name": "The Great Cross Examination: Moderato",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/158e3Bh6o2Q"
+        "url": "https://youtu.be/158e3Bh6o2Q",
+        "id": "158e3Bh6o2Q"
     }, {
-        "id": 263,
+        "index": 263,
         "name": "Asougi Kazuma ~ Samurai With A Mission",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/eKIsiaCcoJU"
+        "url": "https://youtu.be/eKIsiaCcoJU",
+        "id": "eKIsiaCcoJU"
     }, {
-        "id": 264,
+        "index": 264,
         "name": "The Great Straying: Suspense v.1",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/vc0T9Cdcl08"
+        "url": "https://youtu.be/vc0T9Cdcl08",
+        "id": "vc0T9Cdcl08"
     }, {
-        "id": 265,
+        "index": 265,
         "name": "Logic and Trick",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/xsoNdPd4gBA"
+        "url": "https://youtu.be/xsoNdPd4gBA",
+        "id": "xsoNdPd4gBA"
     }, {
-        "id": 266,
+        "index": 266,
         "name": "The Great Cross Examination: Allegro",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/EVyD8BjWgE4"
+        "url": "https://youtu.be/EVyD8BjWgE4",
+        "id": "EVyD8BjWgE4"
     }, {
-        "id": 267,
+        "index": 267,
         "name": "Objection! 2015",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/e-QiKy-iEkQ"
+        "url": "https://youtu.be/e-QiKy-iEkQ",
+        "id": "e-QiKy-iEkQ"
     }, {
-        "id": 268,
+        "index": 268,
         "name": "The Great Straying: Suspense v.2",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/PyksB_bjBzs"
+        "url": "https://youtu.be/PyksB_bjBzs",
+        "id": "PyksB_bjBzs"
     }, {
-        "id": 269,
+        "index": 269,
         "name": "Confess the Truth",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/5kjZgxYB_Zc"
+        "url": "https://youtu.be/5kjZgxYB_Zc",
+        "id": "5kjZgxYB_Zc"
     }, {
-        "id": 270,
+        "index": 270,
         "name": "Elegant: And Excellence",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/S0C1fPMiTno"
+        "url": "https://youtu.be/S0C1fPMiTno",
+        "id": "S0C1fPMiTno"
     }, {
-        "id": 271,
+        "index": 271,
         "name": "Mikotoba Susato: Blooming Flower In The New World",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/H0p9dnXRA5g"
+        "url": "https://youtu.be/H0p9dnXRA5g",
+        "id": "H0p9dnXRA5g"
     }, {
-        "id": 272,
+        "index": 272,
         "name": "The Core 2015",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/0mWlxBFCL4Y"
+        "url": "https://youtu.be/0mWlxBFCL4Y",
+        "id": "0mWlxBFCL4Y"
     }, {
-        "id": 273,
+        "index": 273,
         "name": "Steamship Alaclair",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/djn2w4JCh9M"
+        "url": "https://youtu.be/djn2w4JCh9M",
+        "id": "djn2w4JCh9M"
     }, {
-        "id": 274,
+        "index": 274,
         "name": "Investigation",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/VpNmq76ZDTM"
+        "url": "https://youtu.be/VpNmq76ZDTM",
+        "id": "VpNmq76ZDTM"
     }, {
-        "id": 275,
+        "index": 275,
         "name": "Joint Reasoning ~ TYPE A",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/TvzmYizWGiw"
+        "url": "https://youtu.be/TvzmYizWGiw",
+        "id": "TvzmYizWGiw"
     }, {
-        "id": 276,
+        "index": 276,
         "name": "Asougi Kazuma: Nocturne",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/cIHX6F_DuHg"
+        "url": "https://youtu.be/cIHX6F_DuHg",
+        "id": "cIHX6F_DuHg"
     }, {
-        "id": 277,
+        "index": 277,
         "name": "Sherlock Holmes: The Great Detective of the Foggy Town",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/smtc8Sucfm8"
+        "url": "https://youtu.be/smtc8Sucfm8",
+        "id": "smtc8Sucfm8"
     }, {
-        "id": 278,
+        "index": 278,
         "name": "Theme of Deduction ~ Beyond the Logic",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/jPWCMf3QRlA"
+        "url": "https://youtu.be/jPWCMf3QRlA",
+        "id": "jPWCMf3QRlA"
     }, {
-        "id": 279,
+        "index": 279,
         "name": "The Chief Justice, Vortex: The Ticking Judiciary",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/eY5seGoAdg0"
+        "url": "https://youtu.be/eY5seGoAdg0",
+        "id": "eY5seGoAdg0"
     }, {
-        "id": 280,
+        "index": 280,
         "name": "Barok van Zieks: Grim Reaper of the Great Court",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/CQCVHRxVThA"
+        "url": "https://youtu.be/CQCVHRxVThA",
+        "id": "CQCVHRxVThA"
     }, {
-        "id": 281,
+        "index": 281,
         "name": "Closing Argument",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/MIY3xakExXA"
+        "url": "https://youtu.be/MIY3xakExXA",
+        "id": "MIY3xakExXA"
     }, {
-        "id": 282,
+        "index": 282,
         "name": "Gina Lestrade: Gunshot from the Downtown",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/KnK_WRxudQU"
+        "url": "https://youtu.be/KnK_WRxudQU",
+        "id": "KnK_WRxudQU"
     }, {
-        "id": 283,
+        "index": 283,
         "name": "London",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/CkIQfil1rLE"
+        "url": "https://youtu.be/CkIQfil1rLE",
+        "id": "CkIQfil1rLE"
     }, {
-        "id": 284,
+        "index": 284,
         "name": "Tobias Gregson: The Enemy of Great Detective",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/l5Uk7pTkDVQ"
+        "url": "https://youtu.be/l5Uk7pTkDVQ",
+        "id": "l5Uk7pTkDVQ"
     }, {
-        "id": 285,
+        "index": 285,
         "name": "Detention Center - Rhapsody of Darkness",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/ctirlbIOFPY"
+        "url": "https://youtu.be/ctirlbIOFPY",
+        "id": "ctirlbIOFPY"
     }, {
-        "id": 286,
+        "index": 286,
         "name": "Baker Street 221B",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/JtBW-xcUMvs"
+        "url": "https://youtu.be/JtBW-xcUMvs",
+        "id": "JtBW-xcUMvs"
     }, {
-        "id": 287,
+        "index": 287,
         "name": "Iris Watson: The Little Biographer",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/DMYqHPNUQNk"
+        "url": "https://youtu.be/DMYqHPNUQNk",
+        "id": "DMYqHPNUQNk"
     }, {
-        "id": 288,
+        "index": 288,
         "name": "Verdict",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/AXpozEFG92c"
+        "url": "https://youtu.be/AXpozEFG92c",
+        "id": "AXpozEFG92c"
     }, {
-        "id": 289,
+        "index": 289,
         "name": "Pursuit ~ Time For a Great Turnabout",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/iqnxlDN1Glg"
+        "url": "https://youtu.be/iqnxlDN1Glg",
+        "id": "iqnxlDN1Glg"
     }, {
-        "id": 290,
+        "index": 290,
         "name": "Won The Case ~ The Great Turnabout For My Friend",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/PD4nmCGa60M"
+        "url": "https://youtu.be/PD4nmCGa60M",
+        "id": "PD4nmCGa60M"
     }, {
-        "id": 291,
+        "index": 291,
         "name": "Mikotoba Susato: Serenade",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/y_UHhN78C5E"
+        "url": "https://youtu.be/y_UHhN78C5E",
+        "id": "y_UHhN78C5E"
     }, {
-        "id": 292,
+        "index": 292,
         "name": "Ending Suite ~ The Adventure's End",
         "game": "The Great Ace Attorney",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/hJgvxIv5fZ0"
+        "url": "https://youtu.be/hJgvxIv5fZ0",
+        "id": "hJgvxIv5fZ0"
     }],
     "Spirit of Justice": [{
-        "id": 293,
+        "index": 293,
         "name": "A Quiet Prayer (Title Screen)",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/z5HrCEblV8U"
+        "url": "https://youtu.be/z5HrCEblV8U",
+        "id": "z5HrCEblV8U"
     }, {
-        "id": 294,
+        "index": 294,
         "name": "Khura'inese Towns ~ A Rambling Travel",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/iCLlT-A6Moo"
+        "url": "https://youtu.be/iCLlT-A6Moo",
+        "id": "iCLlT-A6Moo"
     }, {
-        "id": 295,
+        "index": 295,
         "name": "Defendant's Lobby ~ Prelude to the Revolution",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/fSRxjWIJQd0"
+        "url": "https://youtu.be/fSRxjWIJQd0",
+        "id": "fSRxjWIJQd0"
     }, {
-        "id": 296,
+        "index": 296,
         "name": "Court Begins Abroad (Khura\u2019in)",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/IG7g8l7aEDc"
+        "url": "https://youtu.be/IG7g8l7aEDc",
+        "id": "IG7g8l7aEDc"
     }, {
-        "id": 297,
+        "index": 297,
         "name": "Logic Construct",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/sF0UO7_UzC0"
+        "url": "https://youtu.be/sF0UO7_UzC0",
+        "id": "sF0UO7_UzC0"
     }, {
-        "id": 298,
+        "index": 298,
         "name": "Cross Examination ~ Moderato 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/YOkrI79UzzM"
+        "url": "https://youtu.be/YOkrI79UzzM",
+        "id": "YOkrI79UzzM"
     }, {
-        "id": 299,
+        "index": 299,
         "name": "Dance of Devotion",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/SkymMQAK7F4"
+        "url": "https://youtu.be/SkymMQAK7F4",
+        "id": "SkymMQAK7F4"
     }, {
-        "id": 300,
+        "index": 300,
         "name": "Divination Seance ~ Last Sights",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/6aNSb5Ljn-8"
+        "url": "https://youtu.be/6aNSb5Ljn-8",
+        "id": "6aNSb5Ljn-8"
     }, {
-        "id": 301,
+        "index": 301,
         "name": "Divination S\u00e9ance ~ The Spirit's Accusation",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/_y6ppZ_ZkXI"
+        "url": "https://youtu.be/_y6ppZ_ZkXI",
+        "id": "_y6ppZ_ZkXI"
     }, {
-        "id": 302,
+        "index": 302,
         "name": "Phoenix Wright ~ Objection! 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/0JpvZk3Xcxc"
+        "url": "https://youtu.be/0JpvZk3Xcxc",
+        "id": "0JpvZk3Xcxc"
     }, {
-        "id": 303,
+        "index": 303,
         "name": "Cross Examination ~ Allegro 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/7_InP3Qe2yg"
+        "url": "https://youtu.be/7_InP3Qe2yg",
+        "id": "7_InP3Qe2yg"
     }, {
-        "id": 304,
+        "index": 304,
         "name": "Pursuit ~ Cornering Together",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/QV1B7oDbC-k"
+        "url": "https://youtu.be/QV1B7oDbC-k",
+        "id": "QV1B7oDbC-k"
     }, {
-        "id": 305,
+        "index": 305,
         "name": "Confess The Truth 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/uNWH9LBO69o"
+        "url": "https://youtu.be/uNWH9LBO69o",
+        "id": "uNWH9LBO69o"
     }, {
-        "id": 306,
+        "index": 306,
         "name": "It's Show Time!",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/auWSVFxoDTg"
+        "url": "https://youtu.be/auWSVFxoDTg",
+        "id": "auWSVFxoDTg"
     }, {
-        "id": 307,
+        "index": 307,
         "name": "Troupe Gramarye 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/sNYVpQOG3FM"
+        "url": "https://youtu.be/sNYVpQOG3FM",
+        "id": "sNYVpQOG3FM"
     }, {
-        "id": 308,
+        "index": 308,
         "name": "Investigation ~ Opening 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/bbBrCya-sLk"
+        "url": "https://youtu.be/bbBrCya-sLk",
+        "id": "bbBrCya-sLk"
     }, {
-        "id": 309,
+        "index": 309,
         "name": "Ema Skye ~ The Scientific Detective 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/fvT0hP22vHU"
+        "url": "https://youtu.be/fvT0hP22vHU",
+        "id": "fvT0hP22vHU"
     }, {
-        "id": 310,
+        "index": 310,
         "name": "Detention Center ~ Cold-Glass Elegy",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/LVpfjermoQI"
+        "url": "https://youtu.be/LVpfjermoQI",
+        "id": "LVpfjermoQI"
     }, {
-        "id": 311,
+        "index": 311,
         "name": "Cheerful People",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/F1ut-eTUMrc"
+        "url": "https://youtu.be/F1ut-eTUMrc",
+        "id": "F1ut-eTUMrc"
     }, {
-        "id": 312,
+        "index": 312,
         "name": "Defendant Lobby's ~ Prelude to the Truth",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/0gz3XNIM4YQ"
+        "url": "https://youtu.be/0gz3XNIM4YQ",
+        "id": "0gz3XNIM4YQ"
     }, {
-        "id": 313,
+        "index": 313,
         "name": "Court Begins (California)",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/iA3lgdGcIlM"
+        "url": "https://youtu.be/iA3lgdGcIlM",
+        "id": "iA3lgdGcIlM"
     }, {
-        "id": 314,
+        "index": 314,
         "name": "Nahyuta Sahdmadhi ~ The Last Rites Prosecutor",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/JNpRPEY1D4E"
+        "url": "https://youtu.be/JNpRPEY1D4E",
+        "id": "JNpRPEY1D4E"
     }, {
-        "id": 315,
+        "index": 315,
         "name": "The Basics of the Case",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/cxFFhUvlRiM"
+        "url": "https://youtu.be/cxFFhUvlRiM",
+        "id": "cxFFhUvlRiM"
     }, {
-        "id": 316,
+        "index": 316,
         "name": "Apollo Justice ~ A New Chapter of Trials! 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/jfIcDfHkC68"
+        "url": "https://youtu.be/jfIcDfHkC68",
+        "id": "jfIcDfHkC68"
     }, {
-        "id": 317,
+        "index": 317,
         "name": "Mr. Reus ~ The Masked Magician",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/gk7Rfl4rpHo"
+        "url": "https://youtu.be/gk7Rfl4rpHo",
+        "id": "gk7Rfl4rpHo"
     }, {
-        "id": 318,
+        "index": 318,
         "name": "Reminiscence ~ Smile, No Matter What",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/ESyFukRrUCc"
+        "url": "https://youtu.be/ESyFukRrUCc",
+        "id": "ESyFukRrUCc"
     }, {
-        "id": 319,
+        "index": 319,
         "name": "The Holy Mother ~ The Teachings of Khura'in\ufeff",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/lSo91oXKut4"
+        "url": "https://youtu.be/lSo91oXKut4",
+        "id": "lSo91oXKut4"
     }, {
-        "id": 320,
+        "index": 320,
         "name": "Sanctuary",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/bLCIrxIxw2M"
+        "url": "https://youtu.be/bLCIrxIxw2M",
+        "id": "bLCIrxIxw2M"
     }, {
-        "id": 321,
+        "index": 321,
         "name": "Maya Fey ~ Turnabout Sisters 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/SxyaeDGdpJI"
+        "url": "https://youtu.be/SxyaeDGdpJI",
+        "id": "SxyaeDGdpJI"
     }, {
-        "id": 322,
+        "index": 322,
         "name": "Investigation Opening Abroad",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Vvy9MFJjiRU"
+        "url": "https://youtu.be/Vvy9MFJjiRU",
+        "id": "Vvy9MFJjiRU"
     }, {
-        "id": 323,
+        "index": 323,
         "name": "Lady Kee'ra ~ Guardian of Khura'in\ufeff\ufeff",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/koZci_Z6k6Y"
+        "url": "https://youtu.be/koZci_Z6k6Y",
+        "id": "koZci_Z6k6Y"
     }, {
-        "id": 324,
+        "index": 324,
         "name": "Rayfa Padma Khura'in ~ The Unyielding Medium Princess",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Zrgd7fUnjmo"
+        "url": "https://youtu.be/Zrgd7fUnjmo",
+        "id": "Zrgd7fUnjmo"
     }, {
-        "id": 325,
+        "index": 325,
         "name": "The Revolutionaries ~ Dragons of Rebellion",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/KMeRjoHp10E"
+        "url": "https://youtu.be/KMeRjoHp10E",
+        "id": "KMeRjoHp10E"
     }, {
-        "id": 326,
+        "index": 326,
         "name": "Detention Center ~ Iron-Bar Elegy",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/rUvBgltIohQ"
+        "url": "https://youtu.be/rUvBgltIohQ",
+        "id": "rUvBgltIohQ"
     }, {
-        "id": 327,
+        "index": 327,
         "name": "Strange People",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/1b_7kq9CdPI"
+        "url": "https://youtu.be/1b_7kq9CdPI",
+        "id": "1b_7kq9CdPI"
     }, {
-        "id": 328,
+        "index": 328,
         "name": "The Plumed Punisher: Warrior of Neo Twilight Realm",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/gtrEk6zagtE"
+        "url": "https://youtu.be/gtrEk6zagtE",
+        "id": "gtrEk6zagtE"
     }, {
-        "id": 329,
+        "index": 329,
         "name": "Reminiscence ~ A Final Conversation",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/o5wyddM1Dc0"
+        "url": "https://youtu.be/o5wyddM1Dc0",
+        "id": "o5wyddM1Dc0"
     }, {
-        "id": 330,
+        "index": 330,
         "name": "Reminiscence ~ Farewell, Once Again",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/4FwI5k3rLwc"
+        "url": "https://youtu.be/4FwI5k3rLwc",
+        "id": "4FwI5k3rLwc"
     }, {
-        "id": 331,
+        "index": 331,
         "name": "Uendo Toneido ~ The Laughing Typhoon",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/dkhlc4-EH18"
+        "url": "https://youtu.be/dkhlc4-EH18",
+        "id": "dkhlc4-EH18"
     }, {
-        "id": 332,
+        "index": 332,
         "name": "Athena Cykes ~ Courtroom R\u00e9volutionnaire 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/4WhZInUkekQ"
+        "url": "https://youtu.be/4WhZInUkekQ",
+        "id": "4WhZInUkekQ"
     }, {
-        "id": 333,
+        "index": 333,
         "name": "Reminiscence ~ The Feelings of Each of Them",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/ZeYS3REQfJU"
+        "url": "https://youtu.be/ZeYS3REQfJU",
+        "id": "ZeYS3REQfJU"
     }, {
-        "id": 334,
+        "index": 334,
         "name": "Dhurke ~ A Dragon Never Yields\ufeff",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/_SP14S9zttw"
+        "url": "https://youtu.be/_SP14S9zttw",
+        "id": "_SP14S9zttw"
     }, {
-        "id": 335,
+        "index": 335,
         "name": "Kurain Village 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/KDziIn7UdDM"
+        "url": "https://youtu.be/KDziIn7UdDM",
+        "id": "KDziIn7UdDM"
     }, {
-        "id": 336,
+        "index": 336,
         "name": "Paul Atishon ~ A Vote For Atishon!",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/hbNzlCdMbfY"
+        "url": "https://youtu.be/hbNzlCdMbfY",
+        "id": "hbNzlCdMbfY"
     }, {
-        "id": 337,
+        "index": 337,
         "name": "Investigation ~ Core 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/Hd_VBRY9zOU"
+        "url": "https://youtu.be/Hd_VBRY9zOU",
+        "id": "Hd_VBRY9zOU"
     }, {
-        "id": 338,
+        "index": 338,
         "name": "Investigation ~ Core Abroad",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/giAgPUuBh54"
+        "url": "https://youtu.be/giAgPUuBh54",
+        "id": "giAgPUuBh54"
     }, {
-        "id": 339,
+        "index": 339,
         "name": "Audience Chamber",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/YIVXfEHvI2s"
+        "url": "https://youtu.be/YIVXfEHvI2s",
+        "id": "YIVXfEHvI2s"
     }, {
-        "id": 340,
+        "index": 340,
         "name": "Court Revolution ~ Gather, Beneath the Flag",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/A8WQQII1HZU"
+        "url": "https://youtu.be/A8WQQII1HZU",
+        "id": "A8WQQII1HZU"
     }, {
-        "id": 341,
+        "index": 341,
         "name": "The Court of Resignation",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/UXD2t8WLMWw"
+        "url": "https://youtu.be/UXD2t8WLMWw",
+        "id": "UXD2t8WLMWw"
     }, {
-        "id": 342,
+        "index": 342,
         "name": "A Cornered Heart",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/-L29-dbnY7k"
+        "url": "https://youtu.be/-L29-dbnY7k",
+        "id": "-L29-dbnY7k"
     }, {
-        "id": 343,
+        "index": 343,
         "name": "Reminiscence: Inherited Hopes",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/49cnsC36O_g"
+        "url": "https://youtu.be/49cnsC36O_g",
+        "id": "49cnsC36O_g"
     }, {
-        "id": 344,
+        "index": 344,
         "name": "Pursuit ~ Cornering Together (Variation)",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/FKr4tqLJO9k"
+        "url": "https://youtu.be/FKr4tqLJO9k",
+        "id": "FKr4tqLJO9k"
     }, {
-        "id": 345,
+        "index": 345,
         "name": "Won the Case! ~ Each of Their Victories",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/zOTpymVr4us"
+        "url": "https://youtu.be/zOTpymVr4us",
+        "id": "zOTpymVr4us"
     }, {
-        "id": 346,
+        "index": 346,
         "name": "End (Credits Theme)",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/35ABpHTarEU"
+        "url": "https://youtu.be/35ABpHTarEU",
+        "id": "35ABpHTarEU"
     }, {
-        "id": 347,
+        "index": 347,
         "name": "Larry Butz ~ When Something Smells, It's Usually Me 2016",
         "game": "Spirit of Justice",
         "series": "Ace Attorney",
-        "url": "https://youtu.be/snmpgKFZy14"
+        "url": "https://youtu.be/snmpgKFZy14",
+        "id": "snmpgKFZy14"
     }]
 }

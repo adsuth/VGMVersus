@@ -6,13 +6,15 @@ import json, csv
 Song objects store data for songs.
 """
 class Song:
-    def __init__( self, id, name, game, series, url ):
-        self.id = id
+    def __init__( self, index, name, game, series, url ):
+        self.index = index
         self.name = name
         self.game = game
         self.series = series
         self.url = url
 
+        self.id = getSongId( self.url ) # returns the song id
+    
 """
 Interprets VGMB tsv, stores all lines in a list and returns
 """
@@ -21,10 +23,10 @@ def parseTSV( tsv_dir ) -> list:
 
     with open( tsv_dir, "r" ) as tsv:
         data = csv.reader( tsv, delimiter="\t" )
-        id = 0
+        index = 0
         for row in data:
-            songs.append( Song( id, row[0], row[1], row[2], row[3] ) )
-            id += 1
+            songs.append( Song( index, row[0], row[1], row[2], row[3] ) )
+            index += 1
     
     return songs
 
@@ -40,17 +42,9 @@ def getGames(songs) -> dict:
         
     return games
 
-# def getGames( songs, series ) -> dict:
-#     games = {}
-
-#     for song in songs:
-#         if song.series == series and song.game not in games:
-#             games[song.game] = []
-
-#     return games
-
 """
 returns a dictionary with all the unique series in the songs tsv
+Currently unused.
 """
 def getSeries( songs ) -> dict:
     series = {}
@@ -60,6 +54,17 @@ def getSeries( songs ) -> dict:
             series[song.series] = {}
 
     return series
+
+"""
+returns the id of the youtube video.
+eg:
+https://youtu.be/pLJ85XExZtQ
+becomes
+pLJ85XExZtQ
+"""
+def getSongId( url ) -> str:
+    return url[slice( url.rindex("/")+1, len(url) )]
+    
 
 """
 Creates the export dictionary to be converted to JSON

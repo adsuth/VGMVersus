@@ -1,13 +1,12 @@
 var songs_all = []
 var songs_random = []
-var song_current = null
+var song_current = {}
 
 function random_init() {
     /*
         Gets all songs
         clamps all games to one array of songs
-        generates a list of ids
-        randomly permutes array
+        clones array then randomises
     */
     $.ajax({
         url: "AA_Songs.json",
@@ -28,7 +27,24 @@ function random_init() {
 }
 
 function cueNextSong() {
-    player.cueVideoById( getSong() )
+    song_current = getSong()
+    updateSongData( song_current )
+    player.cueVideoById( song_current.id )
+}
+
+function updateSongData( song ) {
+    // update the data and image
+
+    // gets the thumnail of the youtube video of the current song
+    $.ajax({
+        url: `https://img.youtube.com/vi/${ song.id }/maxresdefault.jpg`,
+        dataType: "Image/jpg",
+        success: function(data) {
+            $("#song_thumbnail").attr("src", URL.createObjectURL(data))
+        }
+    })
+
+    alert("passes")
 }
 
 function getRandomProperty( object ) {
@@ -41,9 +57,7 @@ function getRandomIndex(arr) {
 }
 
 function getSong() {
-    let song = songs_random.pop()
-    song_current = song
-    return formatSongUrl( song.url )
+    return songs_random.pop()
 }
 
 function shuffleArray( arr ) {
@@ -54,5 +68,6 @@ function shuffleArray( arr ) {
         arr[j] = temp;
     }
     return arr
+    
 }
 

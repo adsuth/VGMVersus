@@ -25,29 +25,79 @@
     </aside>
 
     <header class="grid header_grid">
-        <p>0</p>
-        <h1 id="header_title">VGMB</h1>
-        <p id="header_score" >0</p>
+        <p></p>
+        <div id="header_title">
+            <h1>VGMB</h1>
+            <h3>Turntable Tournabout Edition</h3>
+        </div>
+        <p id="header_song_count" ></p>
     </header>
     
 
     <section class="grid">
         <aside>
-            <!-- ??? -->
-        </aside>
+            <!-- Incorrect Answers -->
+            <h3>Previous Songs</h3>
 
-        <div id="player_container">
-            <div id="player"></div>
-        </div>   
-        
-        <aside>
-            <!-- visual game select -->
-            <h3>Game</h3>
-            <div id="game_list" class="grid">
-                <button class="game_list_item button">Random</button>
-
+            <div id="prev_list">
+                <p class="error prev_game">
+                    <b>Incorrect Game</b> <br>
+                    Incorrect Name
+                </p>
+                <p class="correct prev_game">
+                    <b>Correct Game</b> <br>
+                    Correct Game
+                </p>
+                <p class="error prev_game">
+                    <b>Incorrect Game</b> <br>
+                    Incorrect Name
+                </p>
+                <p class="correct prev_game">
+                    <b>Correct Game</b> <br>
+                    Correct Game
+                </p>
+                <p class="error prev_game">
+                    <b>Incorrect Game</b> <br>
+                    Incorrect Name
+                </p>
+                <p class="correct prev_game">
+                    <b>Correct Game</b> <br>
+                    Correct Game
+                </p>
+                <p class="error prev_game">
+                    <b>Incorrect Game</b> <br>
+                    Incorrect Name
+                </p>
+                <p class="correct prev_game">
+                    <b>Correct Game</b> <br>
+                    Correct Game
+                </p>
+                <p class="error prev_game">
+                    <b>Incorrect Game</b> <br>
+                    Incorrect Name
+                </p>
+                <p class="correct prev_game">
+                    <b>Correct Game</b> <br>
+                    Correct Game
+                </p>
+                <p class="error prev_game">
+                    <b>Incorrect Game</b> <br>
+                    Incorrect Name
+                </p>
+                <p class="correct prev_game">
+                    <b>Correct Game</b> <br>
+                    Correct Game
+                </p>
+                
             </div>
+        </aside>
+        
+        <main id="song_area">
+            <img src="song_thumbnail" alt="Current Song Thumbnail">
+            <p id="song_data"></p>
+        </main>
 
+        <aside>
         </aside>
         
     </section>
@@ -56,12 +106,20 @@
     </p>  
 
     <footer class="flex">
-        <button id="btn_mute" class="button">Mute</button>
+        <button id="btn_mute" class="button">Pause</button>
         <input type="range" id="inp_volume">
-        <input type="text" id="answer_area">
+        <div>
+            <h2>
+                Name of Song
+            </h2>
+        </div>
+        <button type="button" id="btn_next" class="button">Pass</button>
         <button type="button" id="btn_next" class="button">Next</button>
-
+        
     </footer>
+
+    <!-- The youtube iframe -->
+    <div id="player"></div>
 
     
 
