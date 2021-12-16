@@ -28,6 +28,7 @@ function random_init() {
 
 function cueNextSong() {
     song_current = getSong()
+
     updateSongData( song_current )
     player.cueVideoById( song_current.id )
 }
@@ -38,13 +39,12 @@ function updateSongData( song ) {
     // gets the thumnail of the youtube video of the current song
     $.ajax({
         url: `https://img.youtube.com/vi/${ song.id }/maxresdefault.jpg`,
-        dataType: "Image/jpg",
+        dataType: "image/jpg",
         success: function(data) {
-            $("#song_thumbnail").attr("src", URL.createObjectURL(data))
+            $("#song_thumbnail").attr("src", data)
         }
     })
 
-    alert("passes")
 }
 
 function getRandomProperty( object ) {

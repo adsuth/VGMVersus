@@ -28,7 +28,7 @@
         <p></p>
         <div id="header_title">
             <h1>VGMB</h1>
-            <h3>Turntable Tournabout Edition</h3>
+            <h3>Turntable Turnabout Edition</h3>
         </div>
         <p id="header_song_count" ></p>
     </header>
@@ -37,63 +37,19 @@
     <section class="grid">
         <aside>
             <!-- Incorrect Answers -->
-            <h3>Previous Songs</h3>
+            <h3>Previous</h3>
 
-            <div id="prev_list">
-                <p class="error prev_game">
-                    <b>Incorrect Game</b> <br>
-                    Incorrect Name
-                </p>
-                <p class="correct prev_game">
-                    <b>Correct Game</b> <br>
-                    Correct Game
-                </p>
-                <p class="error prev_game">
-                    <b>Incorrect Game</b> <br>
-                    Incorrect Name
-                </p>
-                <p class="correct prev_game">
-                    <b>Correct Game</b> <br>
-                    Correct Game
-                </p>
-                <p class="error prev_game">
-                    <b>Incorrect Game</b> <br>
-                    Incorrect Name
-                </p>
-                <p class="correct prev_game">
-                    <b>Correct Game</b> <br>
-                    Correct Game
-                </p>
-                <p class="error prev_game">
-                    <b>Incorrect Game</b> <br>
-                    Incorrect Name
-                </p>
-                <p class="correct prev_game">
-                    <b>Correct Game</b> <br>
-                    Correct Game
-                </p>
-                <p class="error prev_game">
-                    <b>Incorrect Game</b> <br>
-                    Incorrect Name
-                </p>
-                <p class="correct prev_game">
-                    <b>Correct Game</b> <br>
-                    Correct Game
-                </p>
-                <p class="error prev_game">
-                    <b>Incorrect Game</b> <br>
-                    Incorrect Name
-                </p>
-                <p class="correct prev_game">
-                    <b>Correct Game</b> <br>
-                    Correct Game
-                </p>
+            <ul id="prev_list">
+                <li class="prev_game">
+                    <p class="error"> <b>Incorrect Game</b></p>
+                    <p class="error">Incorrect Name</p>
+                </li>
                 
             </div>
         </aside>
         
         <main id="song_area">
-            <img src="song_thumbnail" alt="Current Song Thumbnail">
+            <img id="song_thumbnail" src="" alt="Current Song Thumbnail">
             <p id="song_data"></p>
         </main>
 
@@ -109,9 +65,9 @@
         <button id="btn_mute" class="button">Pause</button>
         <input type="range" id="inp_volume">
         <div>
-            <h2>
+            <h3>
                 Name of Song
-            </h2>
+            </h3>
         </div>
         <button type="button" id="btn_next" class="button">Pass</button>
         <button type="button" id="btn_next" class="button">Next</button>

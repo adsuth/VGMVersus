@@ -16,22 +16,14 @@ html {
     --fontBody: "Montserrat", sans-serif;
     --fontTitle: "Montserrat", sans-serif;
 
-    --colorDark: #0F2027;
-    --colorMid: #203A43;
-    --colorMidLight: #2C5364;
-    --colorLight: #89d3d8;
+    --colorDarkest: #121212;
+    --colorDark: #202020;
+    --colorMid: #323232;
 
-    --colorBlack: #080113;
-    --colorWhite: #faffff;
+    --colorAccent: #ff0000;
 
-    --colorWarmLight: #ffb703;
-    --colorWarmMid: #fb8500;
-
-    --colorGlow: #89d3d866;
-    --shadowGlow: 0 0 0.5rem #89d3d866;
-
-
-    --gradient: linear-gradient( var(--colorDark), var(--colorMid), var(--colorMidLight) );
+    --colorBlack: #000;
+    --colorWhite: #fff;
 
 }
 
@@ -58,8 +50,8 @@ header {
     // outline: magenta solid 1px;
     height: calc( (1.5 /12) *100% );
     background: var(--colorDark);
-
     grid-template-columns: 1fr 3fr 1fr;
+
     * {
         // outline: magenta solid 1px;
     }
@@ -85,17 +77,11 @@ section {
     grid-template-columns: 1fr 3fr 1fr;
     background: #000;
 
-    *{
+    * {
         // outline: cyan solid 1px;
     }
 
-    // ul {
-    //     display: flex;
-    //     gap: 5vw;
-
-    // }
-
-    .song_data {
+    #song_data {
         list-style-type: none;
         padding: 2vh 0;
         width: 80%;
@@ -104,15 +90,11 @@ section {
         border-radius: 5vw;
         margin: 0 auto;
 
-        li:nth-child(odd) {
-            font-weight: 800;
-        }
-
     }
 
     aside {
         height: 100%;
-        background: var(--gradient);
+        background: var(--colorDarkest);
         
         h3 {
             padding: 2.5% 0;
@@ -127,14 +109,15 @@ section {
             height: 60vh;
             list-style-type: none;
             overflow-y: scroll;
-            
-            p {
+            // margin-right: -0.5rem;
+
+            li {
                 margin: 0 auto;
                 padding: 0.5rem 0;
                 font-size: 0.75rem;
-                border-bottom: 0.125rem var(--colorLight) solid;
+                border-bottom: 0.125rem var(--colorDark) solid;
             }
-            p:first-of-type {
+            li:first-of-type {
                 border-top: 0.125rem var(--colorDark) solid;
             }
         }
@@ -144,7 +127,7 @@ section {
 footer {
     height: calc( (2.5 /12) *100% );
     gap: 0 2.5%;
-    background: var(--colorMidLight);
+    background: var(--colorDark);
     box-shadow: 0 -0.25rem 1rem color;    
 
     button {
@@ -166,28 +149,6 @@ footer {
         width: 100%;
     }
 }
-// menus
-#hamburger {
-    width: 60%;
-    height: 80%;
-    background: #666;
-    position: relative;
-    z-index: 6;
-    border-radius: 5vw;
-}
-
-#hamburger_wrapper{
-    display: none;
-    width: 100%;
-    height: 100%;
-    background: #222;
-    position: absolute;
-    z-index: 3;
-    top: 0;
-    left: 0;
-}
-
-
 
 
 
@@ -205,8 +166,7 @@ footer {
 }
 
 .button {
-    background-color: var(--colorMidLight);
-    box-shadow: var(--shadowGlow);    
+    background-color: var(--colorDarkest);
     border-radius: 5vw;
     cursor: pointer;
 }
@@ -231,13 +191,14 @@ footer {
 // misc
 ::selection {
     background-color: var(--colorLight);
-    color: var(--colorDark)
+    color: var(--colorDark);
 }
 
 /*Scroll bar nav*/
 ::-webkit-scrollbar {
     width: 0.5rem;
-
+    background: var(--colorDark); 
+    
 }
 
 /* Track */
@@ -248,6 +209,5 @@ footer {
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 0.5rem;
     border-radius: 1rem;
-    background: #ffffff99; 
-    box-shadow: 0 0 0.75rem var(--colorMidLight);
+    background: var(--colorDarkest); 
 }
