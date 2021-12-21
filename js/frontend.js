@@ -20,7 +20,7 @@ function addKeyEvents() {
     document.addEventListener( "keydown", function(ev) {
         if ( ev.key === "ArrowRight" ) { correctAnswer() }
         if ( ev.key === "ArrowLeft" ) { incorrectAnswer() }
-        if ( ev.key === "ArrowUp" ) { showSongData() }
+        // if ( ev.key === "ArrowUp" ) { showSongData() }
     } )
 
 }
@@ -33,7 +33,7 @@ function correctAnswer() {
         move on to next
     */
 
-    showSongData()
+    updateSongData( song_current )
 
     addSongToPrevious( song_current, "correct" )
 
@@ -62,10 +62,5 @@ function addSongToPrevious( song, color ) {
             <p class="${color}">${song.name}</p>
         </li>
     `
-}
-
-// Song Data
-function updateSongData() {
-   
 }
 
