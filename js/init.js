@@ -29,7 +29,7 @@ function random_init() {
 function cueNextSong() {
     song_current = getSong()
 
-    updateSongData( song_current )
+    // updateSongData( song_current )
     player.cueVideoById( song_current.id )
 }
 
@@ -39,11 +39,14 @@ function updateSongData( song ) {
     // gets the thumnail of the youtube video of the current song
     $.ajax({
         url: `https://img.youtube.com/vi/${ song.id }/maxresdefault.jpg`,
-        dataType: "image/jpg",
         success: function(data) {
+            console.log( data )
             $("#song_thumbnail").attr("src", data)
         }
     })
+
+    $("#song_name").html( song_current.name )
+    $("#song_game").html( song_current.game )
 
 }
 
@@ -70,4 +73,5 @@ function shuffleArray( arr ) {
     return arr
     
 }
+
 
