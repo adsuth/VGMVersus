@@ -12,25 +12,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@600;700;800&family=Montserrat+Alternates:wght@400;600;800&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
     
-    <script src="js\init.js" defer></script>
+    
     <script src="js\player.js" defer></script>
+    <script src="js\timer.js" defer></script>
     <script src="js\frontend.js" defer></script>
+    <script src="js\init.js" defer></script>
     <!-- <script src="js\test.js" defer></script> -->
 
 </head>
 <body>
 
-    <aside id="hamburger_wrapper" class="flex">
-        <section id="hamburger"></section>
+    <aside id="modal_wrapper" class="flex">
+        <section id="modal_content" class="flex">
+            <button id="btn_closeModal" class="circle_button">
+                X
+            </button>
+            <div>
+                <h1 class="bold title">How to Play</h1>
+                <p>Press the left arrow key if you <span class="error bold">got it incorrect</b></p>
+                <p>Press the right arrow key if you <span class="correct bold">got it correct</b></p>
+            </div>
+        </section>
     </aside>
 
     <header class="grid header_grid">
-        <p></p>
+        <div class="flex">
+            <p id="timer"></p>
+        </div>
         <div id="header_title">
             <h1>VGMB</h1>
             <h3>Turntable Turnabout Edition</h3>
         </div>
-        <p id="header_song_count" ></p>
+        <button id="btn_showModal" class="circle_button">
+            ?
+        </button>
     </header>
     
 
@@ -40,16 +55,13 @@
             <h3>Previous</h3>
 
             <ul id="prev_list">
-                <li class="prev_game">
-                    <p class="error"> <b>Incorrect Game</b></p>
-                    <p class="error">Incorrect Name</p>
-                </li>
                 
             </div>
         </aside>
         
         <main id="song_area">
-            <img id="song_thumbnail" src="" alt="Current Song Thumbnail">
+            <!-- The youtube iframe -->
+            <div id="player"></div>
         </main>
 
         <aside>
@@ -61,23 +73,16 @@
     </p>  
 
     <footer class="flex">
-        <!-- <button id="btn_mute" class="button">Pause</button>
-        <input type="range" id="inp_volume"> -->
         <div>
-            <h3 id="song_name">
-                --
-            </h3>
             <p id="song_game">
                 -
             </p>
+            <h3 id="song_name">
+                <b>-</b>
+            </h3>
         </div>
-        <!-- <button type="button" id="btn_next" class="button">Pass</button>
-        <button type="button" id="btn_next" class="button">Next</button> -->
         
     </footer>
-
-    <!-- The youtube iframe -->
-    <div id="player"></div>
 
     
 

@@ -1,6 +1,18 @@
 var songs_all = []
 var songs_random = []
 var song_current = {}
+var timerInterval;
+const MAX_TIME = 1 // in minutes (note that seconds starts at 60, so its -1)
+var state = {
+    game: {
+        isEnding: false
+    },
+    timer: {
+        isOff: true,
+        seconds: 0,
+        minutes: MAX_TIME
+    }
+}
 
 function random_init() {
     /*
@@ -23,6 +35,10 @@ function random_init() {
         async: false
     })
 
+    // begin timer
+    timerStart()
+    timerInterval = window.setInterval( timerLoop, 1000 )
+
     cueNextSong()
 }
 
@@ -33,21 +49,16 @@ function cueNextSong() {
     player.cueVideoById( song_current.id )
 }
 
-function updateSongData( song ) {
-    // update the data and image
-
-    // gets the thumnail of the youtube video of the current song
-    $.ajax({
-        url: `https://img.youtube.com/vi/${ song.id }/maxresdefault.jpg`,
-        success: function(data) {
-            console.log( data )
-            $("#song_thumbnail").attr("src", data)
-        }
-    })
-
-    $("#song_name").html( song_current.name )
+function updateSongData() {
+    // update image
+    // gets the thumbnail of the youtube video of the current song
+    $("#song_name b").html( song_current.name )
     $("#song_game").html( song_current.game )
+}
 
+function clearSongData() {
+    $("#song_name b").html( "-" )
+    $("#song_game").html( "-" )
 }
 
 function getRandomProperty( object ) {
@@ -74,4 +85,19 @@ function shuffleArray( arr ) {
     
 }
 
+function addSongToPrevious( song, color="default" ) {
+    if ( $("#prev_list").children().length > 30 ) { $("#prev_list").children().shift() }
+    let li = `
+        <li class="prev_game">
+            <p class="${color} bold">${song.game}</p>
+            <p class="${color}">${song.name}</p>
+        </li>
+    `
+    $("#prev_list").append( li )
+    document.getElementById("prev_list").scrollTo( 0, document.getElementById("prev_list").scrollHeight )
+}
 
+function gameOver() {
+    updateTimer()
+    timerStop()
+}

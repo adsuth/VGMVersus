@@ -32,11 +32,18 @@ function onPlayerReady(event) {
 //    the player should play for six seconds and then stop.
 
 function onPlayerStateChange(event) {
-    if (event.data == YT.PlayerState.CUED) {
+    if (event.data == YT.PlayerState.PLAYING) {
+        state.game.isEnding = false;
+        clearSongData()
+        timerResume()
+    }
+    else if (event.data == YT.PlayerState.CUED) {
         player.playVideo()
     }
-    else if ( event.data == YT.PlayerState.ENDED ) {
-        cueNextSong()
+    else if (event.data == YT.PlayerState.ENDED) {
+        state.game.isEnding = true
+        updateSongData()
+        window.setTimeout( cueNextSong, 1000 )
     }
 }
 
@@ -52,8 +59,4 @@ function updatePlayer( song ) {
 
 function formatSongUrl( url ) {
     return url.slice( url.lastIndexOf("/") + 1, url.length )
-}
-
-function playSong() {
-
 }

@@ -1,6 +1,5 @@
 
 $(document).ready( function() {
-
     addEventListeners()
 } )
 
@@ -10,8 +9,8 @@ function addEventListeners() {
     // events related to key presses (eg: arrow keys)
     addKeyEvents()
 
-    $("#btn_next").click( function() {
-    } )
+    $("#btn_closeModal").click( closeModal )
+    $("#btn_showModal").click( showModal )
 
 }
 
@@ -32,10 +31,15 @@ function correctAnswer() {
         add song to 
         move on to next
     */
+    timerPause()
+    if ( state.game.isEnding === true ) {
+        return
+    }   
+    state.game.isEnding = true;
 
     updateSongData( song_current )
 
-    addSongToPrevious( song_current, "correct" )
+    addSongToPrevious( song_current )
 
     window.setTimeout( () => {
         cueNextSong()
@@ -50,17 +54,27 @@ function incorrectAnswer() {
         wait 500ms
         move on to next
     */
+    timerPause()
+    if ( state.game.isEnding === true ) {
+        return
+    }  
+    state.game.isEnding = true;
+    addSongToPrevious( song_current, "error" )
+    
+    updateSongData( song_current )
 
-    addSongToPrevious( song_current, "correct" )
+    window.setTimeout( () => {
+        cueNextSong()
+    }, 1000 )
 
 }
 
-function addSongToPrevious( song, color ) {
-    let li = `
-        <li class="prev_game">
-            <p class="${color}"> <b>${song.game}</b></p>
-            <p class="${color}">${song.name}</p>
-        </li>
-    `
+
+
+function closeModal() {
+    $("#modal_wrapper").fadeOut()
 }
 
+function showModal() {
+    $("#modal_wrapper").fadeIn()
+}
