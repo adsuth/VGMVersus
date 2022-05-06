@@ -20,12 +20,14 @@ html {
   --colorMid: #323232;
   --colorMidlight: #636363;
   --colorOpacity: #121212cc;
-  --colorAccent: #ff0000;
+  --colorPlayer: #636363;
+  --colorPlayerBG: #121212;
   --colorBlack: #000;
   --colorWhite: #fff;
+  font-size: 24px;
 }
 
-button, input[type="submit"], input[type="reset"] {
+button, input, input[type="submit"], input[type="reset"] {
   background: none;
   color: inherit;
   border: none;
@@ -35,10 +37,10 @@ button, input[type="submit"], input[type="reset"] {
   outline: inherit;
 }
 
-h1, h3, p, button {
+h1, h3, p, label, input, button {
   color: var(--colorWhite);
   text-align: center;
-  text-transform: uppercase;
+  text-transform: none;
   font-family: var(--fontBody);
   font-weight: 400;
 }
@@ -46,8 +48,8 @@ h1, h3, p, button {
 header {
   height: calc( (1.5 /12) *100%);
   background: var(--colorDark);
-  -ms-grid-columns: 1fr 3fr 1fr;
-      grid-template-columns: 1fr 3fr 1fr;
+  -ms-grid-columns: 1fr 3fr 0.3fr 0.7fr;
+      grid-template-columns: 1fr 3fr 0.3fr 0.7fr;
 }
 
 header #header_title h1, header #header_title h3 {
@@ -79,33 +81,59 @@ section #song_data {
   margin: 0 auto;
 }
 
+section main {
+  background: #000;
+  height: 100%;
+}
+
 section aside {
   height: 100%;
   background: var(--colorDarkest);
 }
 
-section aside h3 {
+section aside .player_header {
   padding: 2.5% 0;
-  font-weight: 800;
-  height: 10%;
 }
 
-section aside #prev_list {
+section aside h3 {
+  color: var(--colorPlayer);
+  padding: 2.5% 0;
+  font-weight: 800;
+}
+
+section aside .prev_list {
   display: block;
-  height: 60vh;
+  height: 55vh;
   list-style-type: none;
   overflow-y: scroll;
 }
 
-section aside #prev_list li {
+section aside .prev_list a {
+  text-decoration: none;
+}
+
+section aside .prev_list li {
   margin: 0 auto;
   padding: 0.5rem 0;
   font-size: 0.75rem;
   border-bottom: 0.125rem var(--colorDark) solid;
+  font-family: var(--fontBody);
+  text-align: center;
+  color: var(--colorMidlight);
+  -webkit-transition: text-shadow 200ms;
+  transition: text-shadow 200ms;
 }
 
-section aside #prev_list li:first-of-type {
+section aside .prev_list li:first-of-type {
   border-top: 0.125rem var(--colorDark) solid;
+}
+
+section aside .prev_list li:hover {
+  text-shadow: 0 0 0.5rem currentColor;
+}
+
+section aside .prev_list::-webkit-scrollbar {
+  display: none;
 }
 
 footer {
@@ -120,16 +148,56 @@ footer button {
   padding: 1rem 2rem;
 }
 
-#player {
-  height: 65vh;
+#loading_screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
   width: 100%;
-  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--colorDark);
+}
+
+.button {
+  border-radius: 100vw;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  outline: var(--colorWhite) 0.1rem solid;
+  color: var(--colorWhite);
+  -webkit-transition: color 200ms, background-color 200ms, -webkit-transform 200ms;
+  transition: color 200ms, background-color 200ms, -webkit-transform 200ms;
+  transition: transform 200ms, color 200ms, background-color 200ms;
+  transition: transform 200ms, color 200ms, background-color 200ms, -webkit-transform 200ms;
+}
+
+.button:active {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.button:hover {
+  color: var(--colorDarkest);
+  background-color: var(--colorWhite);
+}
+
+#player {
+  height: 100%;
+  width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  visibility: hidden;
 }
 
 #player iframe {
@@ -170,12 +238,6 @@ footer button {
           align-items: center;
 }
 
-.button {
-  background-color: var(--colorDarkest);
-  border-radius: 5vw;
-  cursor: pointer;
-}
-
 .circle_button {
   height: 2rem;
   width: 2rem;
@@ -188,11 +250,27 @@ footer button {
   transition: color 200ms, background-color 200ms, -webkit-transform 200ms;
   transition: transform 200ms, color 200ms, background-color 200ms;
   transition: transform 200ms, color 200ms, background-color 200ms, -webkit-transform 200ms;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.circle_button img {
+  fill: var(--colorWhite);
+  -webkit-filter: brightness(100);
+          filter: brightness(100);
+  width: 75%;
 }
 
 .circle_button:active {
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
 }
 
 .circle_button:hover {
@@ -200,16 +278,44 @@ footer button {
   background-color: var(--colorWhite);
 }
 
+.circle_button:hover img {
+  fill: var(--colorWhite);
+  -webkit-filter: brightness(0);
+          filter: brightness(0);
+  width: 75%;
+}
+
+header .circle_button {
+  -webkit-transition: -webkit-transform 800ms;
+  transition: -webkit-transform 800ms;
+  transition: transform 800ms;
+  transition: transform 800ms, -webkit-transform 800ms;
+}
+
+header #btn_showSettings:hover {
+  -webkit-transform: rotateZ(360deg);
+          transform: rotateZ(360deg);
+}
+
+header .circle_button:active {
+  -webkit-transition: -webkit-transform 200ms;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+}
+
 .error {
-  color: #ff6565;
+  color: #cb6262;
 }
 
 .warning {
-  color: #ffc965;
+  color: #ddaf5b;
 }
 
 .correct {
-  color: #65ff7a;
+  color: #75cf81;
 }
 
 .default {
@@ -222,14 +328,14 @@ footer button {
 }
 
 .bold {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .larger_text {
   font-size: 1.5rem;
 }
 
-#modal_wrapper {
+.modal_wrapper {
   background: var(--colorOpacity);
   width: 100%;
   height: 100vh;
@@ -237,37 +343,210 @@ footer button {
   left: 0;
   position: absolute;
   z-index: 3;
-  visibility: hidden;
+  display: none;
 }
 
-#modal_wrapper #modal_content {
+.modal_wrapper h1 {
+  padding: 1rem 0;
+  font-weight: 800;
+}
+
+.modal_wrapper a {
+  color: #7ae4ff;
+}
+
+hr {
+  margin: 0.5rem 0;
+  border-color: var(--colorMidlight);
+  background-color: var(--colorMidlight);
+}
+
+.modal {
   width: 80%;
   height: 80%;
   -webkit-box-shadow: -0.5rem 0.5rem 1rem #121212;
           box-shadow: -0.5rem 0.5rem 1rem #121212;
   background: var(--colorMid);
-  position: relative;
   z-index: 6;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: relative;
   border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
-#modal_wrapper #modal_content #btn_closeModal {
+.modal p {
+  text-align: left;
+}
+
+.modal div div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.modal .close_modal {
   position: absolute;
   top: 0;
   right: 0;
   margin: 1rem;
 }
 
-#modal_wrapper #modal_content #btn_closeModal:active {
+.modal .close_modal:active {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
 }
 
-#timer {
+.timer {
   width: 3rem;
-  outline: 0.1rem var(--colorWhite) solid;
+  outline: 0.1rem var(--colorPlayer) solid;
   text-align: center;
   border-radius: 5rem;
+  color: var(--colorPlayer);
+}
+
+.p1 .timer, .p2 .timer {
+  animation: pulse 0.5s forwards infinite alternate-reverse;
+}
+
+#settings_modal {
+  display: block;
+  height: 80vh;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
+#settings_modal h3 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+#settings_modal #settings_playerSettings {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#settings_modal #settings_playerSettings input {
+  margin: 0.5rem auto;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 40%;
+}
+
+#settings_modal #settings_playerSettings input[type=radio] {
+  cursor: pointer;
+  outline: none;
+  width: 1rem;
+  height: 1rem;
+  margin: 0 auto;
+}
+
+#settings_modal #settings_gametime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#settings_modal #settings_gametime div {
+  width: 100%;
+}
+
+#settings_modal aside {
+  width: 50%;
+}
+
+#settings_modal label {
+  font-size: 1rem;
+  display: block;
+}
+
+#settings_modal input {
+  display: block;
+  margin: 0 auto 0.5rem;
+  font-size: 1rem;
+  outline: 0.1rem var(--colorWhite) solid;
+  padding-left: 1rem;
+  cursor: text;
+  color: var(--colorWhite);
+  border-radius: 100vw;
+  text-align: left;
+  -webkit-transition: background-color 200ms;
+  transition: background-color 200ms;
+}
+
+#settings_modal input[type="color"] {
+  padding: 0 0.25rem;
+  cursor: pointer;
+}
+
+#settings_modal input:focus {
+  background-color: var(--colorDark);
+}
+
+#settings_modal p {
+  padding: 0 1rem;
+}
+
+#settings_modal footer {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#settings_modal #settings_start {
+  padding: 1rem 2rem;
+  outline: var(--colorWhite) 0.1rem solid;
+  border-radius: 100vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 1rem;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-box-shadow: 0 0 0rem var(--colorPlayer);
+            box-shadow: 0 0 0rem var(--colorPlayer);
+  }
+  to {
+    -webkit-box-shadow: 0 0 0.75rem var(--colorPlayer);
+            box-shadow: 0 0 0.75rem var(--colorPlayer);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-box-shadow: 0 0 0rem var(--colorPlayer);
+            box-shadow: 0 0 0rem var(--colorPlayer);
+  }
+  to {
+    -webkit-box-shadow: 0 0 0.75rem var(--colorPlayer);
+            box-shadow: 0 0 0.75rem var(--colorPlayer);
+  }
 }
 
 /*Scroll bar nav*/

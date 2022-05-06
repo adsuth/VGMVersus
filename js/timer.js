@@ -1,71 +1,82 @@
-/*
-    Timer
-*/
+class Timer {
+    constructor(root, settings = {}) {
+        this.root = root
+        this.notStarted = true
+        
+        this.interval = null
+        
+        this.maxSeconds = settings?.secs ?? 30 
+        this.maxMinutes = settings?.mins ?? 1
 
-function timerStart() {
-    updateTimer()
-    timerResume()
-}
+        this.seconds = this.maxSeconds
+        this.minutes = this.maxMinutes
+    }
 
-function timerStop() {
-    timerPause()
-    window.clearInterval( timerInterval )
-}
+    start() {
+        this.update()
+        this.stop()
+        this.interval = setInterval( () => { this.update() }, 1000 )
+    }
 
-function timerResume() {
-    state.timer.isOff = false
-}
-
-function timerPause() {
-    state.timer.isOff = true
-}
-
-function timerLoop() {
-    // dont do anything is timer stopped
-    if ( state.timer.isOff ) { return }
+    play() {
+        this.stop()
+        this.interval = setInterval( () => { this.update() }, 1000 )
+    }
     
-    // when times up
-    if ( state.timer.minutes <= 0 && state.timer.seconds <= 1 ) {
-        /*
-            end game
-        */
-       
-        gameOver()
+    stop() {
+        if ( this.interval ) { clearInterval( this.interval ) }
     }
 
-    // still have time
-    else {
-        /*
-            increment timer
-            make sure minutes 
-            update timer on screen
-        */
-       // if a minute has passed
-       if ( state.timer.seconds <= 0 ) {
-           state.timer.minutes--
-           state.timer.seconds = 59
-        }   
+    reset() {
+        this.stop()
+        this.minutes = this.maxMinutes
+        this.seconds = this.maxSeconds
+        this.updateDisplay()
+    }
+
+    /**
+     * Extend the timer by adding seconds
+     * @param {Number} secs Seconds to be added to timer
+     */
+    addTime( secs=2 ) {
+        this.seconds += secs
+        if ( this.seconds > 59 ) {
+            this.minutes++
+            this.seconds %= 60
+        }
+        this.updateDisplay()
+    }
+
+
+    update() {
+        this.seconds--
         
-        // update display
-        updateTimer()
-        
+        // time up
+        if (this.minutes <= 0 && this.seconds < 1) {
+            // end game
+            gameOver()
+            this.updateDisplay()
+            return 
+        }
+
+        // if a minute has passed
+        if (this.seconds <= 0) {
+            this.minutes--
+            this.seconds = 59
+        }
+        this.updateDisplay()
     }
 
-    state.timer.seconds--
-}
+    updateDisplay() {
+        let displaySeconds = "" + this.seconds
 
-function updateTimer() {
-    let displaySeconds = "" + state.timer.seconds
-    // if seconds too short
-    if ( state.timer.seconds.toString().length < 2 ) {
-        displaySeconds = "0" + displaySeconds
+        // format if seconds too short
+        if (this.seconds.toString().length < 2) {
+            displaySeconds = "0" + displaySeconds
+        }
+
+        $("#" + this.root).html(
+            `${ this.minutes }:${displaySeconds}`
+        )
     }
-    $("#timer").text(
-        `${ state.timer.minutes }:${displaySeconds}`
-    )
-
-}
-
-function toggleTimerColor() {
-    $("#timer").toggleClass("error")
 }

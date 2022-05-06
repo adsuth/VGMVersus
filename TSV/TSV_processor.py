@@ -2,10 +2,10 @@
 # csv  => for interpreting tsv file
 import json, csv
 
-"""
-Song objects store data for songs.
-"""
 class Song:
+    """
+    Song objects store data for songs.
+    """
     def __init__( self, index, name, game, series, url ):
         self.index = index
         self.name = name
@@ -13,15 +13,16 @@ class Song:
         self.series = series
         self.url = url
 
-        self.id = getSongId( self.url ) # returns the song id
+        self.id = getSongId( self.url ) # id == url without fluff
     
-"""
-Interprets VGMB tsv, stores all lines in a list and returns
-"""
-def parseTSV( tsv_dir ) -> list:
+
+def parseTSV( tsv_dir ):
+    """
+    Interprets VGMB tsv, stores all lines in a list and returns
+    """
     songs = []
 
-    with open( tsv_dir, "r" ) as tsv:
+    with open( tsv_dir, "r", encoding='utf-8' ) as tsv:
         data = csv.reader( tsv, delimiter="\t" )
         index = 0
         for row in data:
@@ -30,10 +31,11 @@ def parseTSV( tsv_dir ) -> list:
     
     return songs
 
-"""
-returns a dictionary with all unique games in the songs list
-"""
-def getGames(songs) -> dict:
+
+def getGames(songs):
+    """
+    returns a dictionary with all unique games in the songs list
+    """
     games = {}
     for song in songs:
         if song.game in games:
@@ -42,11 +44,12 @@ def getGames(songs) -> dict:
         
     return games
 
-"""
-returns a dictionary with all the unique series in the songs tsv
-Currently unused.
-"""
-def getSeries( songs ) -> dict:
+
+def getSeries( songs ):
+    """
+    returns a dictionary with all the unique series in the songs tsv
+    Currently unused.
+    """
     series = {}
 
     for song in songs:
@@ -55,21 +58,23 @@ def getSeries( songs ) -> dict:
 
     return series
 
-"""
-returns the id of the youtube video.
-eg:
-https://youtu.be/pLJ85XExZtQ
-becomes
-pLJ85XExZtQ
-"""
-def getSongId( url ) -> str:
+
+def getSongId( url ):
+    """
+    returns the id of the youtube video.
+    eg:
+    https://youtu.be/pLJ85XExZtQ
+    becomes
+    pLJ85XExZtQ
+    """
     return url[slice( url.rindex("/")+1, len(url) )]
     
 
-"""
-Creates the export dictionary to be converted to JSON
-"""
-def processJSON( tsv_dir ) -> dict:
+
+def processJSON( tsv_dir ):
+    """
+    Creates the export dictionary to be converted to JSON
+    """
     output = {}
     songs = parseTSV( tsv_dir )
     
@@ -89,11 +94,12 @@ def processJSON( tsv_dir ) -> dict:
     
     return output
 
-"""
-Deletes the current content of the given directory.
-Used to prevent adding to file instead of overwriting.
-"""
-def clearJSON( json_dir ) -> None:
+
+def clearJSON( json_dir ):
+    """
+    Deletes the current content of the given directory.
+    Used to prevent adding to file instead of overwriting.
+    """
     with open( json_dir, "w" ) as json:
         json.truncate( 0 )
 
@@ -102,5 +108,9 @@ def clearJSON( json_dir ) -> None:
 # Main #
 ########
 
-clearJSON( "AA_Songs.json" )
-json.dump( processJSON("TSV/VGMB - Ace Attorney.tsv"), open("AA_Songs.json", "w") )
+# change these to whatever is needed
+DATA_FILE_NAME  = "PokemonChase"
+
+clearJSON("./json/%s.json" % (DATA_FILE_NAME))
+
+json.dump( processJSON("./tsv/%s.tsv" % (DATA_FILE_NAME)), open("./json/%s.json" % (DATA_FILE_NAME), "w") )

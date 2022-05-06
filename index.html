@@ -6,57 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style\style.css">
-    <title>VGMB AA</title>
+    <title>VGMVersus</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@600;700;800&family=Montserrat+Alternates:wght@400;600;800&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
-    
-    
-    <script src="js\player.js" defer></script>
-    <script src="js\timer.js" defer></script>
-    <script src="js\frontend.js" defer></script>
-    <script src="js\init.js" defer></script>
-    <!-- <script src="js\test.js" defer></script> -->
-
+    <link rel="shortcut icon" href="./meta/favicon.ico" type="image/x-icon">
 </head>
 <body>
-
-    <aside id="modal_wrapper" class="flex">
-        <section id="modal_content" class="flex">
-            <button id="btn_closeModal" class="circle_button">
-                X
-            </button>
-            <div>
-                <h1 class="bold title">How to Play</h1>
-                <p>Press the left arrow key if you <span class="error bold">got it incorrect</b></p>
-                <p>Press the right arrow key if you <span class="correct bold">got it correct</b></p>
-            </div>
-        </section>
-    </aside>
+    <style id="playerColors"></style>
 
     <header class="grid header_grid">
         <div class="flex">
-            <p id="timer"></p>
+            <button type="button" class="button" id="btn_restart">Restart</button>
         </div>
         <div id="header_title">
-            <h1>VGMB</h1>
-            <h3>Turntable Turnabout Edition</h3>
+            <h1>VGM Versus</h1>
+            <h3>The Head to Head VGM Quiz</h3>
         </div>
-        <button id="btn_showModal" class="circle_button">
+        <button id="btn_showHelp" class="circle_button">
             ?
         </button>
+        <button id="btn_showSettings" class="circle_button">
+            <img src="./meta/settings_cog.svg">
+            </img>
+        </button>
     </header>
-    
 
     <section class="grid">
-        <aside>
-            <!-- Incorrect Answers -->
-            <h3>Previous</h3>
-
-            <ul id="prev_list">
-                
+        <aside id="p1_section" class="p1">
+            <!-- Player 1 -->
+            <div class="player_header">
+                <h3 id="p1_name">Player 1</h3>
+                <div class="flex">
+                    <p class="timer" id="p1_timer">0:00</p>
+                </div>
             </div>
+            <ul id="p1_list" class="prev_list"></ul>
         </aside>
         
         <main id="song_area">
@@ -64,7 +50,15 @@
             <div id="player"></div>
         </main>
 
-        <aside>
+        <aside id="p2_section" class="">
+            <!-- Player 2 -->
+            <div class="player_header">
+                <h3 id="p2_name">Player 2</h3>
+                <div class="flex">
+                    <p id="p2_timer" class="timer">0:00</p>
+                </div>
+            </div>
+            <ul id="p2_list" class="prev_list"></ul>
         </aside>
         
     </section>
@@ -84,7 +78,109 @@
         
     </footer>
 
-    
+    <aside id="settings_wrapper" class="modal_wrapper">
+        <div id="settings_modal" class="modal">
+            <button id="settings_close" class="circle_button close_modal">
+                X
+            </button>
+            
+            <div>
+                <h1>Game Settings</h1>
+                <h3>Total Time</h3>
+                <div id="settings_gametime">
+                    <div>
+                        <label for="t_minutes">Minutes</label>
+                        <input id="t_minutes" class="settings_number" type="number" name="t_minutes" id="" value="1" min="0" max="9">
+                    </div>
+                    <div>
+                        <label for="t_seconds">Seconds</label>
+                        <input id="t_seconds" class="settings_number" type="number" name="t_seconds" id="" value="30" min="0" max="59">
+                    </div>
+                    <div>
+                        <label for="t_increment">Increment</label>
+                        <input id="t_increment" class="settings_number" type="number" name="t_increment" id="" value="2" min="0" max="30">
+                    </div>
+                </div>
+                <label for="songs_dir">Songs File Name</label>
+                <input id="songs_dir"type="text" name="t_seconds" id="songs_dir" autocomplete='off'>
+            </div>
+            <hr>
+            <div id="settings_playerSettings">
+                <aside>
+                    <h3>Player 1</h3>
+                    <label for="startingPlayer">Starting?</label>
+                    <input type="radio" name="startingPlayer" id="settings_starting" checked value="p1">
 
+                    <label for="p1_name">Enter a Name</label>
+                    <input maxlength="12" id="settings_p1_name" autocomplete="off" name="p1_name" type="text" value="Player 1" placeholder='Enter a name...'>
+
+                    <label for="p1_color">Choose a Color</label>
+                    <input id="settings_p1_color" type="color" name="p1_color" value="#3fff79">
+
+                </aside>
+                <aside>
+                    <h3>Player 2</h3>
+                    <label for="startingPlayer">Starting?</label>
+                    <input type="radio" name="startingPlayer" value="p2">
+                    
+                    <label for="p2_name">Enter a Name</label>
+                    <input maxlength="12" autocomplete="off" id="settings_p2_name" name="p2_name" type="text" value="Player 2" placeholder='Enter a name...'>
+
+                    <label for="p2_color">Choose a Color</label>
+                    <input id="settings_p2_color" type="color" name="p2_color" value="#ff374e">
+
+                </aside>
+            </div>
+            <hr>
+            <footer>
+                <button type="submit" class="button" id="settings_start">
+                    Start Game
+                </button>
+            </footer>
+
+            
+        </div>
+
+    </aside>
+    <aside id="endgame_wrapper" class="modal_wrapper">
+        <div id="endgame_modal" class="modal">
+            <button id="endgame_close" class="circle_button close_modal">
+                X
+            </button>
+    </aside>
+    <aside id="help_wrapper" class="modal_wrapper">
+        <div id="help_modal" class="modal">
+            <button id="help_close" class="circle_button close_modal">
+                X
+            </button>
+            <div>
+                <div>
+                    <h1>How to Play</h1>
+                    <p>Press the <span class="bold">right arrow key</span> if you got it <span class="correct bold">correct</span></p> <br>
+                    <p>Press the <span class="bold">down arrow key</span> if you got it  <span class="error bold">incorrect</span></p> <br>
+                    <p>Press the <span class="bold">left arrow key</span> if you only got <span class="warning bold"> half of the answer</span></p> <br>
+                    <p>Press the <span class="bold">up arrow key</span> to <span class="bold">show the current song</span></p>
+                </div>
+                <hr>
+                <div>
+                    <h1>About</h1>
+                    <p>VGM Versus is a 1v1 videogame quiz made by me, Adamandam. Visit the Github Repo <a target="_blank" href="https://github.com/Adamandom/VGMB_AA.git">here</a> to read more</p>
+                </div>
+                <hr>
+                <div>
+                    <h1>Extras</h1>
+                    <p>Clicking on a previous song will take you to the youtube video.</p>
+                </div>
+
+            </div>
+    </aside>
+
+    <script src="js\util.js" defer></script>
+    <script src="js\player.js" defer></script>
+    <script src="js\loading.js" defer></script>
+    <script src="js\modal.js" defer></script>
+    <script src="js\timer.js" defer></script>
+    <script src="js\frontend.js" defer></script>
+    <script src="js\init.js" defer></script>
 </body>
 </html>

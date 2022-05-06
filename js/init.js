@@ -1,103 +1,143 @@
+var GAME_SETTINGS = {}
+var SONGS_FILE_NAME = "pkmn"
+
+var CURRENT_PLAYER = GAME_SETTINGS.startingPlayer
+var hasHalfAnswer = false
+
 var songs_all = []
 var songs_random = []
-var song_current = {}
+
+var song_current = null
+
+// for logging out errors
+var firstLogEntry = true
+
 var timerInterval;
 const MAX_TIME = 1 // in minutes (note that seconds starts at 60, so its -1)
-var state = {
-    game: {
-        isEnding: false
-    },
-    timer: {
-        isOff: true,
-        seconds: 0,
-        minutes: MAX_TIME
-    }
+
+const timers = {
+    p1: null,
+    p2: null
 }
 
-function random_init() {
-    /*
-        Gets all songs
-        clamps all games to one array of songs
-        clones array then randomises
-    */
+$(document).ready(function() {
+    applySettings()
+    game_start()
+})
+
+function init_songs() {
+    songs_all = []
     $.ajax({
-        url: "AA_Songs.json",
+        url: `./json/${SONGS_FILE_NAME || "main"}.json`,
         dataType: "json",
-        success: function(data) { 
-            
-            for ( let game in data ) {
-                songs_all = songs_all.concat( data[game] )
+        success: function (data) {
+            for (let game in data) {
+                songs_all = songs_all.concat(data[game])
             }
-
-            songs_random = shuffleArray( songs_all.slice(0) )
-
+            songs_random = shuffleArray(songs_all.slice(0))
+        },
+        error: function(err) {
+            console.log("Couldn't find that directory!\nPlease try again.")
+            showSettings()
         },
         async: false
     })
-
-    // begin timer
-    timerStart()
-    timerInterval = window.setInterval( timerLoop, 1000 )
-
-    cueNextSong()
 }
 
 function cueNextSong() {
+    $("#player").css({
+        visibility: "hidden"
+    })
+    clearSongData()
+
     song_current = getSong()
 
-    // updateSongData( song_current )
-    player.cueVideoById( song_current.id )
-}
-
-function updateSongData() {
-    // update image
-    // gets the thumbnail of the youtube video of the current song
-    $("#song_name b").html( song_current.name )
-    $("#song_game").html( song_current.game )
-}
-
-function clearSongData() {
-    $("#song_name b").html( "-" )
-    $("#song_game").html( "-" )
-}
-
-function getRandomProperty( object ) {
-    let keys = Object.keys(object);
-    return object[keys[ Math.floor( keys.length * Math.random() ) ]];
-}
-
-function getRandomIndex(arr) {
-    return Math.floor( Math.random() * arr.length )
+    player.cueVideoById(song_current.id)
 }
 
 function getSong() {
+    if ( songs_random.length == 0 ) { init_songs() }
     return songs_random.pop()
 }
 
-function shuffleArray( arr ) {
-    for (var i = arr.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+function addSongToPrevious(song, color = "default") {
+    let list = `${CURRENT_PLAYER}_list`
+    if ($("#" + list).children().length > 30) {
+        $("#" + list).children().get(0).remove()
     }
-    return arr
+
+    let li = document.createElement("li")
+    $(li).append(`<a href="${song.url}" target="_blank"><p class="${color}"><span class="bold">${song.game}</span><br>${song.name}</p>`)
+
+
+    $("#" + list).append(li)
+    document.getElementById(list).scrollTo(0, document.getElementById(list).scrollHeight)
+}
+
+function applySettings() {
+    GAME_SETTINGS = {
+        startingPlayer: $('input[name="startingPlayer"]:checked').val(),
+        mins: parseInt( $("#t_minutes").val() ) ?? 1,
+        secs: parseInt( $("#t_seconds").val() ) ?? 30,
+        inc: parseInt( $("#t_increment").val() ) ?? 2,
+        p1: {
+            name: $("#settings_p1_name").val(),
+            color: $("#settings_p1_color").val(),
+        },
+        p2: {
+            name: $("#settings_p2_name").val(),
+            color: $("#settings_p2_color").val()
+        }
+    }
+    // player names
+    $("#p1_name").html( GAME_SETTINGS.p1.name )
+    $("#p2_name").html( GAME_SETTINGS.p2.name )
+
+    // color settings
+    $("#playerColors").html(`
+        .p1 { --colorPlayer: ${GAME_SETTINGS.p1.color}; }
+        .p2 { --colorPlayer: ${GAME_SETTINGS.p2.color}; }
+    `)
+
+    // time settings
+    timers.p1 = new Timer( "p1_timer", {
+        mins: GAME_SETTINGS.mins,
+        secs: GAME_SETTINGS.secs
+    } )
+    timers.p2 = new Timer( "p2_timer", {
+        mins: GAME_SETTINGS.mins,
+        secs: GAME_SETTINGS.secs
+    } )
+
+    // set starting player
+    CURRENT_PLAYER = GAME_SETTINGS.startingPlayer
+
+    SONGS_FILE_NAME = $("#songs_dir").val().trim()
+
+    game_start()
+}
+
+function game_start() {
+    timers.p1.reset()
+    timers.p2.reset()
+
+    CURRENT_PLAYER = GAME_SETTINGS.startingPlayer
+    setPlayer()
+
+    hasHalfAnswer = false
+    $("#p1_list").empty()
+    $("#p2_list").empty()
     
+    init_songs()
+    cueNextSong()
 }
 
-function addSongToPrevious( song, color="default" ) {
-    if ( $("#prev_list").children().length > 30 ) { $("#prev_list").children().shift() }
-    let li = `
-        <li class="prev_game">
-            <p class="${color} bold">${song.game}</p>
-            <p class="${color}">${song.name}</p>
-        </li>
-    `
-    $("#prev_list").append( li )
-    document.getElementById("prev_list").scrollTo( 0, document.getElementById("prev_list").scrollHeight )
+function pause_game() {
+    timers[CURRENT_PLAYER].stop()
+    player.pauseVideo()
 }
 
-function gameOver() {
-    updateTimer()
-    timerStop()
+function resume_game() {
+    timers[CURRENT_PLAYER].play()
+    player.playVideo()
 }

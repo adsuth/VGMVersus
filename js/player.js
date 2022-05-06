@@ -1,11 +1,10 @@
-// 2. This code loads the IFrame Player API code asynchronously.
-var tag = document.createElement('script');
+var tag = document.createElement('script')
 
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+tag.src = "https://www.youtube.com/iframe_api"
+var firstScriptTag = document.getElementsByTagName('script')[0]
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
 
-var player;
+var player
 
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
@@ -15,33 +14,48 @@ function onYouTubeIframeAPIReady() {
         },
         events: {
             'onReady': onPlayerReady,
+            // 'onError': onError,
             'onStateChange': onPlayerStateChange
         }
-    });
+    })
 }
 
-// 4. The API will call this function when the video player is ready.
-function onPlayerReady(event) {
-    // event.target.playVideo();
-    random_init()
-
-}
-
-// 5. The API calls this function when the player's state changes.
-//    The function indicates that when playing a video (state=1),
-//    the player should play for six seconds and then stop.
-
-function onPlayerStateChange(event) {
-    if (event.data == YT.PlayerState.PLAYING) {
-        state.game.isEnding = false;
-        clearSongData()
-        timerResume()
+function onError(ev) {
+    if ( ev.data == 5 || ev.data == 101 ) {
+        console.warn( `PlayerError: ${ev.data}\nsong index: ${song_current.index}\nname: ${song_current.name}\n(${song_current.url})`)
+        cueNextSong()
     }
-    else if (event.data == YT.PlayerState.CUED) {
+}
+
+function playError() {
+    console.warn( `PlayerError: N/A\nsong index: ${song_current.index}\nname: ${song_current.name}\n(${song_current.url})` )
+    cueNextSong()
+}
+
+function onPlayerReady(event) {
+    cueNextSong()
+    player.playVideo()
+}
+
+function onPlayerStateChange(ev) {
+    if ( ev.data == YT.PlayerState.CUED && player.getDuration() < 1 ) {
+        // song is unavailable
+        playError()
+    }
+
+    if (ev.data == YT.PlayerState.PLAYING) {
+        timers[ CURRENT_PLAYER ].start()
+        clearSongData()
+    }
+    else if (ev.data == YT.PlayerState.CUED) {
+        timers[ CURRENT_PLAYER ].stop()
         player.playVideo()
     }
-    else if (event.data == YT.PlayerState.ENDED) {
-        state.game.isEnding = true
+    else if ( ev.data == YT.PlayerState.PAUSED ) {
+        timers[ CURRENT_PLAYER ].stop()
+    }
+    else if (ev.data == YT.PlayerState.ENDED) {
+        timers[ CURRENT_PLAYER ].stop()
         updateSongData()
         window.setTimeout( cueNextSong, 1000 )
     }
@@ -51,12 +65,8 @@ function stopVideo() {
     player.stopVideo();
 }
 
-
 function updatePlayer( song ) {
     let formattedURL = formatSongUrl( song.url )
     player.loadVideoByUrl( formattedURL )
 }
 
-function formatSongUrl( url ) {
-    return url.slice( url.lastIndexOf("/") + 1, url.length )
-}

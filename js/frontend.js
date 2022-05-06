@@ -1,80 +1,103 @@
 
 $(document).ready( function() {
-    addEventListeners()
+    addEvents()
 } )
 
 
-function addEventListeners() {
-
+function addEvents() {
     // events related to key presses (eg: arrow keys)
-    addKeyEvents()
-
-    $("#btn_closeModal").click( closeModal )
-    $("#btn_showModal").click( showModal )
-
-}
-
-function addKeyEvents() {
-
     document.addEventListener( "keydown", function(ev) {
+        if ( ev.key === "Escape" ) { 
+            pause_game()
+            showSettings()
+            $("#songs_dir").focus() 
+        }
         if ( ev.key === "ArrowRight" ) { correctAnswer() }
-        if ( ev.key === "ArrowLeft" ) { incorrectAnswer() }
+        if ( ev.key === "ArrowLeft" ) { halfAnswer() }
+        if ( ev.key === "ArrowUp" ) { showAnswer() }
+        if ( ev.key === "ArrowDown" ) { incorrectAnswer() }
         // if ( ev.key === "ArrowUp" ) { showSongData() }
     } )
 
+    modalEvents()
+
+    $("#btn_showSettings").click( () => {
+        pause_game()
+        showSettings()
+        $("#songs_dir").focus()
+    } )
+
+    $("#btn_showHelp").click( () => {
+        pause_game()
+        $("#help_wrapper").fadeIn(200)
+    } )
+    
+    $("#btn_restart").click( () => {
+        game_start()
+        init_songs()
+    } )
+
+    $("#btn_restart").click( () => {
+        game_start()
+        init_songs()
+    } )
+    
+}
+
+function switchPlayer() {
+    timers[CURRENT_PLAYER].addTime( GAME_SETTINGS.inc )
+    timers[CURRENT_PLAYER].stop()
+
+    if ( CURRENT_PLAYER == "p1" ) { CURRENT_PLAYER = "p2" }
+    else { CURRENT_PLAYER = "p1" }
+
+    setPlayer()
+}
+
+function setPlayer() {
+    $(`#p1_section`).removeClass( "p1" )
+    $(`#p2_section`).removeClass( "p2" )
+    $(`#${CURRENT_PLAYER}_section`).addClass( CURRENT_PLAYER )
+}
+
+function halfAnswer() {
+    addSongToPrevious( song_current, "warning" )
+
+    if ( hasHalfAnswer ) { switchPlayer() }
+    hasHalfAnswer = !hasHalfAnswer
+    cueNextSong()
 }
 
 function correctAnswer() {
-    /*
-        show the song,
-        wait 500ms
-        add song to 
-        move on to next
-    */
-    timerPause()
-    if ( state.game.isEnding === true ) {
-        return
-    }   
-    state.game.isEnding = true;
+    if ( hasHalfAnswer ) { return halfAnswer() }
 
-    updateSongData( song_current )
-
-    addSongToPrevious( song_current )
-
-    window.setTimeout( () => {
-        cueNextSong()
-    }, 1000 )
-
+    addSongToPrevious( song_current, "correct" )
+    switchPlayer()
+    
+    cueNextSong()
 }
 
 function incorrectAnswer() {
-    /*
-        show the song,
-        add song to prev (incorrect)
-        wait 500ms
-        move on to next
-    */
-    timerPause()
-    if ( state.game.isEnding === true ) {
-        return
-    }  
-    state.game.isEnding = true;
     addSongToPrevious( song_current, "error" )
-    
+    cueNextSong()
+}
+
+function showAnswer() {
+    player.pauseVideo()
+    $("#player").css({visibility: "visible"})
     updateSongData( song_current )
-
-    window.setTimeout( () => {
-        cueNextSong()
-    }, 1000 )
-
 }
 
-
-
-function closeModal() {
-    $("#modal_wrapper").fadeOut()
+function gameOver() {
+    victor = (CURRENT_PLAYER == "p1") ? "p2" : "p1"
+    timers.p1.stop()
+    timers.p2.stop()
+    
+    endgameModal.setTitle( `${victor} wins!` )
+    endgameModal.show()
 }
 
-function showModal() {
-    $("#modal_wrapper").fadeIn()
+function initModal() {
+    
+    
 }

@@ -1,0 +1,2425 @@
+{
+    "Pokemon Black 2 and White 2": [{
+        "index": 0,
+        "name": "Title Screen",
+        "game": "Pokemon Black 2 and White 2",
+        "series": "Pokemon",
+        "url": "https://youtu.be/2Zsr-39Zv_k",
+        "id": "2Zsr-39Zv_k"
+    }, {
+        "index": 1,
+        "name": "Virkbank City",
+        "game": "Pokemon Black 2 and White 2",
+        "series": "Pokemon",
+        "url": "https://youtu.be/q4_Hyk8Sjic",
+        "id": "q4_Hyk8Sjic"
+    }, {
+        "index": 2,
+        "name": "Battle! Neo Plasma",
+        "game": "Pokemon Black 2 and White 2",
+        "series": "Pokemon",
+        "url": "https://youtu.be/7UJqW3rH6o8",
+        "id": "7UJqW3rH6o8"
+    }, {
+        "index": 3,
+        "name": "Lentimas Town",
+        "game": "Pokemon Black 2 and White 2",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ILf8Lw24N4E",
+        "id": "ILf8Lw24N4E"
+    }, {
+        "index": 4,
+        "name": "Reversal Mountain (Black)",
+        "game": "Pokemon Black 2 and White 2",
+        "series": "Pokemon",
+        "url": "https://youtu.be/g75ap6ziOP0",
+        "id": "g75ap6ziOP0"
+    }, {
+        "index": 5,
+        "name": "N's Room",
+        "game": "Pokemon Black 2 and White 2",
+        "series": "Pokemon",
+        "url": "https://youtu.be/nmZ5pSjeQVc",
+        "id": "nmZ5pSjeQVc"
+    }, {
+        "index": 6,
+        "name": "Battle! N",
+        "game": "Pokemon Black 2 and White 2",
+        "series": "Pokemon",
+        "url": "https://youtu.be/AiRMLJIDnXM",
+        "id": "AiRMLJIDnXM"
+    }, {
+        "index": 7,
+        "name": "Battle! Champion Iris",
+        "game": "Pokemon Black 2 and White 2",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Xb9ee9lWSbg",
+        "id": "Xb9ee9lWSbg"
+    }, {
+        "index": 8,
+        "name": "Battle! Colress",
+        "game": "Pokemon Black 2 and White 2",
+        "series": "Pokemon",
+        "url": "https://youtu.be/qDZygFP1iNQ",
+        "id": "qDZygFP1iNQ"
+    }],
+    "Pokemon Black and White": [{
+        "index": 9,
+        "name": "Battle! Gym Leader",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/gFRw4tSDnjs",
+        "id": "gFRw4tSDnjs"
+    }, {
+        "index": 10,
+        "name": "Skyarrow Bridge",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/AWy-fL5Evw4",
+        "id": "AWy-fL5Evw4"
+    }, {
+        "index": 11,
+        "name": "Unwavering Emotion",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/jzfQhV3G_MU",
+        "id": "jzfQhV3G_MU"
+    }, {
+        "index": 12,
+        "name": "Battle! N",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/O0ajBL15Knk",
+        "id": "O0ajBL15Knk"
+    }, {
+        "index": 13,
+        "name": "Crisis in Battle!",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/aLVr0VfeLmk",
+        "id": "aLVr0VfeLmk"
+    }, {
+        "index": 14,
+        "name": "Driftveil City",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/xc_0wfIuuzw",
+        "id": "xc_0wfIuuzw"
+    }, {
+        "index": 15,
+        "name": "Route 6 (Winter)",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/3q-aCuxkxsM",
+        "id": "3q-aCuxkxsM"
+    }, {
+        "index": 16,
+        "name": "Opelucid City (White)",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/g356DvtjCOo",
+        "id": "g356DvtjCOo"
+    }, {
+        "index": 17,
+        "name": "Opelucid City (Black)",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/UgRVaB5FTuw",
+        "id": "UgRVaB5FTuw"
+    }, {
+        "index": 18,
+        "name": "Route 10",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/465uaHc-r6A",
+        "id": "465uaHc-r6A"
+    }, {
+        "index": 19,
+        "name": "Battle! Elite 4",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/llnXhrCn9Yo",
+        "id": "llnXhrCn9Yo"
+    }, {
+        "index": 20,
+        "name": "Battle! Reshiram and Zekrom",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/osBuSrEho-U",
+        "id": "osBuSrEho-U"
+    }, {
+        "index": 21,
+        "name": "Battle! Ghetsis",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/LEbLAFHo5Ts",
+        "id": "LEbLAFHo5Ts"
+    }, {
+        "index": 22,
+        "name": "Battle! Legendary Pokemon",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/V3Q4WFYWGdY",
+        "id": "V3Q4WFYWGdY"
+    }, {
+        "index": 23,
+        "name": "Black City",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/KQ3PzgYN8BI",
+        "id": "KQ3PzgYN8BI"
+    }, {
+        "index": 24,
+        "name": "Village Bridge",
+        "game": "Pokemon Black and White",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ctpCYukHV6s",
+        "id": "ctpCYukHV6s"
+    }],
+    "Pokemon Colosseum": [{
+        "index": 25,
+        "name": "Title Screen",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/UYtAOvFe0aE",
+        "id": "UYtAOvFe0aE"
+    }, {
+        "index": 26,
+        "name": "Main Menu",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Dx9ZOtHP4OU",
+        "id": "Dx9ZOtHP4OU"
+    }, {
+        "index": 27,
+        "name": "Outskirt Stand",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/fyYhgzKTi9A",
+        "id": "fyYhgzKTi9A"
+    }, {
+        "index": 28,
+        "name": "Friendly Battle",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/UciyoCQb32U",
+        "id": "UciyoCQb32U"
+    }, {
+        "index": 29,
+        "name": "World Map",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/V24xVlXLW_o",
+        "id": "V24xVlXLW_o"
+    }, {
+        "index": 30,
+        "name": "Normal Battle",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/M9f2_u5luhw",
+        "id": "M9f2_u5luhw"
+    }, {
+        "index": 31,
+        "name": "Phenac City",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ZjReRTJZt88",
+        "id": "ZjReRTJZt88"
+    }, {
+        "index": 32,
+        "name": "Pokemon Center",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/QUxqLN_oRS4",
+        "id": "QUxqLN_oRS4"
+    }, {
+        "index": 33,
+        "name": "Es Cade",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/fV3LtRZsmyU",
+        "id": "fV3LtRZsmyU"
+    }, {
+        "index": 34,
+        "name": "Snagem Hideout",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ewU9gWPHy6E",
+        "id": "ewU9gWPHy6E"
+    }, {
+        "index": 35,
+        "name": "Cipher Syndicate",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Hqd1t0b0iGQ",
+        "id": "Hqd1t0b0iGQ"
+    }, {
+        "index": 36,
+        "name": "Miror B.'s Retro Groove",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/XID5xI4_Gds",
+        "id": "XID5xI4_Gds"
+    }, {
+        "index": 37,
+        "name": "Cipher Peon Battle",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/LnG-xcbsj3s",
+        "id": "LnG-xcbsj3s"
+    }, {
+        "index": 38,
+        "name": "Pyrite Town",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/YbkkrFAoT2Q",
+        "id": "YbkkrFAoT2Q"
+    }, {
+        "index": 39,
+        "name": "Pyrite Building",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/8_DyO4A-3Gk",
+        "id": "8_DyO4A-3Gk"
+    }, {
+        "index": 40,
+        "name": "Cipher Admin Battle",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/4j-xWzlY_yk",
+        "id": "4j-xWzlY_yk"
+    }, {
+        "index": 41,
+        "name": "Mirakle B. Imitation Groove",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/PhVuWXA9JZQ",
+        "id": "PhVuWXA9JZQ"
+    }, {
+        "index": 42,
+        "name": "Agate Village",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/C6kGdAeTFXw",
+        "id": "C6kGdAeTFXw"
+    }, {
+        "index": 43,
+        "name": "Relic Forest",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ZtX0jheTaUc",
+        "id": "ZtX0jheTaUc"
+    }, {
+        "index": 44,
+        "name": "Shadow Pokemon Lab",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/F0dhclE9_dc",
+        "id": "F0dhclE9_dc"
+    }, {
+        "index": 45,
+        "name": "The Under",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/3pjhPrSWQoM",
+        "id": "3pjhPrSWQoM"
+    }, {
+        "index": 46,
+        "name": "Final Battle",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/VDoZy4r3_8I",
+        "id": "VDoZy4r3_8I"
+    }, {
+        "index": 47,
+        "name": "Battle Mode Menu",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/6pi97xPmCDA",
+        "id": "6pi97xPmCDA"
+    }, {
+        "index": 48,
+        "name": "Staff Roll (US/PAL)",
+        "game": "Pokemon Colosseum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/t5ETSzPxAHw",
+        "id": "t5ETSzPxAHw"
+    }],
+    "Pokemon Diamond and Pearl": [{
+        "index": 49,
+        "name": "Team Galactic HQ",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/1r2j54GCiEw",
+        "id": "1r2j54GCiEw"
+    }, {
+        "index": 50,
+        "name": "Jubilife City (Night)",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/RF8iHFM5mBI",
+        "id": "RF8iHFM5mBI"
+    }, {
+        "index": 51,
+        "name": "Oreburgh City (Day)",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/P1AbuG2tb0I",
+        "id": "P1AbuG2tb0I"
+    }, {
+        "index": 52,
+        "name": "Eterna Forest",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/YFzw8ygfw4Y",
+        "id": "YFzw8ygfw4Y"
+    }, {
+        "index": 53,
+        "name": "Eterna City (Night)",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/TMbY6kqVPGs",
+        "id": "TMbY6kqVPGs"
+    }, {
+        "index": 54,
+        "name": "Battle! Galactic Cyrus",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Usi7PwvrWr4",
+        "id": "Usi7PwvrWr4"
+    }, {
+        "index": 55,
+        "name": "Route 216 (Day)",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/UBnhOZEodlE",
+        "id": "UBnhOZEodlE"
+    }, {
+        "index": 56,
+        "name": "Mt. Coronet",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/8hASaRRCwgc",
+        "id": "8hASaRRCwgc"
+    }, {
+        "index": 57,
+        "name": "Battle! Dialga and Palkia",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/3go01DLQDE4",
+        "id": "3go01DLQDE4"
+    }, {
+        "index": 58,
+        "name": "Route 225 (Night)",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/xs73Jp9Q9pI",
+        "id": "xs73Jp9Q9pI"
+    }, {
+        "index": 59,
+        "name": "Stark Mountain",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/aa5Klsafq1w",
+        "id": "aa5Klsafq1w"
+    }, {
+        "index": 60,
+        "name": "Route 228 (Night)",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Qteowg4-D-c",
+        "id": "Qteowg4-D-c"
+    }, {
+        "index": 61,
+        "name": "Pokemon League (Night)",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/2nlOm6-zhgs",
+        "id": "2nlOm6-zhgs"
+    }, {
+        "index": 62,
+        "name": "Encounter! Champion Cynthia",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/cho2NsCKZZc",
+        "id": "cho2NsCKZZc"
+    }, {
+        "index": 63,
+        "name": "Battle! Champion Cynthia",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/rXefFHRgyE0",
+        "id": "rXefFHRgyE0"
+    }, {
+        "index": 64,
+        "name": "Battle! Arceus",
+        "game": "Pokemon Diamond and Pearl",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ZuXI7qcNsHQ",
+        "id": "ZuXI7qcNsHQ"
+    }],
+    "Pokemon Fire Red and Leaf Green": [{
+        "index": 65,
+        "name": "Pallet Town",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/dfRLeXXsdnM",
+        "id": "dfRLeXXsdnM"
+    }, {
+        "index": 66,
+        "name": "Professor Oak's Theme",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/9OI9DUv8rng",
+        "id": "9OI9DUv8rng"
+    }, {
+        "index": 67,
+        "name": "Professor Oak's Laboratory",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/MBehF_iqxCI",
+        "id": "MBehF_iqxCI"
+    }, {
+        "index": 68,
+        "name": "Route 1",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/7RBuIWPn4EA",
+        "id": "7RBuIWPn4EA"
+    }, {
+        "index": 69,
+        "name": "Battle! Wild Pokemon",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/78Gzi7nwOrI",
+        "id": "78Gzi7nwOrI"
+    }, {
+        "index": 70,
+        "name": "Viridian City",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/16v_M1ygxYE",
+        "id": "16v_M1ygxYE"
+    }, {
+        "index": 71,
+        "name": "Pokemon Center",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/8RJZIEVsDVE",
+        "id": "8RJZIEVsDVE"
+    }, {
+        "index": 72,
+        "name": "Viridian Forest",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/MM8qhyxwIQo",
+        "id": "MM8qhyxwIQo"
+    }, {
+        "index": 73,
+        "name": "Battle! Trainer",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/13nNWVHkiEY",
+        "id": "13nNWVHkiEY"
+    }, {
+        "index": 74,
+        "name": "Pokemon Gym",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/FAO6TGnFTkA",
+        "id": "FAO6TGnFTkA"
+    }, {
+        "index": 75,
+        "name": "Battle! Gym Leader",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/yylKlV2Wij8",
+        "id": "yylKlV2Wij8"
+    }, {
+        "index": 76,
+        "name": "Route 3",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/0DsVkkHH51E",
+        "id": "0DsVkkHH51E"
+    }, {
+        "index": 77,
+        "name": "Cerulean City",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Vr1wBF7yZRc",
+        "id": "Vr1wBF7yZRc"
+    }, {
+        "index": 78,
+        "name": "Route 24",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Ze22U-GGSMA",
+        "id": "Ze22U-GGSMA"
+    }, {
+        "index": 79,
+        "name": "Vermilion City",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Y42IIwqfgkE",
+        "id": "Y42IIwqfgkE"
+    }, {
+        "index": 80,
+        "name": "Bicycle Theme",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/dJ02Yk8U7d0",
+        "id": "dJ02Yk8U7d0"
+    }, {
+        "index": 81,
+        "name": "Route 11",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/crAYEScFaEc",
+        "id": "crAYEScFaEc"
+    }, {
+        "index": 82,
+        "name": "Lavender Town",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/5dkAl2H6L7s",
+        "id": "5dkAl2H6L7s"
+    }, {
+        "index": 83,
+        "name": "Pokemon Tower",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/gGQCMnVjK9g",
+        "id": "gGQCMnVjK9g"
+    }, {
+        "index": 84,
+        "name": "Celadon City",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/RiGf4DKG3N4",
+        "id": "RiGf4DKG3N4"
+    }, {
+        "index": 85,
+        "name": "Team Rocket Hideout",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/edL6I9cKZkI",
+        "id": "edL6I9cKZkI"
+    }, {
+        "index": 86,
+        "name": "Surf Theme",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/j7cnKLVn-wk",
+        "id": "j7cnKLVn-wk"
+    }, {
+        "index": 87,
+        "name": "Battle! Articuno, Zapdos & Moltres",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/MzpF6k9r2Dw",
+        "id": "MzpF6k9r2Dw"
+    }, {
+        "index": 88,
+        "name": "Cinnabar Island",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/fPmVzG4RSIQ",
+        "id": "fPmVzG4RSIQ"
+    }, {
+        "index": 89,
+        "name": "Battle! Mewtwo",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/BUQ82HJwEAI",
+        "id": "BUQ82HJwEAI"
+    }, {
+        "index": 90,
+        "name": "Battle! Deoxys",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/zCvccmNwFV8",
+        "id": "zCvccmNwFV8"
+    }, {
+        "index": 91,
+        "name": "Victory Road (Last Road)",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/KsFCqIo02KY",
+        "id": "KsFCqIo02KY"
+    }, {
+        "index": 92,
+        "name": "Battle! Champion",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/-4vpdkEkup8",
+        "id": "-4vpdkEkup8"
+    }, {
+        "index": 93,
+        "name": "Hall of Fame",
+        "game": "Pokemon Fire Red and Leaf Green",
+        "series": "Pokemon",
+        "url": "https://youtu.be/cVLh0RQKNCs",
+        "id": "cVLh0RQKNCs"
+    }],
+    "Pokemon Gold and Silver": [{
+        "index": 94,
+        "name": "Intro & Title Screen",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/uOtElWoKPKw",
+        "id": "uOtElWoKPKw"
+    }, {
+        "index": 95,
+        "name": "Continue",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/2_lEIs-CyAY",
+        "id": "2_lEIs-CyAY"
+    }, {
+        "index": 96,
+        "name": "Welcome to the World of Pokemon",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Ok84CfBX6Go",
+        "id": "Ok84CfBX6Go"
+    }, {
+        "index": 97,
+        "name": "Pokemon Lab",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/hrG1OvGouHk",
+        "id": "hrG1OvGouHk"
+    }, {
+        "index": 98,
+        "name": "Radio - Oak's Pokemon Talk",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/BTUcZEJSS0c",
+        "id": "BTUcZEJSS0c"
+    }, {
+        "index": 99,
+        "name": "Pokemon Center",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/3hHQpyLPzi0",
+        "id": "3hHQpyLPzi0"
+    }, {
+        "index": 100,
+        "name": "Battle! Wild Pokemon (Johto)",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ZQ7UpTUiixk",
+        "id": "ZQ7UpTUiixk"
+    }, {
+        "index": 101,
+        "name": "New Bark Town",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/2y9qGM17SpM",
+        "id": "2y9qGM17SpM"
+    }, {
+        "index": 102,
+        "name": "Route 29",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/lP1vP21-Kp0",
+        "id": "lP1vP21-Kp0"
+    }, {
+        "index": 103,
+        "name": "Route 32",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ZFCfyEQ2ihY",
+        "id": "ZFCfyEQ2ihY"
+    }, {
+        "index": 104,
+        "name": "Cherrygrove City",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/UhXiUxHhHIU",
+        "id": "UhXiUxHhHIU"
+    }, {
+        "index": 105,
+        "name": "Cherrygrove City Tour",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/yaE7QRcUQMg",
+        "id": "yaE7QRcUQMg"
+    }, {
+        "index": 106,
+        "name": "Route 30",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/bPfaVO0gPoI",
+        "id": "bPfaVO0gPoI"
+    }, {
+        "index": 107,
+        "name": "Chat with Professor Oak",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/NphT2NYEt-w",
+        "id": "NphT2NYEt-w"
+    }, {
+        "index": 108,
+        "name": "Battle! Rival",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/1nGUYMr6Jws",
+        "id": "1nGUYMr6Jws"
+    }, {
+        "index": 109,
+        "name": "Battle! Trainer (Johto)",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/GOgMqbWMiOo",
+        "id": "GOgMqbWMiOo"
+    }, {
+        "index": 110,
+        "name": "Dark Cave",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/EXORGSyIqe4",
+        "id": "EXORGSyIqe4"
+    }, {
+        "index": 111,
+        "name": "Violet City",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/CS_ZMPj21IE",
+        "id": "CS_ZMPj21IE"
+    }, {
+        "index": 112,
+        "name": "Pokemon Gym",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Xv0n0Pddlm4",
+        "id": "Xv0n0Pddlm4"
+    }, {
+        "index": 113,
+        "name": "Battle! Gym Leader (Johto)",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/e9UNWmjMXcw",
+        "id": "e9UNWmjMXcw"
+    }, {
+        "index": 114,
+        "name": "Ruins of Alph",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/teDTFUuZBPI",
+        "id": "teDTFUuZBPI"
+    }, {
+        "index": 115,
+        "name": "Azalea Town",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/64obE19g6Mk",
+        "id": "64obE19g6Mk"
+    }, {
+        "index": 116,
+        "name": "Game Corner",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/kBGc8j539O8",
+        "id": "kBGc8j539O8"
+    }, {
+        "index": 117,
+        "name": "Goldenrod City",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Tp8nuM-nwPE",
+        "id": "Tp8nuM-nwPE"
+    }, {
+        "index": 118,
+        "name": "Bicycle Theme",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/_kuJVW1kXTM",
+        "id": "_kuJVW1kXTM"
+    }, {
+        "index": 119,
+        "name": "National Park",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/rWwyIee0GwE",
+        "id": "rWwyIee0GwE"
+    }, {
+        "index": 120,
+        "name": "Ecruteak City",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/GhJhR96tJwk",
+        "id": "GhJhR96tJwk"
+    }, {
+        "index": 121,
+        "name": "Surf Theme",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/q-p6_aupNGc",
+        "id": "q-p6_aupNGc"
+    }, {
+        "index": 122,
+        "name": "Route 38",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/fRSqy1puIaU",
+        "id": "fRSqy1puIaU"
+    }, {
+        "index": 123,
+        "name": "Route 42",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/O1lxaU-0I3Y",
+        "id": "O1lxaU-0I3Y"
+    }, {
+        "index": 124,
+        "name": "Rocket Hideout",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/G6pglnWy2mo",
+        "id": "G6pglnWy2mo"
+    }, {
+        "index": 125,
+        "name": "Rocket Tower Takeover",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/SASncz_P4Zc",
+        "id": "SASncz_P4Zc"
+    }, {
+        "index": 126,
+        "name": "Bug-Catching Contest",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/xyLWtwDMiLM",
+        "id": "xyLWtwDMiLM"
+    }, {
+        "index": 127,
+        "name": "Route 26",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/eVXu6RErLkE",
+        "id": "eVXu6RErLkE"
+    }, {
+        "index": 128,
+        "name": "Radio - Places & People",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/uPqjBEGRLhs",
+        "id": "uPqjBEGRLhs"
+    }, {
+        "index": 129,
+        "name": "Indigo Plateau",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/WGocSnTRB1U",
+        "id": "WGocSnTRB1U"
+    }, {
+        "index": 130,
+        "name": "Mt. Silver",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/0P6JA2pNxVg",
+        "id": "0P6JA2pNxVg"
+    }, {
+        "index": 131,
+        "name": "Battle! Champion",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/gpMKVAcjeTg",
+        "id": "gpMKVAcjeTg"
+    }, {
+        "index": 132,
+        "name": "Battle! Wild Pokemon (Kanto)",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/lGAnaPCzk_s",
+        "id": "lGAnaPCzk_s"
+    }, {
+        "index": 133,
+        "name": "Battle! Trainer (Kanto)",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/sLIF66XLL8Y",
+        "id": "sLIF66XLL8Y"
+    }, {
+        "index": 134,
+        "name": "Vermilion City",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/5y9_-34IUuk",
+        "id": "5y9_-34IUuk"
+    }, {
+        "index": 135,
+        "name": "Battle! Gym Leader (Kanto)",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/bk-9xWqZZXY",
+        "id": "bk-9xWqZZXY"
+    }, {
+        "index": 136,
+        "name": "Saffron City",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/UCYd4QZzMko",
+        "id": "UCYd4QZzMko"
+    }, {
+        "index": 137,
+        "name": "Underground Path",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Ztr4Ru6MuIQ",
+        "id": "Ztr4Ru6MuIQ"
+    }, {
+        "index": 138,
+        "name": "Lavender Town",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/JOqDF7FucWI",
+        "id": "JOqDF7FucWI"
+    }, {
+        "index": 139,
+        "name": "Route 11",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/e3_-PuUsZ1c",
+        "id": "e3_-PuUsZ1c"
+    }, {
+        "index": 140,
+        "name": "Celadon City",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/DrUuQ07frtM",
+        "id": "DrUuQ07frtM"
+    }, {
+        "index": 141,
+        "name": "Cycling Road",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/wxRI9PatDEc",
+        "id": "wxRI9PatDEc"
+    }, {
+        "index": 142,
+        "name": "Route 2",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/j0f1WqBMR30",
+        "id": "j0f1WqBMR30"
+    }, {
+        "index": 143,
+        "name": "Route 1",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/DhAdvlTaMOA",
+        "id": "DhAdvlTaMOA"
+    }, {
+        "index": 144,
+        "name": "Pallet Town",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/4mcX-0c2Ebw",
+        "id": "4mcX-0c2Ebw"
+    }, {
+        "index": 145,
+        "name": "Staff Roll",
+        "game": "Pokemon Gold and Silver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ptu5ldfr3WA",
+        "id": "ptu5ldfr3WA"
+    }],
+    "Pokemon HeartGold and SoulSilver": [{
+        "index": 146,
+        "name": "Title Screen",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/dWwprXnxT9I",
+        "id": "dWwprXnxT9I"
+    }, {
+        "index": 147,
+        "name": "New Bark Town",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/fkUfYfWOORQ",
+        "id": "fkUfYfWOORQ"
+    }, {
+        "index": 148,
+        "name": "Ethan Encounter",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/NqiCyCCVBM4",
+        "id": "NqiCyCCVBM4"
+    }, {
+        "index": 149,
+        "name": "Lyra Encounter",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/9euddYDGrqA",
+        "id": "9euddYDGrqA"
+    }, {
+        "index": 150,
+        "name": "Route 29",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/JWxLzG60Boo",
+        "id": "JWxLzG60Boo"
+    }, {
+        "index": 151,
+        "name": "Battle! Wild Pokemon (Johto)",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/I83tKYquJUI",
+        "id": "I83tKYquJUI"
+    }, {
+        "index": 152,
+        "name": "Cherrygrove City",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/rC28HViFS4Q",
+        "id": "rC28HViFS4Q"
+    }, {
+        "index": 153,
+        "name": "Pokemon Center",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/6Rz3olNYFGc",
+        "id": "6Rz3olNYFGc"
+    }, {
+        "index": 154,
+        "name": "Route 30",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/qSFR_LvZDbc",
+        "id": "qSFR_LvZDbc"
+    }, {
+        "index": 155,
+        "name": "Battle! Trainer (Johto)",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/3NhE8Z9I0UM",
+        "id": "3NhE8Z9I0UM"
+    }, {
+        "index": 156,
+        "name": "Battle! Gym Leader (Johto)",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ufYIjzq_QwA",
+        "id": "ufYIjzq_QwA"
+    }, {
+        "index": 157,
+        "name": "Dark Cave",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/1rPcKPTiqx8",
+        "id": "1rPcKPTiqx8"
+    }, {
+        "index": 158,
+        "name": "Violet City",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/zdUbP6G1g2E",
+        "id": "zdUbP6G1g2E"
+    }, {
+        "index": 159,
+        "name": "Mart",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/6txZ8bhJmK8",
+        "id": "6txZ8bhJmK8"
+    }, {
+        "index": 160,
+        "name": "Dungeon (Johto)",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/36SPFE9wf8c",
+        "id": "36SPFE9wf8c"
+    }, {
+        "index": 161,
+        "name": "Sinjoh Ruins",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/KFbyjjOP4NQ",
+        "id": "KFbyjjOP4NQ"
+    }, {
+        "index": 162,
+        "name": "Encounter! Team Rocket",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/hTaW0HK-Cw4",
+        "id": "hTaW0HK-Cw4"
+    }, {
+        "index": 163,
+        "name": "Battle! Team Rocket",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/8HRKp2alHj8",
+        "id": "8HRKp2alHj8"
+    }, {
+        "index": 164,
+        "name": "Route 32",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/vHTpY9Aqp4I",
+        "id": "vHTpY9Aqp4I"
+    }, {
+        "index": 165,
+        "name": "Azalea Town",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/8LcfOZ-IQ4Q",
+        "id": "8LcfOZ-IQ4Q"
+    }, {
+        "index": 166,
+        "name": "Goldenrod City",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/FuT6PpFdZ48",
+        "id": "FuT6PpFdZ48"
+    }, {
+        "index": 167,
+        "name": "Battle! Rival",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/LKOG5UM202Y",
+        "id": "LKOG5UM202Y"
+    }, {
+        "index": 168,
+        "name": "Game Corner",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/nPSDHk_lyrc",
+        "id": "nPSDHk_lyrc"
+    }, {
+        "index": 169,
+        "name": "Bicycle",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/1WrLRBHHjmw",
+        "id": "1WrLRBHHjmw"
+    }, {
+        "index": 170,
+        "name": "National Park",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/4ujh7lvcsRs",
+        "id": "4ujh7lvcsRs"
+    }, {
+        "index": 171,
+        "name": "Ecruteak City",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Pli72uTh0mU",
+        "id": "Pli72uTh0mU"
+    }, {
+        "index": 172,
+        "name": "Surf",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/0Bra_3lKwgk",
+        "id": "0Bra_3lKwgk"
+    }, {
+        "index": 173,
+        "name": "Battle Frontier",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/k_zu4iBfCac",
+        "id": "k_zu4iBfCac"
+    }, {
+        "index": 174,
+        "name": "Cianwood City",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/a1f9WJd64No",
+        "id": "a1f9WJd64No"
+    }, {
+        "index": 175,
+        "name": "Route 47",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/MCPgZ0NYurc",
+        "id": "MCPgZ0NYurc"
+    }, {
+        "index": 176,
+        "name": "Battle! Groudon/Kyogre/Rayquaza",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/xdwsmF5qOlo",
+        "id": "xdwsmF5qOlo"
+    }, {
+        "index": 177,
+        "name": "Route 42",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/mCFJimmogg0",
+        "id": "mCFJimmogg0"
+    }, {
+        "index": 178,
+        "name": "Battle! Ho-Oh",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/3vdXjkWkAg8",
+        "id": "3vdXjkWkAg8"
+    }, {
+        "index": 179,
+        "name": "Battle! Lugia",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/RIt0_zg-NIk",
+        "id": "RIt0_zg-NIk"
+    }, {
+        "index": 180,
+        "name": "Battle! Suicune",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/skPxvGfAUlo",
+        "id": "skPxvGfAUlo"
+    }, {
+        "index": 181,
+        "name": "Battle! Entei",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/E7lEsJFpfBo",
+        "id": "E7lEsJFpfBo"
+    }, {
+        "index": 182,
+        "name": "Battle! Raikou",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/tllhI2H0Xss",
+        "id": "tllhI2H0Xss"
+    }, {
+        "index": 183,
+        "name": "Route 26",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/2e3TyzBkItk",
+        "id": "2e3TyzBkItk"
+    }, {
+        "index": 184,
+        "name": "Indigo Plateau (Pokemon League)",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/bwsiwWUjplg",
+        "id": "bwsiwWUjplg"
+    }, {
+        "index": 185,
+        "name": "S.S. Aqua",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/4SOrGuHmjBg",
+        "id": "4SOrGuHmjBg"
+    }, {
+        "index": 186,
+        "name": "Battle! Wild Pokemon (Kanto)",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/og2fFqTZ3D0",
+        "id": "og2fFqTZ3D0"
+    }, {
+        "index": 187,
+        "name": "Battle! Trainer (Kanto)",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/07-Rv5dtiYs",
+        "id": "07-Rv5dtiYs"
+    }, {
+        "index": 188,
+        "name": "Battle! Gym Leader (Kanto)",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Z2m81PRYQv4",
+        "id": "Z2m81PRYQv4"
+    }, {
+        "index": 189,
+        "name": "Vermillion City",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/KDxm9VZOg3g",
+        "id": "KDxm9VZOg3g"
+    }, {
+        "index": 190,
+        "name": "Route 11",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/JFFeYF4gVXU",
+        "id": "JFFeYF4gVXU"
+    }, {
+        "index": 191,
+        "name": "Lavender Town",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/kw2HbFhLjLI",
+        "id": "kw2HbFhLjLI"
+    }, {
+        "index": 192,
+        "name": "Route 3",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/H2Ft0yKB0IM",
+        "id": "H2Ft0yKB0IM"
+    }, {
+        "index": 193,
+        "name": "Dungeon (Kanto)",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/MfuEoBvJ4hw",
+        "id": "MfuEoBvJ4hw"
+    }, {
+        "index": 194,
+        "name": "Pewter City",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Msxct8ee1G8",
+        "id": "Msxct8ee1G8"
+    }, {
+        "index": 195,
+        "name": "Cerulean City",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/lyySK_DaKrU",
+        "id": "lyySK_DaKrU"
+    }, {
+        "index": 196,
+        "name": "Route 24",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/XyNoOGmtzhc",
+        "id": "XyNoOGmtzhc"
+    }, {
+        "index": 197,
+        "name": "Celadon City",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/W6DHBk1pkmQ",
+        "id": "W6DHBk1pkmQ"
+    }, {
+        "index": 198,
+        "name": "Viridian Forest",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/0b5tJ-5QM8U",
+        "id": "0b5tJ-5QM8U"
+    }, {
+        "index": 199,
+        "name": "Route 1",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/fa0MEKcZvnU",
+        "id": "fa0MEKcZvnU"
+    }, {
+        "index": 200,
+        "name": "Pallet Town",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/eU9zlkfLptk",
+        "id": "eU9zlkfLptk"
+    }, {
+        "index": 201,
+        "name": "Cinnabar Island",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/9fdRXj2nGJw",
+        "id": "9fdRXj2nGJw"
+    }, {
+        "index": 202,
+        "name": "Victory Road",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ZTnqfCUEAec",
+        "id": "ZTnqfCUEAec"
+    }, {
+        "index": 203,
+        "name": "Battle! Champion",
+        "game": "Pokemon HeartGold and SoulSilver",
+        "series": "Pokemon",
+        "url": "https://youtu.be/yCCxZ9SMABs",
+        "id": "yCCxZ9SMABs"
+    }],
+    "Pokemon Omega Ruby and Alpha Sapphire": [{
+        "index": 204,
+        "name": "Battle! Wally",
+        "game": "Pokemon Omega Ruby and Alpha Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/9sX_54hHcEE",
+        "id": "9sX_54hHcEE"
+    }, {
+        "index": 205,
+        "name": "Battle! Lorekeeper Zinnia",
+        "game": "Pokemon Omega Ruby and Alpha Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/GIn8_Q27WFY",
+        "id": "GIn8_Q27WFY"
+    }, {
+        "index": 206,
+        "name": "Battle! Aqua and Magma Leader",
+        "game": "Pokemon Omega Ruby and Alpha Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/dA3mccI1DjY",
+        "id": "dA3mccI1DjY"
+    }, {
+        "index": 207,
+        "name": "Battle! Champion Steven",
+        "game": "Pokemon Omega Ruby and Alpha Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/UDFWznA_L2k",
+        "id": "UDFWznA_L2k"
+    }],
+    "Pokemon Platinum": [{
+        "index": 208,
+        "name": "Battle! Giratina",
+        "game": "Pokemon Platinum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/iy4WUVI7Lrw",
+        "id": "iy4WUVI7Lrw"
+    }, {
+        "index": 209,
+        "name": "Battle! Frontier Brain",
+        "game": "Pokemon Platinum",
+        "series": "Pokemon",
+        "url": "https://youtu.be/SSDnyVq0kao",
+        "id": "SSDnyVq0kao"
+    }],
+    "Pokemon Red and Blue": [{
+        "index": 210,
+        "name": "Opening",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/kN9400LZ1tU",
+        "id": "kN9400LZ1tU"
+    }, {
+        "index": 211,
+        "name": "Pallet Town",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/X-ctKr8YctU",
+        "id": "X-ctKr8YctU"
+    }, {
+        "index": 212,
+        "name": "Professor Oak",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/znLforV9pgE",
+        "id": "znLforV9pgE"
+    }, {
+        "index": 213,
+        "name": "Oak Laboratory",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/JrTdQ-Vvp-g",
+        "id": "JrTdQ-Vvp-g"
+    }, {
+        "index": 214,
+        "name": "Route 1",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/u4cVF9dKHvc",
+        "id": "u4cVF9dKHvc"
+    }, {
+        "index": 215,
+        "name": "Battle! Wild Pokemon",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/vkrdK40V_7c",
+        "id": "vkrdK40V_7c"
+    }, {
+        "index": 216,
+        "name": "Pewter City",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/AdKj5cmt_OA",
+        "id": "AdKj5cmt_OA"
+    }, {
+        "index": 217,
+        "name": "Pokemon Center",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/L-hK0m_i3Go",
+        "id": "L-hK0m_i3Go"
+    }, {
+        "index": 218,
+        "name": "Viridian Forest",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/jc-1ndC7cr8",
+        "id": "jc-1ndC7cr8"
+    }, {
+        "index": 219,
+        "name": "Battle! Trainer",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/v1xivdTB8qY",
+        "id": "v1xivdTB8qY"
+    }, {
+        "index": 220,
+        "name": "Mt. Moon Cave",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/xfH1e2E2hKM",
+        "id": "xfH1e2E2hKM"
+    }, {
+        "index": 221,
+        "name": "Route 4",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/c_XEAfV5Iys",
+        "id": "c_XEAfV5Iys"
+    }, {
+        "index": 222,
+        "name": "Cerulean City",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/gnLHjgaisPc",
+        "id": "gnLHjgaisPc"
+    }, {
+        "index": 223,
+        "name": "Pokemon Gym",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Vx5p1Jv27Zk",
+        "id": "Vx5p1Jv27Zk"
+    }, {
+        "index": 224,
+        "name": "Route 24",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/FbHERgfJq38",
+        "id": "FbHERgfJq38"
+    }, {
+        "index": 225,
+        "name": "Vermilion City",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/AIb0EG1BQFA",
+        "id": "AIb0EG1BQFA"
+    }, {
+        "index": 226,
+        "name": "S.S. Anne",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/AtQqYMWFafM",
+        "id": "AtQqYMWFafM"
+    }, {
+        "index": 227,
+        "name": "Route 11",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/rNHsOQQVjZk",
+        "id": "rNHsOQQVjZk"
+    }, {
+        "index": 228,
+        "name": "Battle! Gym Leader",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/e2bmMCmWs9A",
+        "id": "e2bmMCmWs9A"
+    }, {
+        "index": 229,
+        "name": "Cycling",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/J1VtrL7lP8s",
+        "id": "J1VtrL7lP8s"
+    }, {
+        "index": 230,
+        "name": "Lavender Town",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/YLEw185e7SM",
+        "id": "YLEw185e7SM"
+    }, {
+        "index": 231,
+        "name": "Pokemon Tower",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/j7AUnYyG1Rk",
+        "id": "j7AUnYyG1Rk"
+    }, {
+        "index": 232,
+        "name": "Celadon City",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/kXQfg_Y0t1M",
+        "id": "kXQfg_Y0t1M"
+    }, {
+        "index": 233,
+        "name": "Rocket Hideout",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Hu8eoZ0j0fs",
+        "id": "Hu8eoZ0j0fs"
+    }, {
+        "index": 234,
+        "name": "Silph Co.",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/E-rcps1nn2M",
+        "id": "E-rcps1nn2M"
+    }, {
+        "index": 235,
+        "name": "Surfing",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Y2pzvMmuyB8",
+        "id": "Y2pzvMmuyB8"
+    }, {
+        "index": 236,
+        "name": "Cinnabar Island",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/e2K6yJjrtPE",
+        "id": "e2K6yJjrtPE"
+    }, {
+        "index": 237,
+        "name": "Victory Road",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/naSBf3yOKcY",
+        "id": "naSBf3yOKcY"
+    }, {
+        "index": 238,
+        "name": "Last Battle (Vs. Rival)",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/QjA0V57kzR8",
+        "id": "QjA0V57kzR8"
+    }, {
+        "index": 239,
+        "name": "Induction to the Hall of Fame",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/MjrGWD8RG68",
+        "id": "MjrGWD8RG68"
+    }, {
+        "index": 240,
+        "name": "Ending",
+        "game": "Pokemon Red and Blue",
+        "series": "Pokemon",
+        "url": "https://youtu.be/CtzE-T6v8FE",
+        "id": "CtzE-T6v8FE"
+    }],
+    "Pokemon Ruby and Sapphire": [{
+        "index": 241,
+        "name": "Title Screen",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/27RlfI7nw7E",
+        "id": "27RlfI7nw7E"
+    }, {
+        "index": 242,
+        "name": "Littleroot Town",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/im6tbN9SZXs",
+        "id": "im6tbN9SZXs"
+    }, {
+        "index": 243,
+        "name": "Battle! Wild Pokemon",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/jh_64IKxwws",
+        "id": "jh_64IKxwws"
+    }, {
+        "index": 244,
+        "name": "Route 101",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/zf9rqmkXCFA",
+        "id": "zf9rqmkXCFA"
+    }, {
+        "index": 245,
+        "name": "Oldale Town",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/aZ5HREsFcUg",
+        "id": "aZ5HREsFcUg"
+    }, {
+        "index": 246,
+        "name": "Pokemon Center",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Rqco9nxyc8g",
+        "id": "Rqco9nxyc8g"
+    }, {
+        "index": 247,
+        "name": "Battle! Trainer",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Cp-waxoLel8",
+        "id": "Cp-waxoLel8"
+    }, {
+        "index": 248,
+        "name": "Petalburg City",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/L3fiaPBDfv8",
+        "id": "L3fiaPBDfv8"
+    }, {
+        "index": 249,
+        "name": "PokeMart",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/5HsdTBjk6ic",
+        "id": "5HsdTBjk6ic"
+    }, {
+        "index": 250,
+        "name": "Route 104",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ZOoqKHz_D0w",
+        "id": "ZOoqKHz_D0w"
+    }, {
+        "index": 251,
+        "name": "Petalburg Woods",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/JQb_b5y4hl8",
+        "id": "JQb_b5y4hl8"
+    }, {
+        "index": 252,
+        "name": "Battle! Team Magma & Aqua",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/jG1P3BLXH0E",
+        "id": "jG1P3BLXH0E"
+    }, {
+        "index": 253,
+        "name": "Rustboro City",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Y3auFhxfsmI",
+        "id": "Y3auFhxfsmI"
+    }, {
+        "index": 254,
+        "name": "Dewford Town",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/02K40TA3yMQ",
+        "id": "02K40TA3yMQ"
+    }, {
+        "index": 255,
+        "name": "Pokemon Gym",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/y3xoH4BtNzE",
+        "id": "y3xoH4BtNzE"
+    }, {
+        "index": 256,
+        "name": "Battle! Gym Leader",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/0j4sfjIXTA0",
+        "id": "0j4sfjIXTA0"
+    }, {
+        "index": 257,
+        "name": "Slateport City",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/l0yo32iVGA0",
+        "id": "l0yo32iVGA0"
+    }, {
+        "index": 258,
+        "name": "Route 110",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/dKW-reR_jUQ",
+        "id": "dKW-reR_jUQ"
+    }, {
+        "index": 259,
+        "name": "Bicycle Theme",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/gexTc0YbYx8",
+        "id": "gexTc0YbYx8"
+    }, {
+        "index": 260,
+        "name": "Verdanturf Town",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/MHFBO-ASaE8",
+        "id": "MHFBO-ASaE8"
+    }, {
+        "index": 261,
+        "name": "Route 113",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/wfARFF9S5Jg",
+        "id": "wfARFF9S5Jg"
+    }, {
+        "index": 262,
+        "name": "Fallarbor Town",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/IQgwaEehg4I",
+        "id": "IQgwaEehg4I"
+    }, {
+        "index": 263,
+        "name": "Surf Theme",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Pyyis1fasd0",
+        "id": "Pyyis1fasd0"
+    }, {
+        "index": 264,
+        "name": "Route 119",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/8DCHzlrt2Nw",
+        "id": "8DCHzlrt2Nw"
+    }, {
+        "index": 265,
+        "name": "May's Theme",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/iTOPeHX_-mQ",
+        "id": "iTOPeHX_-mQ"
+    }, {
+        "index": 266,
+        "name": "Battle! Rival",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/a6sSj1JlPnE",
+        "id": "a6sSj1JlPnE"
+    }, {
+        "index": 267,
+        "name": "Fortree City",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/VKndzmu__nc",
+        "id": "VKndzmu__nc"
+    }, {
+        "index": 268,
+        "name": "Route 120",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Xzec20s-FlU",
+        "id": "Xzec20s-FlU"
+    }, {
+        "index": 269,
+        "name": "Lilycove City",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/s2ut8s2hdSc",
+        "id": "s2ut8s2hdSc"
+    }, {
+        "index": 270,
+        "name": "Team Magma & Aqua Hideout",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/u3QMT0x1jLI",
+        "id": "u3QMT0x1jLI"
+    }, {
+        "index": 271,
+        "name": "Battle! Team Magma & Aqua Leader",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Bd-1aXffkfA",
+        "id": "Bd-1aXffkfA"
+    }, {
+        "index": 272,
+        "name": "Battle! Groudon, Kyogre & Rayquaza",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/r2BWx32tXXo",
+        "id": "r2BWx32tXXo"
+    }, {
+        "index": 273,
+        "name": "Sootopolis City",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/xmMT6Pz0vqw",
+        "id": "xmMT6Pz0vqw"
+    }, {
+        "index": 274,
+        "name": "Ever Grande City",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/M6uLMaoQQz4",
+        "id": "M6uLMaoQQz4"
+    }, {
+        "index": 275,
+        "name": "Battle! Regirock, Regice & Registeel",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/a46OgneNMBs",
+        "id": "a46OgneNMBs"
+    }, {
+        "index": 276,
+        "name": "Battle Tower",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/aknZMB9aqng",
+        "id": "aknZMB9aqng"
+    }, {
+        "index": 277,
+        "name": "Victory Road",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/tVImEZA_4a0",
+        "id": "tVImEZA_4a0"
+    }, {
+        "index": 278,
+        "name": "Battle! Elite Four",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/h92NII_daio",
+        "id": "h92NII_daio"
+    }, {
+        "index": 279,
+        "name": "Battle! Champion",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/LaAGsbtETIg",
+        "id": "LaAGsbtETIg"
+    }, {
+        "index": 280,
+        "name": "Ending",
+        "game": "Pokemon Ruby and Sapphire",
+        "series": "Pokemon",
+        "url": "https://youtu.be/8UzM1PxXCbg",
+        "id": "8UzM1PxXCbg"
+    }],
+    "Pokemon Sun and Moon": [{
+        "index": 281,
+        "name": "Battle! Champion Title Match",
+        "game": "Pokemon Sun and Moon",
+        "series": "Pokemon",
+        "url": "https://youtu.be/-dkK9r57BNk",
+        "id": "-dkK9r57BNk"
+    }, {
+        "index": 282,
+        "name": "Battle! Guzma",
+        "game": "Pokemon Sun and Moon",
+        "series": "Pokemon",
+        "url": "https://youtu.be/OwzjXOPbz9Q",
+        "id": "OwzjXOPbz9Q"
+    }, {
+        "index": 283,
+        "name": "Battle! Plumeria",
+        "game": "Pokemon Sun and Moon",
+        "series": "Pokemon",
+        "url": "https://youtu.be/A6Sx25tAd9I",
+        "id": "A6Sx25tAd9I"
+    }, {
+        "index": 284,
+        "name": "Battle! Lusamine",
+        "game": "Pokemon Sun and Moon",
+        "series": "Pokemon",
+        "url": "https://youtu.be/54mikUGAgZo",
+        "id": "54mikUGAgZo"
+    }],
+    "Pokemon Sword and Shield": [{
+        "index": 285,
+        "name": "Battle! Bede",
+        "game": "Pokemon Sword and Shield",
+        "series": "Pokemon",
+        "url": "https://youtu.be/z_TPXbH7ee4",
+        "id": "z_TPXbH7ee4"
+    }, {
+        "index": 286,
+        "name": "Battle! Gym Leader Piers",
+        "game": "Pokemon Sword and Shield",
+        "series": "Pokemon",
+        "url": "https://youtu.be/EeFJRaH2Mz8",
+        "id": "EeFJRaH2Mz8"
+    }, {
+        "index": 287,
+        "name": "Motostoke",
+        "game": "Pokemon Sword and Shield",
+        "series": "Pokemon",
+        "url": "https://youtu.be/KEbqVR61O3k",
+        "id": "KEbqVR61O3k"
+    }, {
+        "index": 288,
+        "name": "Slumbering Weald",
+        "game": "Pokemon Sword and Shield",
+        "series": "Pokemon",
+        "url": "https://youtu.be/vfdwRBarBWM",
+        "id": "vfdwRBarBWM"
+    }, {
+        "index": 289,
+        "name": "Wyndon",
+        "game": "Pokemon Sword and Shield",
+        "series": "Pokemon",
+        "url": "https://youtu.be/0GmX6x4v09Y",
+        "id": "0GmX6x4v09Y"
+    }, {
+        "index": 290,
+        "name": "Battle! Battle Tower",
+        "game": "Pokemon Sword and Shield",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Pvm5yDtaGiY",
+        "id": "Pvm5yDtaGiY"
+    }, {
+        "index": 291,
+        "name": "Battle! Chairman Rose",
+        "game": "Pokemon Sword and Shield",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ugyONbAGE8E",
+        "id": "ugyONbAGE8E"
+    }],
+    "Pokemon Ultra Sun and Ultra Moon": [{
+        "index": 292,
+        "name": "Battle! Flare Boss Lysandre",
+        "game": "Pokemon Ultra Sun and Ultra Moon",
+        "series": "Pokemon",
+        "url": "https://youtu.be/IBTqAsYC7NI",
+        "id": "IBTqAsYC7NI"
+    }, {
+        "index": 293,
+        "name": "Battle! Galactic Boss Cyrus",
+        "game": "Pokemon Ultra Sun and Ultra Moon",
+        "series": "Pokemon",
+        "url": "https://youtu.be/eqjb2vEIW4I",
+        "id": "eqjb2vEIW4I"
+    }, {
+        "index": 294,
+        "name": "Battle! Ultra Necrozma",
+        "game": "Pokemon Ultra Sun and Ultra Moon",
+        "series": "Pokemon",
+        "url": "https://youtu.be/NFTemk99fLU",
+        "id": "NFTemk99fLU"
+    }],
+    "Pokemon X and Y": [{
+        "index": 295,
+        "name": "Kalos Region",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/H8E9mUIDaxE",
+        "id": "H8E9mUIDaxE"
+    }, {
+        "index": 296,
+        "name": "Vaniville Town",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/MOkWNuGfCD0",
+        "id": "MOkWNuGfCD0"
+    }, {
+        "index": 297,
+        "name": "Route 1",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/lk6h88C9keY",
+        "id": "lk6h88C9keY"
+    }, {
+        "index": 298,
+        "name": "Friends Theme (A New Meeting)",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/ZOxUSuHDnq4",
+        "id": "ZOxUSuHDnq4"
+    }, {
+        "index": 299,
+        "name": "Battle! Friend",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/mFWk2HMaV3k",
+        "id": "mFWk2HMaV3k"
+    }, {
+        "index": 300,
+        "name": "Battle! Wild Pokemon",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/O84ehSXozec",
+        "id": "O84ehSXozec"
+    }, {
+        "index": 301,
+        "name": "Santalune City",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/0PYFE_9uL8g",
+        "id": "0PYFE_9uL8g"
+    }, {
+        "index": 302,
+        "name": "Pokemon Center",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/jzln19McUqg",
+        "id": "jzln19McUqg"
+    }, {
+        "index": 303,
+        "name": "Pokemon Gym",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Z0f-7y3Izlo",
+        "id": "Z0f-7y3Izlo"
+    }, {
+        "index": 304,
+        "name": "Battle! Gym Leader",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/OSuQ3kBzXdk",
+        "id": "OSuQ3kBzXdk"
+    }, {
+        "index": 305,
+        "name": "Route 4",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/zvnEoMcYDdA",
+        "id": "zvnEoMcYDdA"
+    }, {
+        "index": 306,
+        "name": "Gate",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/IRXv4ryvYnE",
+        "id": "IRXv4ryvYnE"
+    }, {
+        "index": 307,
+        "name": "Lumiose City",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/2AfxpCJXcr0",
+        "id": "2AfxpCJXcr0"
+    }, {
+        "index": 308,
+        "name": "Professor Sycamore's Theme",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/BOslj3Zr9bY",
+        "id": "BOslj3Zr9bY"
+    }, {
+        "index": 309,
+        "name": "Camphrier Town",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/DaLcx2k-hxg",
+        "id": "DaLcx2k-hxg"
+    }, {
+        "index": 310,
+        "name": "Parfum Palace",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/deeMbQT-eE8",
+        "id": "deeMbQT-eE8"
+    }, {
+        "index": 311,
+        "name": "Route 8",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/h05TzXFBKJQ",
+        "id": "h05TzXFBKJQ"
+    }, {
+        "index": 312,
+        "name": "Cyllage City",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/dAwgrcRDu88",
+        "id": "dAwgrcRDu88"
+    }, {
+        "index": 313,
+        "name": "Bicycle Theme",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/dAwgrcRDu88",
+        "id": "dAwgrcRDu88"
+    }, {
+        "index": 314,
+        "name": "Geosenge Town",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/4V8Y-BOnXmQ",
+        "id": "4V8Y-BOnXmQ"
+    }, {
+        "index": 315,
+        "name": "Battle! Successor Korrina",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/UWFio5arA6g",
+        "id": "UWFio5arA6g"
+    }, {
+        "index": 316,
+        "name": "Surf Theme",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/iRYjSFfjjfo",
+        "id": "iRYjSFfjjfo"
+    }, {
+        "index": 317,
+        "name": "An Unwavering Heart",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/5glICAquk_c",
+        "id": "5glICAquk_c"
+    }, {
+        "index": 318,
+        "name": "The Kalos Power Plant",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/DeA53uP_bxU",
+        "id": "DeA53uP_bxU"
+    }, {
+        "index": 319,
+        "name": "Battle! Team Flare",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Xz6kS4FcAeA",
+        "id": "Xz6kS4FcAeA"
+    }, {
+        "index": 320,
+        "name": "Friends Theme (Reunited)",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/un9m4Iz2IzI",
+        "id": "un9m4Iz2IzI"
+    }, {
+        "index": 321,
+        "name": "Laverre City",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/_ZfQQiwUKKo",
+        "id": "_ZfQQiwUKKo"
+    }, {
+        "index": 322,
+        "name": "Route 15",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/SCH4wVasiD4",
+        "id": "SCH4wVasiD4"
+    }, {
+        "index": 323,
+        "name": "Dendemille Town",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/6MAyhUE7x6w",
+        "id": "6MAyhUE7x6w"
+    }, {
+        "index": 324,
+        "name": "Anistar City",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/6k091sH8m0Y",
+        "id": "6k091sH8m0Y"
+    }, {
+        "index": 325,
+        "name": "Battle! Xerneas & Yveltal",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/NOvIgZYoYkk",
+        "id": "NOvIgZYoYkk"
+    }, {
+        "index": 326,
+        "name": "Battle! Lysandre",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/na-H5aSJRjs",
+        "id": "na-H5aSJRjs"
+    }, {
+        "index": 327,
+        "name": "AZ",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/BNTAgfytAo4",
+        "id": "BNTAgfytAo4"
+    }, {
+        "index": 328,
+        "name": "Route 18",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Cd4HrMRrHWo",
+        "id": "Cd4HrMRrHWo"
+    }, {
+        "index": 329,
+        "name": "Friends Theme (Friends Forever)",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/yw5sK0kgY5c",
+        "id": "yw5sK0kgY5c"
+    }, {
+        "index": 330,
+        "name": "Snowbelle City",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/iabhM-i43XI",
+        "id": "iabhM-i43XI"
+    }, {
+        "index": 331,
+        "name": "Jubilife City",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/aWTtLUeODLQ",
+        "id": "aWTtLUeODLQ"
+    }, {
+        "index": 332,
+        "name": "Victory Road",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/g5azPTJ4NaQ",
+        "id": "g5azPTJ4NaQ"
+    }, {
+        "index": 333,
+        "name": "The Pokemon League",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/XDtK3Me_dEs",
+        "id": "XDtK3Me_dEs"
+    }, {
+        "index": 334,
+        "name": "Battle! Elite Four",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/b_ZnRwrhlZE",
+        "id": "b_ZnRwrhlZE"
+    }, {
+        "index": 335,
+        "name": "Battle! Champion",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Ty2RFGvU92Q",
+        "id": "Ty2RFGvU92Q"
+    }, {
+        "index": 336,
+        "name": "Kiseki",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/akZwbF50fPI",
+        "id": "akZwbF50fPI"
+    }, {
+        "index": 337,
+        "name": "Kiloude City",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/kpzLZUUTMeE",
+        "id": "kpzLZUUTMeE"
+    }, {
+        "index": 338,
+        "name": "Shopping",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/7KED6H1hwrE",
+        "id": "7KED6H1hwrE"
+    }, {
+        "index": 339,
+        "name": "Boutique",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/f5Wx2bnEuXA",
+        "id": "f5Wx2bnEuXA"
+    }, {
+        "index": 340,
+        "name": "Hotel Richissme",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/nLAFkmY1JsI",
+        "id": "nLAFkmY1JsI"
+    }, {
+        "index": 341,
+        "name": "Emma's Theme",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/81CzU4X7x5w",
+        "id": "81CzU4X7x5w"
+    }, {
+        "index": 342,
+        "name": "Secret Super Training",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/IoeVEnPtCdM",
+        "id": "IoeVEnPtCdM"
+    }, {
+        "index": 343,
+        "name": "Battle! Mewtwo",
+        "game": "Pokemon X and Y",
+        "series": "Pokemon",
+        "url": "https://youtu.be/Sb7Eldc2SAU",
+        "id": "Sb7Eldc2SAU"
+    }]
+}
