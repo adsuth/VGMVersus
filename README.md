@@ -16,6 +16,9 @@ When a player's time runs out, they lose.
 ## APIs used
 VGM Versus makes use of the *YouTube Player* API to play its tracks. There aren't any requirements like API Keys, only that Javascript be enabled in your browser.
 
+## Special Credits
+"Game Over Yeah!" by Takenobu Mitsuyoshi from the game *SEGA Rally Championship*
+
 ## Known Issues
 ### Known Unknown Issues
 The site is a work in progress (WIP). As such, there are bound to be little bugs - perhaps even game breaking ones. Please bear with me while I get it working. This is - first and foremost - a pet project by an amateur (and even that is generous).

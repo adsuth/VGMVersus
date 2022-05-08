@@ -1,16 +1,9 @@
-function formatSongUrl( url ) {
-    return url.slice( url.lastIndexOf("/") + 1, url.length )
-}
-
-function getRandomProperty( object ) {
-    let keys = Object.keys(object);
-    return object[keys[ Math.floor( keys.length * Math.random() ) ]];
-}
-
-function getRandomIndex(arr) {
-    return Math.floor( Math.random() * arr.length )
-}
-
+/**
+ * Shuffles given array (Durstenfeld Shuffle)
+ * (stolen from Stack Overflow here: https://stackoverflow.com/a/12646864)
+ * @param {Array} arr
+ * @returns shuffled array
+ */
 function shuffleArray( arr ) {
     for (var i = arr.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
@@ -19,14 +12,9 @@ function shuffleArray( arr ) {
         arr[j] = temp;
     }
     return arr
-    
 }
 
-function updateSongData() {
-    // TODO: show/hide player
-    $("#song_name").html( song_current.name )
-    $("#song_game").html( song_current.game )
-}
+
 
 function clearSongData() {
     $("#song_name").html( "-" )

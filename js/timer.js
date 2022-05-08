@@ -52,15 +52,14 @@ class Timer {
         this.seconds--
         
         // time up
-        if (this.minutes <= 0 && this.seconds < 1) {
+        if (this.minutes <= 0 && this.seconds < 0) {
             // end game
-            gameOver()
-            this.updateDisplay()
-            return 
+            this.stop()
+            return game_over()
         }
 
         // if a minute has passed
-        if (this.seconds <= 0) {
+        if (this.seconds < 0) {
             this.minutes--
             this.seconds = 59
         }

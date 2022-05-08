@@ -1,20 +1,21 @@
+/**
+ * The main function for the app. Handles most of the "backend" of
+ * the game loop. For frontend, see ./frontend.js
+ */
+// game state
 var GAME_SETTINGS = {}
 var SONGS_FILE_NAME = "pkmn"
+var GAME_ENDED = false
+var GAME_PAUSED = false
 
 var CURRENT_PLAYER = GAME_SETTINGS.startingPlayer
 var hasHalfAnswer = false
 
-var songs_all = []
+// songs
 var songs_random = []
-
 var song_current = null
 
-// for logging out errors
-var firstLogEntry = true
-
-var timerInterval;
-const MAX_TIME = 1 // in minutes (note that seconds starts at 60, so its -1)
-
+// timers for players
 const timers = {
     p1: null,
     p2: null
@@ -25,12 +26,16 @@ $(document).ready(function() {
     game_start()
 })
 
+/**
+ * Note: async false is deprecated.
+ * Should probably find another way to do this.
+ */
 function init_songs() {
-    songs_all = []
     $.ajax({
         url: `./json/${SONGS_FILE_NAME || "main"}.json`,
         dataType: "json",
         success: function (data) {
+            let songs_all = []
             for (let game in data) {
                 songs_all = songs_all.concat(data[game])
             }
@@ -45,6 +50,7 @@ function init_songs() {
 }
 
 function cueNextSong() {
+    if ( GAME_ENDED ) { return }
     $("#player").css({
         visibility: "hidden"
     })
@@ -60,20 +66,29 @@ function getSong() {
     return songs_random.pop()
 }
 
+/**
+ * Generates new list item with song name and game and adds to the current player's list.
+ * @param {Object} song The current song
+ * @param {string} color name of css color class to add to list item (eg: correct, warning, error) 
+ */
 function addSongToPrevious(song, color = "default") {
     let list = `${CURRENT_PLAYER}_list`
-    if ($("#" + list).children().length > 30) {
+    if ($("#" + list).children().length > 100) {
         $("#" + list).children().get(0).remove()
     }
 
     let li = document.createElement("li")
     $(li).append(`<a href="${song.url}" target="_blank"><p class="${color}"><span class="bold">${song.game}</span><br>${song.name}</p>`)
 
-
     $("#" + list).append(li)
     document.getElementById(list).scrollTo(0, document.getElementById(list).scrollHeight)
 }
 
+/**
+ * Massive function that just gets info from settings modal and
+ * sets it to the GAME_SETTINGS object.
+ * Also sets relevant things like timers, names, etc
+ */
 function applySettings() {
     GAME_SETTINGS = {
         startingPlayer: $('input[name="startingPlayer"]:checked').val(),
@@ -117,14 +132,33 @@ function applySettings() {
     game_start()
 }
 
+/**
+ * Called at the beginning of a new game.
+ * Resets most attributes to ensure clean start.
+ */
 function game_start() {
+    // reset game states
+    GAME_ENDED = false
+    GAME_PAUSED = false
+    hasHalfAnswer = false
+
+    // reset game over sfx
+    document.getElementById("sfx_gameover").pause()
+    document.getElementById("sfx_gameover").currentTime = 0
+    
+    // hide victory fanfare visuals
+    $("#canvas").hide()
+    $("#victory_container").hide()
+
+    // reset timers
     timers.p1.reset()
     timers.p2.reset()
 
+    // set the current player to starting player
     CURRENT_PLAYER = GAME_SETTINGS.startingPlayer
     setPlayer()
-
-    hasHalfAnswer = false
+    
+    // reset lists
     $("#p1_list").empty()
     $("#p2_list").empty()
     
@@ -132,12 +166,45 @@ function game_start() {
     cueNextSong()
 }
 
+/**
+ * Called at the end of a game (when a player's timer reaches zero)
+ * 
+ */
+function game_over() {
+    // set state
+    GAME_ENDED = true
+
+    // show answer
+    updateSongData()
+    showAnswer()
+
+    // play sfx
+    document.getElementById("sfx_gameover").play()
+
+    // show victor fanfare
+    let victor = ( CURRENT_PLAYER == "p1" ) ? "p2" : "p1"
+    $("#canvas").show()
+    $("#victory_container > h1").html( `${GAME_SETTINGS[victor].name}<br>wins!` )
+    $("#victory_container > h1").addClass( victor )
+    $("#victory_container").fadeIn()
+}
+
+/**
+ * Called when opening a modal, or performing another action that
+ * would otherwise take the focus away from the game.
+ */
 function pause_game() {
+    GAME_PAUSED = true
     timers[CURRENT_PLAYER].stop()
     player.pauseVideo()
 }
 
+/**
+ * Called when focus is returned to the game (eg closing a modal)
+ */
 function resume_game() {
+    // prevents resuming ended games from closing modals
+    if ( GAME_ENDED ) { return }
     timers[CURRENT_PLAYER].play()
     player.playVideo()
 }

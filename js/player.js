@@ -1,3 +1,7 @@
+/**
+ * Code courtesy of YouTube Player API docs.
+ * Adjusted for use with VGMVersus
+ */
 var tag = document.createElement('script')
 
 tag.src = "https://www.youtube.com/iframe_api"
@@ -14,40 +18,37 @@ function onYouTubeIframeAPIReady() {
         },
         events: {
             'onReady': onPlayerReady,
-            // 'onError': onError,
+            'onError': onError,
             'onStateChange': onPlayerStateChange
         }
     })
 }
-
-function onError(ev) {
-    if ( ev.data == 5 || ev.data == 101 ) {
-        console.warn( `PlayerError: ${ev.data}\nsong index: ${song_current.index}\nname: ${song_current.name}\n(${song_current.url})`)
-        cueNextSong()
-    }
-}
-
-function playError() {
-    console.warn( `PlayerError: N/A\nsong index: ${song_current.index}\nname: ${song_current.name}\n(${song_current.url})` )
+/**
+ * Handles broken songs (eg when video cant be played or is taken down)
+ * @param {Event} ev from YouTube player only, ignore if used elsewhere 
+ */
+function onError(ev=null) {
+    if ( ev && ev.data == 2 ) { return }
+    console.warn( `PlayerError: ${ev?.data || "N/A"}\nsong index: ${song_current.index}\nname: ${song_current.name}\n(${song_current.url})`)
     cueNextSong()
 }
 
-function onPlayerReady(event) {
+function onPlayerReady() {
     cueNextSong()
     player.playVideo()
 }
 
 function onPlayerStateChange(ev) {
     if ( ev.data == YT.PlayerState.CUED && player.getDuration() < 1 ) {
-        // song is unavailable
-        playError()
+        onError()
     }
 
     if (ev.data == YT.PlayerState.PLAYING) {
-        timers[ CURRENT_PLAYER ].start()
         clearSongData()
+        timers[ CURRENT_PLAYER ].start()
     }
     else if (ev.data == YT.PlayerState.CUED) {
+        clearSongData()
         timers[ CURRENT_PLAYER ].stop()
         player.playVideo()
     }
@@ -59,14 +60,5 @@ function onPlayerStateChange(ev) {
         updateSongData()
         window.setTimeout( cueNextSong, 1000 )
     }
-}
-
-function stopVideo() {
-    player.stopVideo();
-}
-
-function updatePlayer( song ) {
-    let formattedURL = formatSongUrl( song.url )
-    player.loadVideoByUrl( formattedURL )
 }
 

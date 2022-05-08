@@ -311,7 +311,7 @@ header {
     top: 0;
     left: 0;
     position: absolute;
-    z-index: 3;
+    z-index: 12;
     display: none;
 
     
@@ -322,6 +322,9 @@ header {
     a {
         color: #7ae4ff;
     }
+
+    padding-bottom: 2rem;
+
 }
 
 hr {
@@ -336,12 +339,14 @@ hr {
     height: 80%;
     box-shadow: -0.5rem 0.5rem 1rem #121212;
     background: var(--colorMid);
-    z-index: 6;
+    z-index: 12;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: relative;
+    overflow-y: scroll;
     border-radius: 2rem;
+    padding-bottom: 2rem;
 
     p {
         text-align: left;
@@ -352,15 +357,11 @@ hr {
     align-items: baseline;
 
     div {
-
-        
         div {
             width: 90%;
             margin: 0 auto
         }
     }
-
-    
 
     .close_modal {
         position: absolute;
@@ -409,6 +410,7 @@ hr {
         margin-bottom: 0.5rem;
         font-weight: 600;
     }
+
 
     #settings_playerSettings {
         width: 100%;
@@ -478,8 +480,47 @@ hr {
         height: fit-content;
         margin-top: 1rem;
     }
-    
+}
+.modal::-webkit-scrollbar { display: none; }
 
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    width: 100%;
+    height: 100%;
+    background: #00000066;
+    pointer-events:none;
+}
+
+#victory_container {
+    position: absolute;
+    z-index: 7;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-weight: 600;
+        font-size: 7.5rem;
+        text-shadow: 0 0 1rem var(--colorBlack);
+        animation: rainbowText 2s alternate-reverse infinite;
+    }
+}
+
+@keyframes rainbowText {
+    0% {
+        color: rgb(255, 255, 255);
+    }   
+    100% {
+        color: var(--colorPlayer);
+    }    
 }
 
 @keyframes pulse {

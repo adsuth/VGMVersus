@@ -109,7 +109,7 @@ def clearJSON( json_dir ):
 ########
 
 # change these to whatever is needed
-DATA_FILE_NAME  = "PokemonChase"
+DATA_FILE_NAME  = "pokemon"
 
 clearJSON("./json/%s.json" % (DATA_FILE_NAME))
 
