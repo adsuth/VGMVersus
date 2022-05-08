@@ -1,6 +1,5 @@
-import { ctx } from "./main.js"
 
-export class Particle {
+class Particle {
     constructor(x, y, settings) {
         this.x = x
         this.y = y 
@@ -11,7 +10,7 @@ export class Particle {
         this.life = 100 // how many updates before fading
         
         this.size = settings?.size
-        this.color = settings?.color ?? "#ff9000" 
+        this.color = settings?.color ?? "#ff9000"
     }
 
     update() {

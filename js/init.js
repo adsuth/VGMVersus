@@ -141,6 +141,8 @@ function game_start() {
     GAME_ENDED = false
     GAME_PAUSED = false
     hasHalfAnswer = false
+    FIREWORKS_STOPPED = true
+
 
     // reset game over sfx
     document.getElementById("sfx_gameover").pause()
@@ -148,6 +150,8 @@ function game_start() {
     
     // hide victory fanfare visuals
     $("#canvas").hide()
+    $("#victory_container > h1").removeClass( "p1" )
+    $("#victory_container > h1").removeClass( "p2" )
     $("#victory_container").hide()
 
     // reset timers
@@ -173,6 +177,7 @@ function game_start() {
 function game_over() {
     // set state
     GAME_ENDED = true
+    FIREWORKS_STOPPED = false
 
     // show answer
     updateSongData()
@@ -183,6 +188,9 @@ function game_over() {
 
     // show victor fanfare
     let victor = ( CURRENT_PLAYER == "p1" ) ? "p2" : "p1"
+    resetFireworks()
+    animateFireworks()
+    
     $("#canvas").show()
     $("#victory_container > h1").html( `${GAME_SETTINGS[victor].name}<br>wins!` )
     $("#victory_container > h1").addClass( victor )

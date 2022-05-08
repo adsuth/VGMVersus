@@ -1,8 +1,4 @@
-import { height, width, ctx, rng, particles } from "./main.js"
-import { Particle } from "./Particle.js"
-
-
-export class Firework {
+class Firework {
     constructor(settings) {
         this.x = rng(null, width)
         this.y = height
@@ -43,6 +39,4 @@ export class Firework {
         ctx.arc( this.x, this.y, this.size, 0, Math.PI *2, true )
         ctx.fill()
     }
-
-    
 }

@@ -541,7 +541,6 @@ hr {
   z-index: 6;
   width: 100%;
   height: 100%;
-  background: #00000066;
   pointer-events: none;
 }
 
@@ -568,24 +567,24 @@ hr {
   font-weight: 600;
   font-size: 7.5rem;
   text-shadow: 0 0 1rem var(--colorBlack);
-  animation: rainbowText 2s alternate-reverse infinite;
+  animation: rainbowText 1s alternate-reverse infinite;
 }
 
 @-webkit-keyframes rainbowText {
   0% {
-    color: white;
+    color: var(--colorPlayer);
   }
   100% {
-    color: var(--colorPlayer);
+    color: var(--colorWhite);
   }
 }
 
 @keyframes rainbowText {
   0% {
-    color: white;
+    color: var(--colorPlayer);
   }
   100% {
-    color: var(--colorPlayer);
+    color: var(--colorWhite);
   }
 }
 

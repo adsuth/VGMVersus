@@ -1,15 +1,17 @@
-import { Firework } from "./Firework.js"
-
 const canvas = document.getElementById("canvas")
 
 // set the canvas props here to fix low res
 canvas.height = canvas.getBoundingClientRect().height
 canvas.width = canvas.getBoundingClientRect().width
 
-export const ctx = canvas.getContext("2d")
+const ctx = canvas.getContext("2d")
+const height = canvas.height
+const width = canvas.width 
 
-export const height = canvas.height
-export const width = canvas.width 
+var fireworks = []
+var particles = []
+
+var FIREWORKS_STOPPED = true
 
 const colors = [
     "red",
@@ -24,17 +26,20 @@ const colors = [
 ]
 
 function initFireworks(quantity=50) {
+    FIREWORKS_STOPPED = false
     let output = []
+    let color = (CURRENT_PLAYER == "p1") ? GAME_SETTINGS.p2.color : GAME_SETTINGS.p1.color
     for ( let i = 0; i < quantity; i++ ) {
         output.push( new Firework({
-            color: colors[ Math.floor( Math.random() *colors.length ) ]
+            color
+            // color: colors[ Math.floor( Math.random() *colors.length ) ]
         }) )
     }
     return output
 }
 
-function animate() {
-    if ( document.getElementById("canvas").style.display === "none" ) { return window.requestAnimationFrame( animate ) }
+function animateFireworks() {
+    if ( FIREWORKS_STOPPED ) { return }
     if ( fireworks.length === 0 ) { fireworks = initFireworks() }
     ctx.clearRect( 0, 0, width, height )
 
@@ -51,14 +56,14 @@ function animate() {
     } )
     fireworks = fireworks.filter( fw => !fw.hasExploded )
 
-    window.requestAnimationFrame( animate )
+    window.requestAnimationFrame( animateFireworks )
 }
 
 
 /**
  * Utility to generate random numbers within ranges
  */
-export function rng( min=null, max=10, isInt=false ) {
+function rng( min=null, max=10, isInt=false ) {
     let output = Math.random() *max
     if ( min ) {
         while ( output < min ) {
@@ -69,7 +74,8 @@ export function rng( min=null, max=10, isInt=false ) {
     return output
 }
 
-var fireworks = initFireworks()
-export var particles = []
 
-animate()
+function resetFireworks() {
+    fireworks = []
+    particles = []
+}
