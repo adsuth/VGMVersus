@@ -8,9 +8,10 @@ class Particle {
         this.xSpeed = -5 +Math.random() *10
 
         this.life = 100 // how many updates before fading
+        this.decayRate = rng(1, 5, true)
         
         this.size = settings?.size
-        this.color = settings?.color ?? "#ff9000"
+        this.color = settings?.color ?? "#ffffff"
     }
 
     update() {
@@ -25,6 +26,6 @@ class Particle {
         ctx.beginPath()
         ctx.arc( this.x, this.y, this.size, 0, Math.PI *2, true )
         ctx.fill()
-        this.life--
+        this.life -= this.decayRate
     }
 }

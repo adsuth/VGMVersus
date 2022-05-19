@@ -143,6 +143,12 @@ function game_start() {
     hasHalfAnswer = false
     FIREWORKS_STOPPED = true
 
+    song_current = null
+    clearSongData()
+    
+
+    $("#player").css({pointerEvents: "auto"});
+
 
     // reset game over sfx
     document.getElementById("sfx_gameover").pause()
@@ -179,6 +185,8 @@ function game_over() {
     GAME_ENDED = true
     FIREWORKS_STOPPED = false
 
+    $("#player").css({pointerEvents: "none"});
+
     // show answer
     updateSongData()
     showAnswer()
@@ -195,6 +203,8 @@ function game_over() {
     $("#victory_container > h1").html( `${GAME_SETTINGS[victor].name}<br>wins!` )
     $("#victory_container > h1").addClass( victor )
     $("#victory_container").fadeIn()
+
+    song_current = null
 }
 
 /**

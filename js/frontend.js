@@ -33,6 +33,7 @@ function addEvents() {
     })
 
     modalEvents()
+    mobileEvents()
 
     $("#btn_showSettings").click(() => {
         pause_game()
@@ -77,6 +78,7 @@ function setPlayer() {
 }
 
 function halfAnswer() {
+    if ( GAME_ENDED ) { return }
     addSongToPrevious(song_current, "warning")
 
     if (hasHalfAnswer) {
@@ -87,6 +89,7 @@ function halfAnswer() {
 }
 
 function correctAnswer() {
+    if ( GAME_ENDED ) { return }
     if (hasHalfAnswer) {
         return halfAnswer()
     }
@@ -99,11 +102,13 @@ function correctAnswer() {
 
 function incorrectAnswer() {
     if ( GAME_ENDED ) { return }
+    if ( GAME_ENDED ) { return }
     addSongToPrevious(song_current, "error")
     cueNextSong()
 }
 
 function showAnswer() {
+    // if ( GAME_ENDED ) { return }
     player.pauseVideo()
     $("#player").css({
         visibility: "visible"
@@ -115,4 +120,45 @@ function updateSongData() {
     // TODO: show/hide player
     $("#song_name").html( song_current.name )
     $("#song_game").html( song_current.game )
+}
+
+function mobileEvents() {
+    $("#extra_controls").hide()
+
+    $("#ctrl_extras").click( function() {
+        let extrasShown = $("#extra_controls").css("display") == "grid"
+        if ( extrasShown ) { hideExtraControls() }
+        else { showExtraControls() }
+    } )
+
+    $(".ctrl_correct").each( (index, btn) => {
+        $(btn).click( correctAnswer )
+    } )
+
+    $(".ctrl_show").each( (index, btn) => {
+        if ( GAME_ENDED ) { return }
+        $(btn).click( showAnswer )
+    } )
+
+    $("#ctrl_half").click( () => {
+        if ( GAME_ENDED ) { return }
+        halfAnswer()
+    } )
+    $("#ctrl_wrong").click( () => {
+        if ( GAME_ENDED ) { return }
+        incorrectAnswer()
+    } )
+}
+
+function showExtraControls() {
+    $("#extra_controls").show( () => {
+        $("#extra_controls").css( {display: "grid"} )
+    })
+    $("#ctrl_extras").toggleClass( "active" )
+}
+
+function hideExtraControls() {
+    $("#extra_controls").hide( () => {
+    })
+    $("#ctrl_extras").toggleClass( "active" )
 }

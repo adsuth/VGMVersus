@@ -4,7 +4,7 @@ class Firework {
         this.y = height
         this.ySpeed = rng(3, 5)
 
-        this.size = settings?.size ?? rng( 6, 15 )
+        this.size = settings?.size ?? rng( (canvas.width /100) *0.5, (canvas.width /100) *1 )
         this.color = settings?.color ?? "red"
 
         this.hasExploded = false

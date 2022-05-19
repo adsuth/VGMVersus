@@ -25,10 +25,27 @@ function modalEvents() {
         }
     })
 
-    // prevent typing values into settings number fields
-    $(".settings_number").keydown( ev => {
-        ev.preventDefault()
+    // prevent typing impossible values in number fields 
+    $("#t_minutes").change( ev => {
+        let aboveThreshold = ev.target.value > 9 
+        let belowThreshold = ev.target.value < 0 
+        if ( aboveThreshold ) { ev.target.value = 9 }
+        if ( belowThreshold ) { ev.target.value = 0 }
     } )
+    $("#t_seconds").change( ev => {
+        let aboveThreshold = ev.target.value > 59 
+        let belowThreshold = ev.target.value < 0 
+        if ( aboveThreshold ) { ev.target.value = 59 }
+        if ( belowThreshold ) { ev.target.value = 0 }
+    } )
+    $("#t_increment").change( ev => {
+        let aboveThreshold = ev.target.value > 30 
+        let belowThreshold = ev.target.value < 0 
+        if ( aboveThreshold ) { ev.target.value = 30 }
+        if ( belowThreshold ) { ev.target.value = 0 }
+    } )
+
+    // prevent dragging numbers to bypass above
     $(".settings_number").on( "dragstart", ev => {
         ev.preventDefault()
     } )

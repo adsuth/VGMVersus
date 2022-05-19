@@ -13,18 +13,6 @@ var particles = []
 
 var FIREWORKS_STOPPED = true
 
-const colors = [
-    "red",
-    "orange",
-    "yellow",
-    "pink",
-    "lime",
-    "cyan",
-    "magenta",
-    "blue",
-    "white"
-]
-
 function initFireworks(quantity=50) {
     FIREWORKS_STOPPED = false
     let output = []

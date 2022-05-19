@@ -24,13 +24,15 @@
             <h1>VGM Versus</h1>
             <h3>The Head to Head VGM Quiz</h3>
         </div>
-        <button id="btn_showHelp" class="circle_button">
-            ?
-        </button>
-        <button id="btn_showSettings" class="circle_button">
-            <img src="./meta/settings_cog.svg">
-            </img>
-        </button>
+        <div class="header_controls">
+            <button id="btn_showHelp" class="circle_button">
+                ?
+            </button>
+            <button id="btn_showSettings" class="circle_button">
+                <img src="./meta/settings_cog.svg">
+                </img>
+            </button>
+        </div>
     </header>
 
     <section class="grid">
@@ -66,7 +68,29 @@
     <p id="song_data">
     </p>  
 
-    <footer class="flex">
+    <footer>
+        <div class="controls">
+            <div id="extra_controls">
+                <button id="" class="ctrl_correct circle_button control_button">
+                    &#10004; 
+                </button>
+                <button id="ctrl_half" class="circle_button control_button">
+                    &#189;
+                </button>
+                <button id="ctrl_wrong" class=" circle_button control_button">
+                    x
+                </button>
+                <button id="" class="ctrl_show circle_button control_button">
+                    ^
+                </button>
+            </div>
+
+            <button id="ctrl_extras" class="circle_button control_button">
+                &#8230;
+            </button>
+
+        </div>
+
         <div>
             <p id="song_game">
                 -
@@ -75,7 +99,14 @@
                 <b>-</b>
             </h3>
         </div>
-        
+        <div class="controls">
+            <button id="" class="ctrl_show circle_button control_button">
+                ^
+            </button>
+            <button id="" class="ctrl_correct circle_button control_button">
+                &#10004;
+            </button>
+        </div>
     </footer>
 
     <aside id="settings_wrapper" class="modal_wrapper">
@@ -90,16 +121,16 @@
                 <div id="settings_gametime">
                     <div>
                         <label for="t_minutes">Minutes</label>
-                        <input id="t_minutes" class="settings_number" type="number" name="t_minutes" id="" value="1" min="0" max="9">
+                        <input id="t_minutes" class="settings_number" type="number" name="t_minutes" value="1" min="0" max="9">
                     </div>
                     <div>
                         <label for="t_seconds">Seconds</label>
-                        <input id="t_seconds" class="settings_number" type="number" name="t_seconds" id="" value="30" min="0" max="59">
+                        <input id="t_seconds" class="settings_number" type="number" name="t_seconds" value="30" min="0" max="59">
                     </div>
-                    <div>
-                        <label for="t_increment">Increment</label>
-                        <input id="t_increment" class="settings_number" type="number" name="t_increment" id="" value="2" min="0" max="30">
-                    </div>
+                </div>
+                <div>
+                    <label for="t_increment">Increment</label>
+                    <input id="t_increment" class="settings_number" type="number" name="t_increment" id="" value="2" min="0" max="30">
                 </div>
                 <label for="songs_dir">Songs File Name</label>
                 <input id="songs_dir"type="text" name="t_seconds" id="songs_dir" autocomplete='off'>
@@ -112,7 +143,7 @@
                     <input type="radio" name="startingPlayer" id="settings_starting" checked value="p1">
 
                     <label for="p1_name">Enter a Name</label>
-                    <input maxlength="12" id="settings_p1_name" autocomplete="off" name="p1_name" type="text" value="Player 1" placeholder='Enter a name...'>
+                    <input maxlength="12" id="settings_p1_name" autocomplete="off" name="p1_name" type="text" value="Player 1" placeholder='p1 Name...'>
 
                     <label for="p1_color">Choose a Color</label>
                     <input id="settings_p1_color" type="color" name="p1_color" value="#3fff79">
@@ -124,7 +155,7 @@
                     <input type="radio" name="startingPlayer" value="p2">
                     
                     <label for="p2_name">Enter a Name</label>
-                    <input maxlength="12" autocomplete="off" id="settings_p2_name" name="p2_name" type="text" value="Player 2" placeholder='Enter a name...'>
+                    <input maxlength="12" autocomplete="off" id="settings_p2_name" name="p2_name" type="text" value="Player 2" placeholder='p2 name...'>
 
                     <label for="p2_color">Choose a Color</label>
                     <input id="settings_p2_color" type="color" name="p2_color" value="#ff374e">
@@ -156,10 +187,21 @@
             <div>
                 <div>
                     <h1>How to Play</h1>
-                    <p>Press the <span class="bold">right arrow key</span> if you got it <span class="correct bold">correct</span></p> <br>
-                    <p>Press the <span class="bold">down arrow key</span> if you got it  <span class="error bold">incorrect</span></p> <br>
-                    <p>Press the <span class="bold">left arrow key</span> if you only got <span class="warning bold"> half of the answer</span></p> <br>
-                    <p>Press the <span class="bold">up arrow key</span> to <span class="bold">show the current song</span></p>
+                    <p>Press the <span class="bold">&#8230;</span> button to <span class="bold">show additional controls</span></p><br>
+                    
+                    <p>Press the <span class="bold">right arrow key</span> or the <span class="bold">&#10004;</span> button if you got it <span class="correct bold">correct</span></p> <br>
+                    <p>Press the <span class="bold">down arrow key</span> or the <span class="bold">x</span> button if you got it  <span class="error bold">incorrect</span></p> <br>
+                    <p>Press the <span class="bold">left arrow key</span> or the <span class="bold">&#189;</span> button if you only got <span class="warning bold"> half of the answer</span></p> <br>
+                    <p>Press the <span class="bold">up arrow key</span> or the <span class="bold">^</span> button to <span class="bold">show the current song</span></p>
+                </div>
+                <hr>
+                <div>
+                    <h1>Changing Song List</h1>
+                    <p>
+                        Currently a work in progress, you can only load song lists already in the repository.
+                        <br><br>
+                        Try "pokemon", "main", "megaman" or "smash". 
+                    </p>    
                 </div>
                 <hr>
                 <div>
