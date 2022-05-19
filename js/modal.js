@@ -29,7 +29,7 @@ function modalEvents() {
     $("#t_minutes").change( ev => {
         let aboveThreshold = ev.target.value > 9 
         let belowThreshold = ev.target.value < 0 
-        let isNaN = isNaN(ev.target.value)
+        let isNaN = ev.target.value !== ev.target.value
         
         if ( isNaN ) { ev.target.value = 0 }  
         if ( aboveThreshold ) { ev.target.value = 9 }
@@ -38,7 +38,7 @@ function modalEvents() {
     $("#t_seconds").change( ev => {
         let aboveThreshold = ev.target.value > 59 
         let belowThreshold = ev.target.value < 0 
-        let isNaN = isNaN(ev.target.value)
+        let isNaN = ev.target.value !== ev.target.value
         
         if ( isNaN ) { ev.target.value = 0 }  
         if ( aboveThreshold ) { ev.target.value = 59 }
@@ -47,7 +47,7 @@ function modalEvents() {
     $("#t_increment").change( ev => {
         let aboveThreshold = ev.target.value > 30 
         let belowThreshold = ev.target.value < 0 
-        let isNaN = isNaN(ev.target.value)
+        let isNaN = ev.target.value !== ev.target.value
         
         if ( isNaN ) { ev.target.value = 0 }  
         if ( aboveThreshold ) { ev.target.value = 30 }
