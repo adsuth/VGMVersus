@@ -56,7 +56,7 @@ function init_songs() {
 
 function initSongsFromCurrent( list ) {
     let songs_all = []
-    for (let game in JSON.parse(list) ) {
+    for (let game in list ) {
         songs_all = songs_all.concat(list[game])
     }
     songs_random = shuffleArray(songs_all.slice(0))

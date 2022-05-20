@@ -100,7 +100,7 @@ function getJSON( data, type ) {
 }
 
 function addToList( data, fileName ) {
-    CURRENT_SONG_LISTS[ fileName ] = data
+    CURRENT_SONG_LISTS[ fileName ] = JSON.parse(data)
 }
 
 /**
