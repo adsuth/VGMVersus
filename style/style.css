@@ -6,9 +6,7 @@
 }
 
 body {
-  background-image: var(--gradientCold);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background: var(--colorDark);
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
@@ -371,6 +369,94 @@ header .circle_button:active {
   font-size: 1.5rem;
 }
 
+#generator_modal div {
+  height: 50%;
+  width: 50%;
+}
+
+#generator_modal #fileName {
+  text-align: center;
+}
+
+#generator_modal #drop_zone {
+  outline: 0.1rem dashed var(--colorWhite);
+  border-radius: 1vw;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#generator_modal #drop_zone p {
+  text-align: center;
+  font-weight: 600;
+  width: 60%;
+}
+
+#generator_modal #caption_message, #generator_modal #caption_message > b {
+  text-align: center;
+}
+
+#generator_modal #drop_input::-webkit-file-upload-button {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#generator_modal #drop_input {
+  color: transparent;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  -webkit-transition: background-color 200ms;
+  transition: background-color 200ms;
+}
+
+#generator_modal #download_button_container {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#generator_modal #btn_download[disabled] {
+  outline: var(--colorMidlight) 0.1rem solid;
+  color: var(--colorMidlight);
+  cursor: auto;
+}
+
+#generator_modal #btn_download[disabled]:active {
+  -webkit-transform: none;
+          transform: none;
+}
+
+#generator_modal #btn_download[disabled]:hover {
+  color: var(--colorMidlight);
+  background-color: transparent;
+}
+
 .modal_wrapper {
   background: var(--colorOpacity);
   width: 100%;
@@ -681,6 +767,9 @@ hr {
     font-size: 0.8rem;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  #btn_showGenerator {
+    display: none;
   }
   .prev_list > li > a > p {
     font-size: 75%;

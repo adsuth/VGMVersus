@@ -6,6 +6,12 @@ function modalEvents() {
         resume_game()
     })
 
+    $("#generator_close").click( () => {
+        GAME_PAUSED = false
+        $("#generator_wrapper").fadeOut(200)
+        resume_game()
+    })
+
     $("#settings_start").click( () => {
         GAME_PAUSED = false
         applySettings()

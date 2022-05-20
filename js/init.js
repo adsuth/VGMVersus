@@ -11,6 +11,8 @@ var GAME_PAUSED = false
 var CURRENT_PLAYER = GAME_SETTINGS.startingPlayer
 var hasHalfAnswer = false
 
+// current state songs
+CURRENT_SONG_LISTS = {}
 // songs
 var songs_random = []
 var song_current = null
@@ -31,6 +33,9 @@ $(document).ready(function() {
  * Should probably find another way to do this.
  */
 function init_songs() {
+    if ( CURRENT_SONG_LISTS.hasOwnProperty(SONGS_FILE_NAME) ) {
+        return initSongsFromCurrent( CURRENT_SONG_LISTS[SONGS_FILE_NAME] )
+    }
     $.ajax({
         url: `./json/${SONGS_FILE_NAME || "main"}.json`,
         dataType: "json",
@@ -47,6 +52,14 @@ function init_songs() {
         },
         async: false
     })
+}
+
+function initSongsFromCurrent( list ) {
+    let songs_all = []
+    for (let game in list) {
+        songs_all = songs_all.concat(list[game])
+    }
+    songs_random = shuffleArray(songs_all.slice(0))
 }
 
 function cueNextSong() {

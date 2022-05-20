@@ -46,6 +46,11 @@ function addEvents() {
         $("#help_wrapper").fadeIn(200)
     })
 
+    $("#btn_showGenerator").click(() => {
+        pause_game()
+        $("#generator_wrapper").fadeIn(200)
+    })
+
     $("#btn_restart").click(() => {
         game_start()
         init_songs()

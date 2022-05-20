@@ -32,6 +32,9 @@
                 <img src="./meta/settings_cog.svg">
                 </img>
             </button>
+            <button id="btn_showGenerator" class="circle_button">
+                &#43;
+            </button>
         </div>
     </header>
 
@@ -173,12 +176,32 @@
         </div>
 
     </aside>
-    <aside id="endgame_wrapper" class="modal_wrapper">
-        <div id="endgame_modal" class="modal">
-            <button id="endgame_close" class="circle_button close_modal">
+    <aside id="generator_wrapper" class="modal_wrapper">
+        <div id="generator_modal" class="modal">
+            <button id="generator_close" class="circle_button close_modal">
                 X
             </button>
+            <div>
+                <h1>Generate Song List</h1>
+                <div id="drop_zone">
+                    <p>Click here or Drop CSV, TSV or predone JSON Here</p>
+                    <input name="fileZone" type="file" id="drop_input">
+                </div>
+                <br>
+                <p id="fileName">No File Chosen</p>
+                <p id="caption_message"></p>
+                <br>
+                <div id="download_button_container">
+                    <a id="a_download">
+                        <button class="button" id="btn_download" disabled>
+                            Download JSON
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
     </aside>
+
     <aside id="help_wrapper" class="modal_wrapper">
         <div id="help_modal" class="modal">
             <button id="help_close" class="circle_button close_modal">
@@ -196,12 +219,18 @@
                 </div>
                 <hr>
                 <div>
-                    <h1>Changing Song List</h1>
+                    <h1>Adding Song Lists</h1>
                     <p>
-                        Currently a work in progress, you can only load song lists already in the repository.
+                        Press the <span class="bold">&#43;</span> button to <span class="bold">add extra song lists</span>
+                        <br>
+                        Song lists are saved on a <b>session basis</b>. This means your lists will be erased on a page reload,
                         <br><br>
-                        Try "pokemon", "main", "megaman" or "smash". 
-                    </p>    
+                        You can download generated JSON for future use.
+                        <br><br>
+                        <b>
+                            Important note: improperly formatted CSV, TSV or JSON will result in uncaught errors.
+                        </b>
+                    </p>
                 </div>
                 <hr>
                 <div>
@@ -233,5 +262,8 @@
     <script src="js\fireworks\Particle.js" defer></script>
     <script src="js\fireworks\Firework.js" defer></script>
     <script src="js\fireworks\main.js" defer id="fireworks_script"></script>
+
+    <script src="./js/generator/main.js" type="module"></script>
+
 </body>
 </html>
