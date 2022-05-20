@@ -6,7 +6,7 @@ export function generateJSON( file="", type="TSV" ) {
     })
     .then( data => { return data.text() } )
     .then( data => { return formatText( data, type ) } )
-    .then( data => { return JSON.stringify( formatAsJSON(data) ) } )
+    .then( data => { return JSON.stringify( formatAsJSON(data) ) })
     .catch(  () => { return console.warn("Failed to find file: " + file) } )
 }
 

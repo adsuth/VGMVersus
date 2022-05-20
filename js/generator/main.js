@@ -78,6 +78,7 @@ function getJSON( data, type ) {
     .then( data => { 
         addToList(data, fileName) 
         updateMessage(`<span class="correct">Song list added session. enter <b>${fileName}</b> in settings to play.</span>`)
+        return data
     } )
     .then( data => {
         $("#btn_download").prop( "disabled", false )
