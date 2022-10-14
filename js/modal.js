@@ -23,7 +23,15 @@ function modalEvents() {
         resume_game()
     })
     
-    $("#songs_dir").keydown( ev => {
+    $("#songs_dir_settings").keydown( ev => {
+        if ( ev.keyCode === 13 ) {
+            GAME_PAUSED = false
+            applySettings()
+            hideSettings()
+        }
+    })
+
+    $("#songs_dir_generator").keydown( ev => {
         if ( ev.keyCode === 13 ) {
             GAME_PAUSED = false
             applySettings()
@@ -72,4 +80,6 @@ function showSettings() {
 function hideSettings() {
     $("#settings_wrapper").fadeOut(200)
 }
+
+showSettings()
 

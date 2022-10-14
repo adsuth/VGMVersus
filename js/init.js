@@ -140,7 +140,7 @@ function applySettings() {
     // set starting player
     CURRENT_PLAYER = GAME_SETTINGS.startingPlayer
 
-    SONGS_FILE_NAME = $("#songs_dir").val().trim()
+    SONGS_FILE_NAME = $("#songs_dir_settings").val().trim()
 
     game_start()
 }
