@@ -136,17 +136,20 @@ function incorrectAnswer() {
 
 function showAnswer() {
   // if ( GAME_ENDED ) { return }
+  if ( player.getPlayerState() !== YT.PlayerState.PLAYING && !GAME_ENDED )
+    return
+
   player.pauseVideo()
   $("#player").css({
     visibility: "visible"
   })
-  updateSongData(song_current)
+  updateSongData()
 }
 
 function updateSongData() {
   // TODO: show/hide player
-  $("#song_name").html(song_current.name)
-  $("#song_game").html(song_current.game)
+  $("#song_name").html( song_current.name )
+  $("#song_game").html( song_current.game )
 }
 
 function mobileEvents() {
