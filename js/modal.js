@@ -81,5 +81,4 @@ function hideSettings() {
     $("#settings_wrapper").fadeOut(200)
 }
 
-showSettings()
 

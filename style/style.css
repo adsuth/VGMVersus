@@ -8,7 +8,7 @@ body {
   background: var(--colorDark);
   height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 html {
@@ -24,14 +24,6 @@ html {
   --colorBlack: #000;
   --colorWhite: #fff;
   font-size: 24px;
-}
-
-body::-webkit-scrollbar {
-  width: 12px; /* width of the entire scrollbar */
-}
-
-body::-webkit-scrollbar-track {
-  background: orange; /* color of the tracking area */
 }
 
 button,
@@ -197,16 +189,13 @@ footer .controls {
   background-color: transparent;
   outline: var(--colorWhite) 0.1rem solid;
   color: var(--colorWhite);
-  transition: transform 200ms, color 200ms, background-color 200ms;
-}
-
-.button:active {
-  transform: scale(0.8);
+  transition: scale 200ms, color 200ms, background-color 200ms;
 }
 
 .button:hover {
   color: var(--colorDarkest);
   background-color: var(--colorWhite);
+  scale: 1.2;
 }
 
 #player {
@@ -251,7 +240,7 @@ footer .controls {
   background-color: var(--colorDark);
   outline: var(--colorWhite) 0.1rem solid;
   color: var(--colorWhite);
-  transition: transform 200ms, color 200ms, background-color 200ms;
+  transition: scale 200ms, color 200ms, background-color 200ms;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -259,21 +248,22 @@ footer .controls {
 .circle_button img {
   fill: var(--colorWhite);
   filter: brightness(100);
-  width: 75%;
+  width: 60%;
+  transition: scale 200ms, background-color 200ms;
 }
 
 .circle_button:active {
-  transform: scale(0.8);
+  scale: 1;
 }
 
 .circle_button:hover {
   color: var(--colorDarkest);
   background-color: var(--colorWhite);
+  scale: 1.4;
 }
 .circle_button:hover img {
   fill: var(--colorWhite);
   filter: brightness(0);
-  width: 75%;
 }
 
 .active {
@@ -281,15 +271,11 @@ footer .controls {
   background-color: var(--colorWhite);
 }
 
-header .circle_button {
-  transition: transform 800ms;
+header #btn_showSettings {
+  transition: rotate 400ms ease-in, scale 200ms;
 }
 header #btn_showSettings:hover {
-  transform: rotateZ(360deg);
-}
-header .circle_button:active {
-  transition: transform 200ms;
-  transform: scale(0.6);
+  rotate: -720deg;
 }
 
 .error {
@@ -456,9 +442,21 @@ hr {
   top: 0;
   right: 0;
   margin: 1rem;
+  background-color: transparent;
 }
-.modal .close_modal:active {
-  transform: scale(0.8);
+.modal .close_modal:hover {
+  background-color: #fff;
+}
+.modal footer {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .modal::-webkit-scrollbar {
@@ -483,6 +481,9 @@ hr {
   text-align: center;
   border-radius: 5rem;
   color: var(--colorPlayer);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .p1 .timer,
@@ -540,32 +541,28 @@ hr {
   display: block;
 }
 #settings_modal input[type=color] {
-  padding: 0 0.25rem;
+  background-color: none;
   width: 25%;
   cursor: pointer;
 }
-#settings_modal input:focus {
+#settings_modal input[type=color]::-webkit-color-swatch {
+  display: none;
+}
+
+input:focus {
   background-color: var(--colorDark);
 }
-#settings_modal #settings_p1_name,
-#settings_modal #settings_p2_name {
+
+#settings_p1_name,
+#settings_p2_name {
   width: minmax(10%, 3rem) !important;
 }
-#settings_modal p {
+
+p {
   padding: 0 1rem;
 }
-#settings_modal footer {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  background: none;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-#settings_modal #settings_start {
+
+#settings_start {
   padding: 1rem 2rem;
   outline: var(--colorWhite) 0.1rem solid;
   border-radius: 100vw;
@@ -715,7 +712,7 @@ input[type=number]::-webkit-outer-spin-button {
   }
 }
 #extra_controls {
-  display: grid;
+  display: none;
   justify-content: center;
   position: absolute;
   bottom: 7.5vh;
@@ -754,4 +751,14 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .songs_dir_list li:not(:first-child) {
   margin-top: 1rem;
+}
+
+.tutorialButton {
+  outline: 0.1rem var(--colorWhite) solid;
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 100rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

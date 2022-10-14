@@ -10,7 +10,7 @@ body {
   background: var(--colorDark);
   height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 html {
@@ -33,13 +33,6 @@ html {
 
 }
 
-body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
-}
-body::-webkit-scrollbar-track {
-  background: orange;        /* color of the tracking area */
-}
-
 button,
 input,
 input[type="submit"],
@@ -53,7 +46,7 @@ input[type="reset"] {
   outline: inherit;
 }
 
-input:not( [type=file] ) {
+input:not([type=file]) {
   max-width: 80%;
   display: block;
   margin: 0 auto;
@@ -85,10 +78,6 @@ header {
   height: calc((1.5 /12) *100%);
   background: var(--colorDark);
   grid-template-columns: 1fr 3fr 1fr;
-
-  * {
-    // outline: magenta solid 1px;
-  }
 
   #header_title {
 
@@ -197,8 +186,8 @@ section {
       width: 0.25rem;
       background: transparent;
     }
-    .prev_list::-webkit-scrollbar-thumb
-    {
+
+    .prev_list::-webkit-scrollbar-thumb {
       background: var(--colorMid);
       border-radius: 100rem;
     }
@@ -241,16 +230,13 @@ footer {
   background-color: transparent;
   outline: var(--colorWhite) 0.1rem solid;
   color: var(--colorWhite);
-  transition: transform 200ms, color 200ms, background-color 200ms;
-}
-
-.button:active {
-  transform: scale(0.8);
+  transition: scale 200ms, color 200ms, background-color 200ms;
 }
 
 .button:hover {
   color: var(--colorDarkest);
   background-color: var(--colorWhite);
+  scale: 1.2;
 }
 
 // player
@@ -299,7 +285,12 @@ footer {
   background-color: var(--colorDark);
   outline: var(--colorWhite) 0.1rem solid;
   color: var(--colorWhite);
-  transition: transform 200ms, color 200ms, background-color 200ms;
+  transition:
+    scale 200ms,
+    color 200ms,
+    background-color 200ms
+  ;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -307,22 +298,25 @@ footer {
   img {
     fill: var(--colorWhite);
     filter: brightness(100);
-    width: 75%;
+    width: 60%;
+    transition:
+      scale 200ms,
+      background-color 200ms;
   }
 }
 
 .circle_button:active {
-  transform: scale(0.8);
+  scale: 1;
 }
 
 .circle_button:hover {
   color: var(--colorDarkest);
   background-color: var(--colorWhite);
+  scale: 1.4;
 
   img {
     fill: var(--colorWhite);
     filter: brightness(0);
-    width: 75%;
   }
 }
 
@@ -332,17 +326,14 @@ footer {
 }
 
 header {
-  .circle_button {
-    transition: transform 800ms;
+  #btn_showSettings {
+    transition:
+      rotate 400ms ease-in,
+      scale 200ms;
   }
 
   #btn_showSettings:hover {
-    transform: rotateZ(360deg);
-  }
-
-  .circle_button:active {
-    transition: transform 200ms;
-    transform: scale(0.6);
+    rotate: -720deg;
   }
 }
 
@@ -385,8 +376,8 @@ header {
     display: block;
     margin-bottom: 0.5rem;
   }
-  #btn_setSongs
-  {
+
+  #btn_setSongs {
     display: block;
     margin: 0 auto;
     margin-top: 1rem;
@@ -539,10 +530,22 @@ hr {
     top: 0;
     right: 0;
     margin: 1rem;
+    background-color: transparent;
   }
 
-  .close_modal:active {
-    transform: scale(0.8);
+  .close_modal:hover {
+    background-color: #fff;
+  }
+
+  footer {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: none;
+    height: fit-content;
+  
   }
 }
 
@@ -551,14 +554,13 @@ hr {
   background: transparent;
 
 }
-.modal::-webkit-scrollbar-track
-{
+
+.modal::-webkit-scrollbar-track {
   position: absolute;
   margin: 2rem;
 }
 
-.modal::-webkit-scrollbar-thumb
-{
+.modal::-webkit-scrollbar-thumb {
   background: var(--colorMidlight);
   border-radius: 100rem;
 }
@@ -571,22 +573,14 @@ hr {
   text-align: center;
   border-radius: 5rem;
   color: var(--colorPlayer);
-}
 
-// player specific colors 
-// .p1 {
-//     --colorPlayer: #3fff79;
-// }
-// .p2 {
-//     --colorPlayer: #ff374e;
-// }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .p1,
 .p2 {
-
-  // h3, .timer {
-  //     animation: pulseText 800ms forwards infinite alternate-reverse ease-in-out;
-  // }
   .timer {
     animation: pulse 0.5s forwards infinite alternate-reverse;
   }
@@ -602,8 +596,7 @@ hr {
     font-weight: 600;
   }
 
-  label
-  {
+  label {
     margin-bottom: 0.5rem;
   }
 
@@ -613,10 +606,11 @@ hr {
 
     input {
       margin: 0.5rem auto;
+
       min-width: fit-content;
     }
 
-    input[ type=radio ] {
+    input[ type=radio] {
       cursor: pointer;
       outline: none;
       width: 1rem;
@@ -648,44 +642,38 @@ hr {
     display: block;
   }
 
-
   input[type="color"] {
-    padding: 0 0.25rem;
+    background-color: none;
     width: 25%;
     cursor: pointer;
   }
-
-  input:focus {
-    background-color: var(--colorDark);
+  input[type="color"]::-webkit-color-swatch {
+    display: none;
   }
 
-  #settings_p1_name,
-  #settings_p2_name {
-    width: minmax( 10%, 3rem )!important;
-  }
+}
 
-  p {
-    padding: 0 1rem;
-  }
+input:focus {
+  background-color: var(--colorDark);
+}
 
-  footer {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    background: none;
-    height: fit-content;
+#settings_p1_name,
+#settings_p2_name {
+  width: minmax(10%, 3rem) !important;
+}
 
-  }
+p {
+  padding: 0 1rem;
+}
 
-  #settings_start {
-    padding: 1rem 2rem;
-    outline: var(--colorWhite) 0.1rem solid;
-    border-radius: 100vw;
-    height: fit-content;
-    margin-top: 1rem;
-  }
+
+
+#settings_start {
+  padding: 1rem 2rem;
+  outline: var(--colorWhite) 0.1rem solid;
+  border-radius: 100vw;
+  height: fit-content;
+  margin-top: 1rem;
 }
 
 #canvas {
@@ -843,7 +831,7 @@ hr {
 }
 
 #extra_controls {
-  display: grid;
+  display: none;
   justify-content: center;
   position: absolute;
   bottom: 7.5vh;
@@ -851,23 +839,21 @@ hr {
   gap: 1rem;
 }
 
-.song_dir_container
-{
+.song_dir_container {
   margin: 0 auto;
   position: relative;
 }
-.songs_dir_list
-{
+
+.songs_dir_list {
   position: absolute;
-  transform: translate( -50%, 50% );
+  transform: translate(-50%, 50%);
   left: 50%;
   bottom: 120%;
   outline: 1px solid magenta;
   width: 30%;
   list-style-type: none;
 
-  li 
-  {
+  li {
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -882,8 +868,19 @@ hr {
     background-color: var(--colorMid);
     font-family: var(--fontBody);
   }
-  li:not( :first-child )
-  {
+
+  li:not( :first-child) {
     margin-top: 1rem;
   }
+}
+
+.tutorialButton {
+  outline: 0.1rem var(--colorWhite) solid;
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 100rem;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
