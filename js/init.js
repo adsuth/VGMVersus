@@ -198,8 +198,8 @@ function game_over() {
   animateFireworks()
 
   $("#canvas").show()
-  $("#victory_container > h1").html(`${GAME_SETTINGS[victor].name}<br>wins!`)
-  $("#victory_container > h1").addClass(victor)
+  $("#victory_container > h2").html(`${GAME_SETTINGS[victor].name}<br>wins!`)
+  $("#victory_container > h2").addClass(victor)
   $("#victory_container").fadeIn()
 
   song_current = null
