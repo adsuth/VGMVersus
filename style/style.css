@@ -54,6 +54,7 @@ input:not([type=file]) {
 }
 
 h1,
+h2,
 h3,
 p,
 label,
@@ -307,6 +308,9 @@ header #btn_showSettings:hover {
   font-size: 1.5rem;
 }
 
+#generator_modal {
+  padding-bottom: 10rem;
+}
 #generator_modal div {
   height: 40%;
   width: 100%;
@@ -319,6 +323,7 @@ header #btn_showSettings:hover {
   display: block;
   margin: 0 auto;
   margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 #generator_modal #fileName {
   text-align: center;
@@ -357,8 +362,7 @@ header #btn_showSettings:hover {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  aspect-ratio: 1/1;
   cursor: pointer;
   transition: background-color 200ms;
 }
@@ -394,7 +398,7 @@ header #btn_showSettings:hover {
   display: none;
   padding-bottom: 2rem;
 }
-.modal_wrapper h1 {
+.modal_wrapper h2 {
   padding: 1rem 0;
   font-weight: 800;
 }
@@ -594,7 +598,7 @@ p {
   justify-content: center;
   align-items: center;
 }
-#victory_container h1 {
+#victory_container h2 {
   font-weight: 600;
   font-size: 7.5rem;
   text-shadow: 0 0 1rem var(--colorBlack);
@@ -725,22 +729,28 @@ input[type=number]::-webkit-outer-spin-button {
   position: relative;
 }
 
+#songs_dir_list_generator {
+  top: 50%;
+}
+
 .songs_dir_list {
   position: absolute;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, -100%);
+  top: 40%;
   left: 50%;
-  bottom: 120%;
-  outline: 1px solid magenta;
   width: 30%;
   list-style-type: none;
 }
 .songs_dir_list li {
+  position: relative;
+  z-index: 9;
   width: 100%;
   display: block;
   margin: 0 auto;
   font-size: 1rem;
   outline: 0.1rem var(--colorWhite) solid;
   padding-left: 0.5rem;
+  padding-right: 0.5rem;
   cursor: pointer;
   color: var(--colorWhite);
   border-radius: 100vw;
@@ -748,6 +758,9 @@ input[type=number]::-webkit-outer-spin-button {
   transition: background-color 200ms;
   background-color: var(--colorMid);
   font-family: var(--fontBody);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .songs_dir_list li:not(:first-child) {
   margin-top: 1rem;

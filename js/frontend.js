@@ -18,9 +18,7 @@ function addEvents() {
       $("#songs_dir").focus()
     }
 
-    if (GAME_ENDED || GAME_PAUSED) {
-      return
-    }
+    if (GAME_ENDED || GAME_PAUSED) return;
 
     if (ev.key === "ArrowRight") {
       ev.preventDefault()
@@ -71,9 +69,14 @@ function addEvents() {
     $("#settings_p2_color").css( { background: $("#settings_p2_color").val() } )
   } )
 
-  $( "#t_seconds" ).on( "input propertychange", () => {
-    console.log( "clicked" )
-  } )
+  for ( let inp of $( ".songs_dir" ) )
+  {
+    inp.addEventListener( "input", suggest )
+    inp.addEventListener( "focus", suggest )
+    inp.addEventListener( "blur",  ev => {
+      clearSuggestion( ev ) 
+    })
+  }
 
 }
 
@@ -205,5 +208,48 @@ function hideExtraControls() {
   $("#ctrl_extras").toggleClass("active")
 }
 
-// showSettings()
-// $("#help_wrapper").fadeIn(0)
+function suggest( ev )
+{
+  let query = ev.target.value
+  clearSuggestion( null )
+  getSuggestions( query )
+}
+
+function getSuggestions( query )
+{
+  let count = 0
+  let lists = $( ".songs_dir_list" )
+  for ( let songList in CURRENT_SONG_LISTS )
+  {
+    if ( count >= MAX_SUGGESTIONS ) return;
+    if ( songList.includes( query ) || query.length === 0 )
+    {
+      for ( let list of lists )
+      {
+        $( list ).append( createSuggestion( songList ) )
+      }
+    }
+    count++
+  }
+}
+
+function createSuggestion( content )
+{
+  let li = document.createElement( "li" )
+  li.innerText = content
+  li.addEventListener( "mousedown", ev => {
+    ev.preventDefault()
+    SONGS_FILE_NAME = CURRENT_SONG_LISTS[ ev.target.innerText ]
+    clearSuggestion()
+  })
+  return li
+}
+
+function clearSuggestion( ev )
+{
+  let lists = $( ".songs_dir_list" )
+  for ( let list of lists )
+  {
+    $( list ).html( "" )
+  }
+}
