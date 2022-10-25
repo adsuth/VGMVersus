@@ -2,26 +2,6 @@
  * The main function for the app. Handles most of the "backend" of
  * the game loop. For frontend, see ./frontend.js
  */
-// game state
-var GAME_SETTINGS = {}
-var SONGS_FILE_NAME = "pkmn"
-var GAME_ENDED = false
-var GAME_PAUSED = false
-
-var CURRENT_PLAYER = GAME_SETTINGS.startingPlayer
-var hasHalfAnswer = false
-
-// current state songs
-CURRENT_SONG_LISTS = {}
-// songs
-var songs_random = []
-var song_current = null
-
-// timers for players
-const timers = {
-  p1: null,
-  p2: null
-}
 
 $(document).ready(function () {
   applySettings()
@@ -32,7 +12,7 @@ $(document).ready(function () {
  * Should probably find another way to do this.
  */
 function init_songs() {
-  if (CURRENT_SONG_LISTS.hasOwnProperty(SONGS_FILE_NAME)) {
+  if (CURRENT_SONG_LISTS.hasOwnProperty(SONGS_FILE_NAME) && !DEFAULT_LISTS.includes( SONGS_FILE_NAME ) ) {
     return initSongsFromCurrent(CURRENT_SONG_LISTS[SONGS_FILE_NAME])
   }
   $.ajax({
@@ -142,8 +122,6 @@ function applySettings() {
   // set starting player
   CURRENT_PLAYER = GAME_SETTINGS.startingPlayer
 
-  SONGS_FILE_NAME = $("#songs_dir_settings").val().trim()
-
   game_start()
 }
 
@@ -190,6 +168,7 @@ function game_start() {
   $("#p2_list").empty()
 
   init_songs()
+  $("#btn_restart").html( "Restart" )
   cueNextSong()
 }
 
@@ -219,8 +198,8 @@ function game_over() {
   animateFireworks()
 
   $("#canvas").show()
-  $("#victory_container > h1").html(`${GAME_SETTINGS[victor].name}<br>wins!`)
-  $("#victory_container > h1").addClass(victor)
+  $("#victory_container > h2").html(`${GAME_SETTINGS[victor].name}<br>wins!`)
+  $("#victory_container > h2").addClass(victor)
   $("#victory_container").fadeIn()
 
   song_current = null

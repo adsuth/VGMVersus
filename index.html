@@ -24,7 +24,7 @@
 
   <header class="grid header_grid">
     <div class="flex">
-      <button type="button" class="button" id="btn_restart">Restart</button>
+      <button type="button" class="button" id="btn_restart">Start</button>
     </div>
     <div id="header_title">
       <h1>VGM Versus</h1>
@@ -125,7 +125,7 @@
       </button>
 
       <div>
-        <h1>Game Settings</h1>
+        <h2>Game Settings</h2>
         <h3>Timer</h3>
         <div id="settings_gametime">
           <div>
@@ -178,16 +178,13 @@
       <hr>
       <div class="song_dir_container">
         <label for="songs_dir">Songs File Name</label>
-        <ul id="songs_dir_list_generator" class="songs_dir_list">
-          <li>Mega Man</li>
-          <li>Pokemon</li>
-          <li>Zelda</li>
+        <ul id="songs_dir_list_settings" class="songs_dir_list">
         </ul>
-        <input id="songs_dir_settings" type="text" name="songs_dir" id="songs_dir" autocomplete='off'>
+        <input id="songs_dir_settings" type="text" name="songs_dir" class="songs_dir" autocomplete='off'>
       </div>
       <hr>
       <footer>
-        <button type="submit" class="button" id="settings_start">
+        <button type="button" class="button" id="settings_start">
           Start Game
         </button>
       </footer>
@@ -202,7 +199,7 @@
         X
       </button>
       <div>
-        <h1>Generate Song List</h1>
+        <h2>Generate Song List</h2>
         <div id="drop_zone">
           <p>Click here or Drop CSV, TSV or predone JSON Here</p>
           <input name="fileZone" type="file" id="drop_input">
@@ -221,15 +218,19 @@
 
         <hr>
         
-        <div id="song_setter_container">
+        <div id="song_setter_container" class="song_dir_container">
           <label for="songs_dir">Songs File Name</label>
-          <input id="songs_dir_generator" class="songs_dir_input" type="text" name="songs_dir" id="songs_dir" autocomplete='off'>
+          <ul id="songs_dir_list_generator" class="songs_dir_list">
+          </ul>
+          <input id="songs_dir_generator" class="songs_dir" type="text" name="songs_dir" autocomplete='off'>
           <button class="button" id="btn_setSongs">
-            Set Songs
+            Start
           </button>
+          <br>
         </div>
-      </div>
 
+      </div>
+      
     </div>
   </aside>
 
@@ -240,7 +241,7 @@
       </button>
       <div>
         <div>
-          <h1>How to Play</h1>
+          <h2>How to Play</h2>
           <p>Press the <span class="bold tutorialButton">&#8230;</span> button to <span class="bold">show additional controls</span>
           </p><br>
 
@@ -255,7 +256,7 @@
         </div>
         <hr>
         <div>
-          <h1>Adding Song Lists</h1>
+          <h2>Adding Song Lists</h2>
           <p>
             Press the <span class="bold tutorialButton">&#43;</span> button to <span class="bold">add extra song lists</span>
             <br>
@@ -270,13 +271,13 @@
         </div>
         <hr>
         <div>
-          <h1>About</h1>
+          <h2>About</h2>
           <p>VGM Versus is a 1v1 videogame quiz made by me, ADSÜ. Visit the Github Repo <a target="_blank"
               href="https://github.com/adsuth/VGMVersus.git">here</a> to read more</p>
         </div>
         <hr>
         <div>
-          <h1>Extras</h1>
+          <h2>Extras</h2>
           <p>Clicking on a previous song will take you to the youtube video.</p>
         </div>
 
@@ -285,10 +286,13 @@
 
   <canvas id="canvas"></canvas>
   <div id="victory_container">
-    <h1 class=""></h1>
+    <h2 class=""></h2>
   </div>
   <audio src="./meta/Game Over Yeah!.mp3" id="sfx_gameover"></audio>
 
+  <script src="./js/generator/generateJSON.js" defer></script>
+  <script src="./js/generator/main.js" defer></script>
+  <script src="js\definitions.js" defer></script>
   <script src="js\util.js" defer></script>
   <script src="js\modal.js" defer></script>
   <script src="js\timer.js" defer></script>
@@ -300,7 +304,6 @@
   <script src="js\fireworks\Firework.js" defer></script>
   <script src="js\fireworks\main.js" defer id="fireworks_script"></script>
 
-  <script src="./js/generator/main.js" type="module"></script>
 
 </body>
 
