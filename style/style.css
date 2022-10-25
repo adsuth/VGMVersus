@@ -710,6 +710,13 @@ input[type=number]::-webkit-outer-spin-button {
     width: 1.5rem;
     height: 1.5rem;
   }
+  #extra_controls {
+    padding: 1.5rem;
+    padding-bottom: 0;
+    background-color: rgba(32, 32, 32, 0.6);
+    box-shadow: 0 0 0.75rem 0.25rem rgba(32, 32, 32, 0.6);
+    border-radius: 100rem;
+  }
 }
 #extra_controls {
   display: none;

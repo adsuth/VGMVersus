@@ -828,6 +828,15 @@ p {
       }
     }
   }
+
+  #extra_controls {
+    padding: 1.5rem;
+    padding-bottom: 0;
+    background-color: #20202099;
+    
+    box-shadow: 0 0 0.75rem 0.25rem #20202099;
+    border-radius: 100rem;
+  }
 }
 
 #extra_controls {
@@ -837,6 +846,7 @@ p {
   bottom: 7.5vh;
   grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
+  
 }
 
 .song_dir_container {
