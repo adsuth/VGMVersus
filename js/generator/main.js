@@ -43,6 +43,7 @@ function generatorEvents() {
     }
 
     updateMessage(`<span class="error">The file <b>${fileName}</b> isn't supported<br>Please choose a TSV or CSV</span>`)
+    addPopup( `File "${fileName}" has unsupported type. `, "error"  )
 
     resetGeneratorData()
     $("#drop_zone").css({
@@ -62,14 +63,17 @@ function addPreexistingJSON(file, fileName) {
       return data.json()
     } )
     .then(data => {
-      console.log( data ) 
+      fileName = fileName.toLowerCase()
       CURRENT_SONG_LISTS[fileName] = data // has to be this
       SONGS_FILE_NAME = fileName
       updateMessage(`<span class="correct">JSON song list <b>"${fileName}"</b> was added to session!<br>Restart the game to play.`)
+      addPopup( `Selected tracklist: "${fileName}". Restart to play!`, "clear" )
+      
     })
     .catch((err) => {
       console.log( err.message )
       updateMessage(`<span class="error">Error with song list <b>"${fileName}"</b>...<br>Make sure JSON is formatted as per <a target="_blank" href="https://github.com/adsuth/VGMVersus.git">Github specs</a>.</span>`)
+      addPopup( `Error with "${fileName}"...`, "error"  )
     })
 }
 
@@ -94,9 +98,11 @@ function getJSON(data, type) {
 
   generateJSON(file, type)
     .then(data => {
+      fileName = fileName.toLowerCase()
       SONGS_FILE_NAME = fileName
       addToList(data, fileName)
       updateMessage(`<span class="correct">Song list <b>"${fileName}"</b> was added to session!<br>Restart the game to play.</span>`)
+      addPopup( `Selected tracklist: "${fileName}". Restart to play!`, "clear" )
       return data
     })
     .then(data => {
@@ -113,8 +119,10 @@ function getJSON(data, type) {
         $("#a_download").prop("download", fileName + ".json")
       })
     })
-    .catch(() => {
+    .catch( err => {
       updateMessage(`<span class="error">Error creating song list <b>"${fileName}"</b>...<br>Make sure TSV/CSV is formatted as per <a target="_blank" href="https://github.com/adsuth/VGMVersus.git">Github specs</a>.</span>`)
+      addPopup( `Error creating song list with "${fileName}"...`, "error"  )
+      console.error( err )
     })
 
 }

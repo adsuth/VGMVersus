@@ -7,12 +7,21 @@ var GAME_PAUSED = false
 var CURRENT_PLAYER = GAME_SETTINGS.startingPlayer
 var hasHalfAnswer = false
 
-const DEFAULT_LISTS = [ "main" ]
+var CURRENT_VOLUME = 80
+
+var popupTimeout = null
+
+const DEFAULT_LISTS = [ "main", "mario", "megaman", "pokemon", "sonic" ]
 
 // current state songs
 var CURRENT_SONG_LISTS = {
-  main: "main"
+  main: "main",
+  mario: "mario",
+  megaman: "megaman",
+  pokemon: "pokemon",
+  sonic: "sonic",
 }
+
 // songs
 var songs_random = []
 var song_current = null

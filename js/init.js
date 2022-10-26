@@ -26,8 +26,7 @@ function init_songs() {
       songs_random = shuffleArray(songs_all.slice(0))
     },
     error: function (err) {
-      console.log("Couldn't find that directory!\nPlease try again.")
-      showSettings()
+      addPopup( "Couldn't find file, try again. ", "error" )
     },
     async: false
   })

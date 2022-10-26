@@ -37,6 +37,7 @@ function onError( ev = null ) {
 }
 
 function onPlayerReady() {
+  changeVolume()
   game_start()
   cueNextSong()
   player.playVideo()

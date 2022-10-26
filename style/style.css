@@ -385,6 +385,7 @@ header #btn_showSettings:hover {
 #generator_modal #btn_download[disabled]:hover {
   color: var(--colorMidlight);
   background-color: transparent;
+  scale: 1;
 }
 
 .modal_wrapper {
@@ -559,7 +560,7 @@ input:focus {
 
 #settings_p1_name,
 #settings_p2_name {
-  width: minmax(10%, 3rem) !important;
+  width: minmax(5%, 3rem) !important;
 }
 
 p {
@@ -605,6 +606,10 @@ p {
   animation: rainbowText 1s alternate-reverse infinite;
 }
 
+.breakForMobile {
+  display: none;
+}
+
 @-webkit-keyframes rainbowText {
   0% {
     color: var(--colorPlayer);
@@ -646,6 +651,142 @@ p {
 ::-webkit-scrollbar-thumb {
   border-radius: 1rem;
   background: var(--colorDarkest);
+}
+
+#extra_controls {
+  display: none;
+  justify-content: center;
+  position: absolute;
+  bottom: 7.5vh;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.song_dir_container {
+  margin: 0 auto;
+  position: relative;
+}
+
+#songs_dir_list_generator {
+  top: 30%;
+}
+
+.songs_dir_list {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  top: 40%;
+  left: 50%;
+  width: 40%;
+  list-style-type: none;
+}
+.songs_dir_list li {
+  position: relative;
+  z-index: 9;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  font-size: 1rem;
+  border: 0.1rem var(--colorWhite) solid;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+  color: var(--colorWhite);
+  border-radius: 100vw;
+  text-align: left;
+  transition: background-color 200ms, scale 200ms;
+  background-color: var(--colorMid);
+  font-family: var(--fontBody);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.songs_dir_list li:hover {
+  background-color: var(--colorWhite);
+  color: var(--colorDark);
+  scale: 1.2;
+}
+.songs_dir_list li:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.tutorialButton {
+  outline: 0.1rem var(--colorWhite) solid;
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 100rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#popups {
+  position: absolute;
+  z-index: 12;
+  bottom: 1%;
+  left: 0;
+  width: 100%;
+}
+#popups p {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.2rem 2rem 0.2rem 1rem;
+  position: relative;
+  margin: 0 auto;
+  background-color: #202020;
+  border-radius: 100rem;
+  cursor: pointer;
+  color: #fff;
+}
+#popups p:not(:first-child) {
+  margin-top: 1%;
+}
+#popups p::after {
+  content: "x";
+  font-weight: 600;
+  position: absolute;
+  color: #fff;
+  right: 2.5%;
+}
+#popups .clear {
+  background-color: rgba(67, 195, 84, 0.4);
+  color: rgb(144, 255, 177);
+}
+#popups .warning {
+  background-color: rgba(221, 175, 91, 0.4);
+  color: rgb(246, 176, 125);
+}
+#popups .error {
+  background-color: rgba(203, 98, 98, 0.4);
+  color: rgb(240, 146, 155);
+}
+
+#volume {
+  -webkit-appearance: none;
+  padding: 5px;
+  background: var(--colorDark);
+}
+
+#volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 1rem;
+  aspect-ratio: 1/1;
+  border-radius: 100rem;
+  background: var(--colorWhite);
+  margin: 0;
+  cursor: pointer;
+}
+
+#volume::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+}
+
+#volume:active {
+  cursor: -webkit-grab;
+  cursor: grab;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 375px) {
@@ -721,64 +862,14 @@ input[type=number]::-webkit-outer-spin-button {
     box-shadow: 0 0 0.75rem 0.25rem rgba(32, 32, 32, 0.6);
     border-radius: 100rem;
   }
-}
-#extra_controls {
-  display: none;
-  justify-content: center;
-  position: absolute;
-  bottom: 7.5vh;
-  grid-template-rows: repeat(3, 1fr);
-  gap: 1rem;
-}
-
-.song_dir_container {
-  margin: 0 auto;
-  position: relative;
-}
-
-#songs_dir_list_generator {
-  top: 50%;
-}
-
-.songs_dir_list {
-  position: absolute;
-  transform: translate(-50%, -100%);
-  top: 40%;
-  left: 50%;
-  width: 30%;
-  list-style-type: none;
-}
-.songs_dir_list li {
-  position: relative;
-  z-index: 9;
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-  font-size: 1rem;
-  outline: 0.1rem var(--colorWhite) solid;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  cursor: pointer;
-  color: var(--colorWhite);
-  border-radius: 100vw;
-  text-align: left;
-  transition: background-color 200ms;
-  background-color: var(--colorMid);
-  font-family: var(--fontBody);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.songs_dir_list li:not(:first-child) {
-  margin-top: 1rem;
-}
-
-.tutorialButton {
-  outline: 0.1rem var(--colorWhite) solid;
-  height: 1.3rem;
-  width: 1.3rem;
-  border-radius: 100rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  .songs_dir_list {
+    width: 80%;
+  }
+  #popups p::after {
+    top: 50%;
+    translate: 0 -50%;
+  }
+  #settings_gametime {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=style.css.map */

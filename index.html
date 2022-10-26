@@ -80,6 +80,7 @@
   <footer>
     <div class="controls">
       <div id="extra_controls">
+        
         <button id="" class="ctrl_correct circle_button control_button">
           &#10004;
         </button>
@@ -123,9 +124,13 @@
       <button id="settings_close" class="circle_button close_modal">
         X
       </button>
-
       <div>
         <h2>Game Settings</h2>
+        <h3>Volume</h3>
+        <div>
+          <input type="range" id="volume" step='1' max='101' min='-1' value='80'>
+        </div>
+        <hr>
         <h3>Timer</h3>
         <div id="settings_gametime">
           <div>
@@ -136,6 +141,7 @@
             <label for="t_seconds">Seconds</label>
             <input id="t_seconds" class="settings_number" type="number" name="t_seconds" value="30" min="0" max="59">
           </div>
+
           <div title="How many seconds are added to the clock after passing over">
             <label for="t_increment" >Increment</label>
             <input id="t_increment"  class="settings_number" type="number" name="t_increment" id="" value="2" min="0"
@@ -289,6 +295,9 @@
     <h2 class=""></h2>
   </div>
   <audio src="./meta/Game Over Yeah!.mp3" id="sfx_gameover"></audio>
+
+  <div id="popups">
+  </div>
 
   <script src="./js/generator/generateJSON.js" defer></script>
   <script src="./js/generator/main.js" defer></script>

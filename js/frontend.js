@@ -71,12 +71,14 @@ function addEvents() {
 
   for ( let inp of $( ".songs_dir" ) )
   {
-    inp.addEventListener( "input", suggest )
-    inp.addEventListener( "focus", suggest )
+    inp.addEventListener( "input", ev => { suggest( ev ) } )
+    inp.addEventListener( "focus", ev => { suggest( ev ) }  )
     inp.addEventListener( "blur",  ev => {
       clearSuggestion( ev ) 
     })
   }
+
+  document.getElementById( "volume" ).addEventListener( "input", ev => { changeVolume( ev.target.valueAsNumber ) } )
 
 }
 
@@ -219,7 +221,8 @@ function getSuggestions( query )
 {
   let count = 0
   let lists = $( ".songs_dir_list" )
-  for ( let songList in CURRENT_SONG_LISTS )
+  
+  for ( let songList of Object.keys( CURRENT_SONG_LISTS ) )
   {
     if ( count >= MAX_SUGGESTIONS ) return;
     if ( songList.includes( query ) || query.length === 0 )
@@ -228,8 +231,8 @@ function getSuggestions( query )
       {
         $( list ).append( createSuggestion( songList ) )
       }
+      count++
     }
-    count++
   }
 }
 
@@ -237,11 +240,7 @@ function createSuggestion( content )
 {
   let li = document.createElement( "li" )
   li.innerText = content
-  li.addEventListener( "mousedown", ev => {
-    ev.preventDefault()
-    SONGS_FILE_NAME = CURRENT_SONG_LISTS[ ev.target.innerText ]
-    clearSuggestion()
-  })
+  li.addEventListener( "mousedown", selectSuggestion )
   return li
 }
 
@@ -252,4 +251,67 @@ function clearSuggestion( ev )
   {
     $( list ).html( "" )
   }
+}
+
+function selectSuggestion( ev )
+{
+  ev.preventDefault()
+  SONGS_FILE_NAME = ev.target.innerText
+  clearSuggestion()
+
+  for ( let inp of $( ".songs_dir" ) )
+  {
+    $( inp ).blur()
+    $( inp ).val( "" )
+  }
+
+  addPopup( `Selected tracklist: "${ev.target.innerText}". Restart to play!`, "clear" )
+}
+
+function addPopup( content="", type="" )
+{
+  if ( popupTimeout )
+  {
+    clearAllPopups()
+  }
+
+  let popup = createPopup( content, type )
+  $( "#popups" ).append( popup )
+  popupTimeout = setTimeout( () => { removePopup( popup ) }, 10000 )
+}
+
+function clearAllPopups()
+{
+  clearTimeout( popupTimeout )
+  $( "#popups" ).html("")
+}
+
+function removePopup( popup )
+{
+  clearTimeout( popupTimeout )
+  popup.removeEventListener( "click", popup.fn )
+  $( popup ).fadeOut( 800, () => {
+    popup.remove()
+  } )
+}
+
+function createPopup( content="", type="" )
+{
+  let popup = document.createElement( "p" )
+  popup.innerText = content
+  popup.className = type
+  popup.addEventListener( "click", popup.fn = function( ev ) {
+    removePopup( ev.target )
+  } )
+
+  return popup
+}
+
+function changeVolume( newValue = null )
+{
+  if ( newValue !== null )
+    CURRENT_VOLUME = newValue
+  
+  $( "#volume" ).val( CURRENT_VOLUME )
+  player.setVolume( CURRENT_VOLUME )
 }
