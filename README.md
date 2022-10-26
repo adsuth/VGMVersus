@@ -23,11 +23,24 @@ VGM Versus makes use of the *YouTube Player* API to play its tracks. There aren'
 ### Known Unknown Issues
 The site is a work in progress (WIP). As such, there are bound to be little bugs - perhaps even game breaking ones. Please bear with me while I get it working. This is - first and foremost - a pet project by an amateur (and even that is generous).
 
-### Visual Bug With First Song's Data on Restart
+### Visual Bug With First Song's Data on Restart (Fixed?)
 Occassionally, when restarting the game, the FIRST song will display incorrectly.
 This is purely a visual bug. I'm trying to figure out how this happens so I can get it fixed, so bear with me.
 
-### Unavailable Videos
+### Unavailable Videos (Circumvented)
 Due to the dubious nature of video game soundtrack uploads in terms of copyright, video links are volatile at best. Channels get taken down, deleted or copyright struck. Whether or not a video can play on am HTML iframe is determined by the owner, so it's difficult to know what links will break and when.
 
 There is a solution: just skip broken links. The site does this implicitly, but the problem of broken songs is something to be aware of.
+
+## Roadmap
+Just a list of future ideas for implementations. 
+
+### Fix likely issues with popups
+
+### Find a proper home for volume slider
+
+### Add TSV Parser repo to Github + links to it obviously
+
+### Fix any bugs that crop up
+
+### Add new additions to the How To Play modal

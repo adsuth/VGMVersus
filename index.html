@@ -1,269 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style\style.css">
-    <title>VGMVersus</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@600;700;800&family=Montserrat+Alternates:wght@400;600;800&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./meta/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style\style.css">
+  <title>VGMVersus</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Grandstander:wght@600;700;800&family=Montserrat+Alternates:wght@400;600;800&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="./meta/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <style id="playerColors"></style>
+  <style id="playerColors"></style>
 
-    <header class="grid header_grid">
-        <div class="flex">
-            <button type="button" class="button" id="btn_restart">Restart</button>
-        </div>
-        <div id="header_title">
-            <h1>VGM Versus</h1>
-            <h3>The Head to Head VGM Quiz</h3>
-        </div>
-        <div class="header_controls">
-            <button id="btn_showHelp" class="circle_button">
-                ?
-            </button>
-            <button id="btn_showSettings" class="circle_button">
-                <img src="./meta/settings_cog.svg">
-                </img>
-            </button>
-            <button id="btn_showGenerator" class="circle_button">
-                &#43;
-            </button>
-        </div>
-    </header>
-
-    <section class="grid">
-        <aside id="p1_section" class="p1">
-            <!-- Player 1 -->
-            <div class="player_header">
-                <h3 id="p1_name">Player 1</h3>
-                <div class="flex">
-                    <p class="timer" id="p1_timer">0:00</p>
-                </div>
-            </div>
-            <ul id="p1_list" class="prev_list"></ul>
-        </aside>
-        
-        <main id="song_area">
-            <!-- The youtube iframe -->
-            <div id="player"></div>
-        </main>
-
-        <aside id="p2_section" class="">
-            <!-- Player 2 -->
-            <div class="player_header">
-                <h3 id="p2_name">Player 2</h3>
-                <div class="flex">
-                    <p id="p2_timer" class="timer">0:00</p>
-                </div>
-            </div>
-            <ul id="p2_list" class="prev_list"></ul>
-        </aside>
-        
-    </section>
-
-    <p id="song_data">
-    </p>  
-
-    <footer>
-        <div class="controls">
-            <div id="extra_controls">
-                <button id="" class="ctrl_correct circle_button control_button">
-                    &#10004; 
-                </button>
-                <button id="ctrl_half" class="circle_button control_button">
-                    &#189;
-                </button>
-                <button id="ctrl_wrong" class=" circle_button control_button">
-                    x
-                </button>
-                <button id="" class="ctrl_show circle_button control_button">
-                    ^
-                </button>
-            </div>
-
-            <button id="ctrl_extras" class="circle_button control_button">
-                &#8230;
-            </button>
-
-        </div>
-
-        <div>
-            <p id="song_game">
-                -
-            </p>
-            <h3 id="song_name">
-                <b>-</b>
-            </h3>
-        </div>
-        <div class="controls">
-            <button id="" class="ctrl_show circle_button control_button">
-                ^
-            </button>
-            <button id="" class="ctrl_correct circle_button control_button">
-                &#10004;
-            </button>
-        </div>
-    </footer>
-
-    <aside id="settings_wrapper" class="modal_wrapper">
-        <div id="settings_modal" class="modal">
-            <button id="settings_close" class="circle_button close_modal">
-                X
-            </button>
-            
-            <div>
-                <h1>Game Settings</h1>
-                <h3>Total Time</h3>
-                <div id="settings_gametime">
-                    <div>
-                        <label for="t_minutes">Minutes</label>
-                        <input id="t_minutes" class="settings_number" type="number" name="t_minutes" value="1" min="0" max="9">
-                    </div>
-                    <div>
-                        <label for="t_seconds">Seconds</label>
-                        <input id="t_seconds" class="settings_number" type="number" name="t_seconds" value="30" min="0" max="59">
-                    </div>
-                </div>
-                <div>
-                    <label for="t_increment">Increment</label>
-                    <input id="t_increment" class="settings_number" type="number" name="t_increment" id="" value="2" min="0" max="30">
-                </div>
-                <label for="songs_dir">Songs File Name</label>
-                <input id="songs_dir"type="text" name="t_seconds" id="songs_dir" autocomplete='off'>
-            </div>
-            <hr>
-            <div id="settings_playerSettings">
-                <aside>
-                    <h3>Player 1</h3>
-                    <label for="startingPlayer">Starting?</label>
-                    <input type="radio" name="startingPlayer" id="settings_starting" checked value="p1">
-
-                    <label for="p1_name">Enter a Name</label>
-                    <input maxlength="12" id="settings_p1_name" autocomplete="off" name="p1_name" type="text" value="Player 1" placeholder='p1 Name...'>
-
-                    <label for="p1_color">Choose a Color</label>
-                    <input id="settings_p1_color" type="color" name="p1_color" value="#3fff79">
-
-                </aside>
-                <aside>
-                    <h3>Player 2</h3>
-                    <label for="startingPlayer">Starting?</label>
-                    <input type="radio" name="startingPlayer" value="p2">
-                    
-                    <label for="p2_name">Enter a Name</label>
-                    <input maxlength="12" autocomplete="off" id="settings_p2_name" name="p2_name" type="text" value="Player 2" placeholder='p2 name...'>
-
-                    <label for="p2_color">Choose a Color</label>
-                    <input id="settings_p2_color" type="color" name="p2_color" value="#ff374e">
-
-                </aside>
-            </div>
-            <hr>
-            <footer>
-                <button type="submit" class="button" id="settings_start">
-                    Start Game
-                </button>
-            </footer>
-
-            
-        </div>
-
-    </aside>
-    <aside id="generator_wrapper" class="modal_wrapper">
-        <div id="generator_modal" class="modal">
-            <button id="generator_close" class="circle_button close_modal">
-                X
-            </button>
-            <div>
-                <h1>Generate Song List</h1>
-                <div id="drop_zone">
-                    <p>Click here or Drop CSV, TSV or predone JSON Here</p>
-                    <input name="fileZone" type="file" id="drop_input">
-                </div>
-                <br>
-                <p id="fileName">No File Chosen</p>
-                <p id="caption_message"></p>
-                <br>
-                <div id="download_button_container">
-                    <a id="a_download">
-                        <button class="button" id="btn_download" disabled>
-                            Download JSON
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside>
-
-    <aside id="help_wrapper" class="modal_wrapper">
-        <div id="help_modal" class="modal">
-            <button id="help_close" class="circle_button close_modal">
-                X
-            </button>
-            <div>
-                <div>
-                    <h1>How to Play</h1>
-                    <p>Press the <span class="bold">&#8230;</span> button to <span class="bold">show additional controls</span></p><br>
-                    
-                    <p>Press the <span class="bold">right arrow key</span> or the <span class="bold">&#10004;</span> button if you got it <span class="correct bold">correct</span></p> <br>
-                    <p>Press the <span class="bold">down arrow key</span> or the <span class="bold">x</span> button if you got it  <span class="error bold">incorrect</span></p> <br>
-                    <p>Press the <span class="bold">left arrow key</span> or the <span class="bold">&#189;</span> button if you only got <span class="warning bold"> half of the answer</span></p> <br>
-                    <p>Press the <span class="bold">up arrow key</span> or the <span class="bold">^</span> button to <span class="bold">show the current song</span></p>
-                </div>
-                <hr>
-                <div>
-                    <h1>Adding Song Lists</h1>
-                    <p>
-                        Press the <span class="bold">&#43;</span> button to <span class="bold">add extra song lists</span>
-                        <br>
-                        Song lists are saved on a <b>session basis</b>. This means your lists will be erased on a page reload,
-                        <br><br>
-                        You can download generated JSON for future use.
-                        <br><br>
-                        <b>
-                            Important note: improperly formatted CSV, TSV or JSON will result in uncaught errors.
-                        </b>
-                    </p>
-                </div>
-                <hr>
-                <div>
-                    <h1>About</h1>
-                    <p>VGM Versus is a 1v1 videogame quiz made by me, Adamandam. Visit the Github Repo <a target="_blank" href="https://github.com/Adamandom/VGMB_AA.git">here</a> to read more</p>
-                </div>
-                <hr>
-                <div>
-                    <h1>Extras</h1>
-                    <p>Clicking on a previous song will take you to the youtube video.</p>
-                </div>
-
-            </div>
-    </aside>
-
-    <canvas id="canvas"></canvas>
-    <div id="victory_container">
-        <h1 class=""></h1>
+  <header class="grid header_grid">
+    <div class="flex">
+      <button type="button" class="button" id="btn_restart">Start</button>
     </div>
-    <audio src="./meta/Game Over Yeah!.mp3" id="sfx_gameover"></audio>
+    <div id="header_title">
+      <h1>VGM Versus</h1>
+      <h3>The Head to Head VGM Quiz</h3>
+    </div>
+    <div class="header_controls">
+      <button id="btn_showHelp" class="circle_button">
+        ?
+      </button>
+      <button id="btn_showSettings" class="circle_button">
+        <img src="./meta/settings_cog.svg">
+        </img>
+      </button>
+      <button id="btn_showGenerator" class="circle_button">
+        &#43;
+      </button>
+    </div>
+  </header>
 
-    <script src="js\util.js" defer></script>
-    <script src="js\player.js" defer></script>
-    <script src="js\modal.js" defer></script>
-    <script src="js\timer.js" defer></script>
-    <script src="js\frontend.js" defer></script>
-    <script src="js\init.js" defer></script>
+  <section class="grid">
+    <aside id="p1_section" class="p1">
+      <!-- Player 1 -->
+      <div class="player_header">
+        <h3 id="p1_name">Player 1</h3>
+        <div class="flex">
+          <p class="timer" id="p1_timer">0:00</p>
+        </div>
+      </div>
+      <ul id="p1_list" class="prev_list"></ul>
+    </aside>
 
-    <script src="js\fireworks\Particle.js" defer></script>
-    <script src="js\fireworks\Firework.js" defer></script>
-    <script src="js\fireworks\main.js" defer id="fireworks_script"></script>
+    <main id="song_area">
+      <!-- The youtube iframe -->
+      <div id="player"></div>
+    </main>
 
-    <script src="./js/generator/main.js" type="module"></script>
+    <aside id="p2_section" class="">
+      <!-- Player 2 -->
+      <div class="player_header">
+        <h3 id="p2_name">Player 2</h3>
+        <div class="flex">
+          <p id="p2_timer" class="timer">0:00</p>
+        </div>
+      </div>
+      <ul id="p2_list" class="prev_list"></ul>
+    </aside>
+
+  </section>
+
+  <p id="song_data">
+  </p>
+
+  <footer>
+    <div class="controls">
+      <div id="extra_controls">
+        
+        <button id="" class="ctrl_correct circle_button control_button">
+          &#10004;
+        </button>
+        <button id="ctrl_half" class="circle_button control_button">
+          &#189;
+        </button>
+        <button id="ctrl_wrong" class=" circle_button control_button">
+          x
+        </button>
+        <button id="" class="ctrl_show circle_button control_button">
+          ^
+        </button>
+      </div>
+
+      <button id="ctrl_extras" class="circle_button control_button">
+        &#8230;
+      </button>
+
+    </div>
+
+    <div>
+      <p id="song_game">
+        -
+      </p>
+      <h3 id="song_name">
+        <b>-</b>
+      </h3>
+    </div>
+    <div class="controls">
+      <button id="" class="ctrl_show circle_button control_button">
+        ^
+      </button>
+      <button id="" class="ctrl_correct circle_button control_button">
+        &#10004;
+      </button>
+    </div>
+  </footer>
+
+  <aside id="settings_wrapper" class="modal_wrapper">
+    <div id="settings_modal" class="modal">
+      <button id="settings_close" class="circle_button close_modal">
+        X
+      </button>
+      <div>
+        <h2>Game Settings</h2>
+        <h3>Volume</h3>
+        <div>
+          <input type="range" id="volume" step='1' max='101' min='-1' value='80'>
+        </div>
+        <hr>
+        <h3>Timer</h3>
+        <div id="settings_gametime">
+          <div>
+            <label for="t_minutes">Minutes</label>
+            <input id="t_minutes" class="settings_number" type="number" name="t_minutes" value="1" min="0" max="9">
+          </div>
+          <div>
+            <label for="t_seconds">Seconds</label>
+            <input id="t_seconds" class="settings_number" type="number" name="t_seconds" value="30" min="0" max="59">
+          </div>
+
+          <div title="How many seconds are added to the clock after passing over">
+            <label for="t_increment" >Increment</label>
+            <input id="t_increment"  class="settings_number" type="number" name="t_increment" id="" value="2" min="0"
+              max="30">
+          </div>
+        </div>
+        <div>
+        </div>
+      </div>
+      <hr>
+      
+      <div id="settings_playerSettings">
+        <aside>
+          <h3>Player 1</h3>
+          <label for="startingPlayer">Starting?</label>
+          <input type="radio" name="startingPlayer" id="settings_starting" checked value="p1">
+
+          <label for="p1_name">Enter a Name</label>
+          <input maxlength="12" id="settings_p1_name" autocomplete="off" name="p1_name" type="text" value="Player 1"
+            placeholder='p1 Name...'>
+
+          <label for="p1_color">Choose a Color</label>
+          <input id="settings_p1_color" class="settings_color" type="color" name="p1_color" value="#3fff79">
+
+        </aside>
+        <aside>
+          <h3>Player 2</h3>
+          <label for="startingPlayer">Starting?</label>
+          <input type="radio" name="startingPlayer" value="p2">
+
+          <label for="p2_name">Enter a Name</label>
+          <input maxlength="12" autocomplete="off" id="settings_p2_name" name="p2_name" type="text" value="Player 2"
+            placeholder='p2 name...'>
+
+          <label for="p2_color">Choose a Color</label>
+          <input id="settings_p2_color"  class="settings_color" type="color" name="p2_color" value="#ff374e">
+
+        </aside>
+      </div>
+      <hr>
+      <div class="song_dir_container">
+        <label for="songs_dir">Songs File Name</label>
+        <ul id="songs_dir_list_settings" class="songs_dir_list">
+        </ul>
+        <input id="songs_dir_settings" type="text" name="songs_dir" class="songs_dir" autocomplete='off'>
+      </div>
+      <hr>
+      <footer>
+        <button type="button" class="button" id="settings_start">
+          Start Game
+        </button>
+      </footer>
+
+
+    </div>
+
+  </aside>
+  <aside id="generator_wrapper" class="modal_wrapper">
+    <div id="generator_modal" class="modal">
+      <button id="generator_close" class="circle_button close_modal">
+        X
+      </button>
+      <div>
+        <h2>Generate Song List</h2>
+        <div id="drop_zone">
+          <p>Click here or Drop CSV, TSV or predone JSON Here</p>
+          <input name="fileZone" type="file" id="drop_input">
+        </div>
+        <br>
+        <p id="fileName">No File Chosen</p>
+        <p id="caption_message"></p>
+        <br>
+        <div id="download_button_container">
+          <a id="a_download">
+            <button class="button" id="btn_download" disabled>
+              Download JSON
+            </button>
+          </a>
+        </div>
+
+        <hr>
+        
+        <div id="song_setter_container" class="song_dir_container">
+          <label for="songs_dir">Songs File Name</label>
+          <ul id="songs_dir_list_generator" class="songs_dir_list">
+          </ul>
+          <input id="songs_dir_generator" class="songs_dir" type="text" name="songs_dir" autocomplete='off'>
+          <button class="button" id="btn_setSongs">
+            Start
+          </button>
+          <br>
+        </div>
+
+      </div>
+      
+    </div>
+  </aside>
+
+  <aside id="help_wrapper" class="modal_wrapper">
+    <div id="help_modal" class="modal">
+      <button id="help_close" class="circle_button close_modal">
+        X
+      </button>
+      <div>
+        <div>
+          <h2>How to Play</h2>
+          <p>Press the <span class="bold tutorialButton">&#8230;</span> button to <span class="bold">show additional controls</span>
+          </p><br>
+
+          <p>Press the <span class="bold">right arrow key</span> or the <span class="bold tutorialButton">&#10004;</span> button if you
+            got it <span class="correct bold">correct</span></p> <br>
+          <p>Press the <span class="bold">down arrow key</span> or the <span class="bold tutorialButton">x</span> button if you got it
+            <span class="error bold">incorrect</span></p> <br>
+          <p>Press the <span class="bold">left arrow key</span> or the <span class="bold tutorialButton">&#189;</span> button if you
+            only got <span class="warning bold"> half of the answer</span></p> <br>
+          <p>Press the <span class="bold">up arrow key</span> or the <span class="bold tutorialButton">^</span> button to <span
+              class="bold">show the current song</span></p>
+        </div>
+        <hr>
+        <div>
+          <h2>Adding Song Lists</h2>
+          <p>
+            Press the <span class="bold tutorialButton">&#43;</span> button to <span class="bold">add extra song lists</span>
+            <br>
+            Song lists are saved on a <b>session basis</b>. This means your lists will be erased on a page reload,
+            <br><br>
+            You can download generated JSON for future use.
+            <br><br>
+            <b>
+              Important note: improperly formatted CSV, TSV or JSON will result in uncaught errors.
+            </b>
+          </p>
+        </div>
+        <hr>
+        <div>
+          <h2>About</h2>
+          <p>VGM Versus is a 1v1 videogame quiz made by me, ADSÜ. Visit the Github Repo <a target="_blank"
+              href="https://github.com/adsuth/VGMVersus.git">here</a> to read more</p>
+        </div>
+        <hr>
+        <div>
+          <h2>Extras</h2>
+          <p>Clicking on a previous song will take you to the youtube video.</p>
+        </div>
+
+      </div>
+  </aside>
+
+  <canvas id="canvas"></canvas>
+  <div id="victory_container">
+    <h2 class=""></h2>
+  </div>
+  <audio src="./meta/Game Over Yeah!.mp3" id="sfx_gameover"></audio>
+
+  <div id="popups">
+  </div>
+
+  <script src="./js/generator/generateJSON.js" defer></script>
+  <script src="./js/generator/main.js" defer></script>
+  <script src="js\definitions.js" defer></script>
+  <script src="js\util.js" defer></script>
+  <script src="js\modal.js" defer></script>
+  <script src="js\timer.js" defer></script>
+  <script src="js\player.js" defer></script>
+  <script src="js\frontend.js" defer></script>
+  <script src="js\init.js" defer></script>
+
+  <script src="js\fireworks\Particle.js" defer></script>
+  <script src="js\fireworks\Firework.js" defer></script>
+  <script src="js\fireworks\main.js" defer id="fireworks_script"></script>
+
 
 </body>
+
 </html>

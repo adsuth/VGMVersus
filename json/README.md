@@ -8,7 +8,7 @@ Once created, place the songs files in the `./json` directory. Otherwise the app
 
 ## Songs File: JSON Format
 ### TSV File
-The included `TSV_processor.py` script will automatically format TSV (Tab Separated Values) files that you give it. These files must follow a specific format.
+Check out `link coming soon` for info on how you can batch parse your TSV or CSV into workable JSON files!
 
 In order, each song requires:
 - Track name

@@ -1,4 +1,4 @@
-export function generateJSON( file="", type="TSV" ) {
+function generateJSON( file="", type="TSV" ) {
     // fetch text of file -> format text to be usable -> make json 
     
     return new Promise( res => {
