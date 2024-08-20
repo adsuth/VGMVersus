@@ -7,7 +7,7 @@ The game was made to practice for [The Chase VGM](https://www.twitch.tv/thechase
 
 While *The Chase* is a general knowledge quiz show, *The Chase VGM* tests a contestant's knowledge of music from videogames of all genres; from Pokémon to The Last of Us. The format has been tweaked for a livestreaming context, but the heart is still there - Chasers and all.
 
-Once every so often, a special episode of *The Chase VGM* takes place known as "Masters". *Masters* has individual players compete head to head to earn the title of Master for a specific game - *Ace Attorney Master*, *Mario Master*, *Final Fantasy Master*, etc. and that's where *VGM Versus* comes in: a way to practice the head-to-head in a simple, specified format.
+Once every so often, a special episode of *The Chase VGM* takes place known as "Masters". *Masters* has individual players compete head to head to earn the title of Master for a specific series - *Ace Attorney Master*, *Mario Master*, *Final Fantasy Master*, etc. and that's where *VGM Versus* comes in: a way to practice the head-to-head in a simple, specified format.
 
 ## The Game
 Both players start with a set amount of time; by default, one minute and thirty seconds, but that can be changed in the Settings. A player's timer ticks down during a their turn, only passing on to the next player **after they guess a collective two points**. 
