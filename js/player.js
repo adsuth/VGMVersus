@@ -38,11 +38,22 @@ function onError( ev = null ) {
 
 function calcStartTime()
 {
-  if ( GAME_SETTINGS.startPercentage === 0 ) return 0
-  return player.getDuration() * GAME_SETTINGS.startPercentage / 100;
+  const offset = song_current.start_time ?? 0
+  if ( GAME_SETTINGS.startPercentage === 0 ) return +offset
+  // offset + [(song length - offset) * sample perc]
+
+  // console.log( {
+  //   duration: player.getDuration(),
+  //   offset,
+  //   start_perc: GAME_SETTINGS.startPercentage / 100
+  // } )
+
+  return +offset + ( ( player.getDuration() - +offset ) * (GAME_SETTINGS.startPercentage / 100) )
 }
 
 function playVideo() {
+  // player.seekTo( calcStartTime() )
+  console.log( {StartTime: calcStartTime()} )
   player.seekTo( calcStartTime() )
   player.playVideo()
 }

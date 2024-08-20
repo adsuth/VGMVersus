@@ -18,7 +18,7 @@ function addEvents() {
       $("#songs_dir").focus()
     }
 
-    if (GAME_ENDED || GAME_PAUSED) return;
+    if (GAME_ENDED || GAME_PAUSED || !SESSION_STARTED) return;
 
     if (ev.key === "ArrowRight") {
       ev.preventDefault()
@@ -145,6 +145,8 @@ function showAnswer() {
   // if ( GAME_ENDED ) { return }
   if ( player.getPlayerState() !== YT.PlayerState.PLAYING && !GAME_ENDED )
     return
+
+  ROUND_ENDED = true
 
   player.pauseVideo()
   $("#player").css({

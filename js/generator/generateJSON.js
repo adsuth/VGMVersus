@@ -26,6 +26,10 @@ function formatText(data, type) {
     return data
 }
 
+function validateStartTime( time ) {
+  return isNaN( time ) ? 0 : +time
+}
+
 function formatAsJSON(data) {
     let output = {}
     let i = 0
@@ -42,7 +46,8 @@ function formatAsJSON(data) {
             game:   row[1],
             series: row[2],
             url:    row[3],
-            id:     getYoutubeID(row[3])
+            id:     getYoutubeID(row[3]),
+            start_time: validateStartTime( row[4] ),
         }
         output[ row[1] ].push(song)
         i++

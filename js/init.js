@@ -42,6 +42,7 @@ function initSongsFromCurrent(list) {
 
 function cueNextSong() {
   if (GAME_ENDED) return;
+  ROUND_ENDED = false
   
   $("#player").css({
     visibility: "hidden"
@@ -221,9 +222,7 @@ function pause_game() {
  */
 function resume_game() {
   // prevents resuming ended games from closing modals
-  if (GAME_ENDED) {
-    return
-  }
+  if (GAME_ENDED || GAME_PAUSED || !SESSION_STARTED || ROUND_ENDED ) return;
   timers[CURRENT_PLAYER].play()
   player.playVideo()
 }

@@ -14,6 +14,7 @@ function modalEvents() {
   })
 
   $("#btn_setSongs").click(() => {
+    $("#btn_restart").html( "Restart" ) 
     $("#caption_message").html("")
     resetGeneratorData()
     $("#generator_wrapper").fadeOut(200)
