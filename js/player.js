@@ -36,11 +36,22 @@ function onError( ev = null ) {
   cueNextSong()
 }
 
+function calcStartTime()
+{
+  if ( GAME_SETTINGS.startPercentage === 0 ) return 0
+  return player.getDuration() * GAME_SETTINGS.startPercentage / 100;
+}
+
+function playVideo() {
+  player.seekTo( calcStartTime() )
+  player.playVideo()
+}
+
 function onPlayerReady() {
   changeVolume()
   game_start()
   cueNextSong()
-  player.playVideo()
+  playVideo()
 }
 
 function onPlayerStateChange(ev) {
@@ -57,7 +68,7 @@ function onPlayerStateChange(ev) {
   else if (ev.data == YT.PlayerState.CUED) {
     clearSongData()
     timers[CURRENT_PLAYER].stop()
-    player.playVideo()
+    playVideo()
   } 
   else if (ev.data == YT.PlayerState.PAUSED) {
     timers[CURRENT_PLAYER].stop()

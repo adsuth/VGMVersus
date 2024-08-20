@@ -58,7 +58,9 @@ function addEvents() {
   })
 
   $("#btn_restart").click(() => {
+    SESSION_STARTED = true
     game_start()
+    applySettings()
     init_songs()
   })
 

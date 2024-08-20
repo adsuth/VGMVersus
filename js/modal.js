@@ -40,6 +40,10 @@ function modalEvents() {
     }
   })
 
+  $(`#start_time_range`).change(ev => {
+    $(`label[for="start_time"]`).text( `${ev.target.value}%` )
+  })
+
   // prevent typing impossible values in number fields 
   $("#t_minutes").change(ev => {
     let aboveThreshold = ev.target.value > 9

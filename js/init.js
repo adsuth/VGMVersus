@@ -86,6 +86,7 @@ function addSongToPrevious(song, color = "default") {
 function applySettings() {
   GAME_SETTINGS = {
     startingPlayer: $('input[name="startingPlayer"]:checked').val(),
+    startPercentage: $("#start_time_range").val(),
     mins: parseInt($("#t_minutes").val())  ?? 1,
     secs: parseInt($("#t_seconds").val())  ?? 30,
     inc: parseInt($("#t_increment").val()) ?? 2,
@@ -138,7 +139,6 @@ function game_start() {
   song_current = null
   clearSongData()
 
-
   $("#player").css({
     pointerEvents: "auto"
   });
@@ -166,8 +166,10 @@ function game_start() {
   $("#p1_list").empty()
   $("#p2_list").empty()
 
+  if ( SESSION_STARTED )
+    $("#btn_restart").html( "Restart" ) 
+
   init_songs()
-  $("#btn_restart").html( "Restart" )
   cueNextSong()
 }
 

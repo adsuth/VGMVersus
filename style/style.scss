@@ -873,14 +873,14 @@ p {
   
 }
 
-#volume
+.settings_range_slider
 {
   -webkit-appearance: none;
   padding: 5px;
   background: var(--colorDark);
 }
 
-#volume::-webkit-slider-thumb {
+.settings_range_slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 1rem;
   aspect-ratio: 1/1;
@@ -890,13 +890,13 @@ p {
   cursor: pointer;
 }
 
-#volume::-webkit-slider-runnable-track  {
+.settings_range_slider::-webkit-slider-runnable-track  {
   -webkit-appearance: none;
   box-shadow: none;
   border: none;
 }
 
-#volume:active
+.settings_range_slider:active
 {
   cursor: grab;
   background-color: transparent;

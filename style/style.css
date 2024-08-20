@@ -368,7 +368,6 @@ header #btn_showSettings:hover {
 }
 #generator_modal #download_button_container {
   width: 100%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
@@ -459,7 +458,6 @@ hr {
   display: flex;
   justify-content: center;
   background: none;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
 }
@@ -499,7 +497,6 @@ hr {
 #settings_modal {
   display: block;
   height: 80vh;
-  min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
   min-height: fit-content;
 }
@@ -516,7 +513,6 @@ hr {
 }
 #settings_modal #settings_playerSettings input {
   margin: 0.5rem auto;
-  min-width: -webkit-fit-content;
   min-width: -moz-fit-content;
   min-width: fit-content;
 }
@@ -571,7 +567,6 @@ p {
   padding: 1rem 2rem;
   outline: var(--colorWhite) 0.1rem solid;
   border-radius: 100vw;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin-top: 1rem;
@@ -610,29 +605,12 @@ p {
   display: none;
 }
 
-@-webkit-keyframes rainbowText {
-  0% {
-    color: var(--colorPlayer);
-  }
-  100% {
-    color: var(--colorWhite);
-  }
-}
-
 @keyframes rainbowText {
   0% {
     color: var(--colorPlayer);
   }
   100% {
     color: var(--colorWhite);
-  }
-}
-@-webkit-keyframes pulse {
-  from {
-    box-shadow: 0 0 0rem var(--colorPlayer);
-  }
-  to {
-    box-shadow: 0 0 0.75rem var(--colorPlayer);
   }
 }
 @keyframes pulse {
@@ -727,7 +705,6 @@ p {
   width: 100%;
 }
 #popups p {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.2rem 2rem 0.2rem 1rem;
@@ -761,13 +738,13 @@ p {
   color: rgb(240, 146, 155);
 }
 
-#volume {
+.settings_range_slider {
   -webkit-appearance: none;
   padding: 5px;
   background: var(--colorDark);
 }
 
-#volume::-webkit-slider-thumb {
+.settings_range_slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 1rem;
   aspect-ratio: 1/1;
@@ -777,23 +754,22 @@ p {
   cursor: pointer;
 }
 
-#volume::-webkit-slider-runnable-track {
+.settings_range_slider::-webkit-slider-runnable-track {
   -webkit-appearance: none;
   box-shadow: none;
   border: none;
 }
 
-#volume:active {
-  cursor: -webkit-grab;
+.settings_range_slider:active {
   cursor: grab;
   background-color: transparent;
 }
 
 @media screen and (max-width: 375px) {
   h1,
-h2,
-h3,
-p {
+  h2,
+  h3,
+  p {
     font-size: 0.8rem;
   }
   #victory_container > h2 {
@@ -803,7 +779,7 @@ p {
     min-width: 30vw;
   }
   #settings_p1_name,
-#settings_p2_name {
+  #settings_p2_name {
     font-size: 0.8rem;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -838,11 +814,11 @@ p {
     gap: 0.5rem;
   }
   input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+  input[type=number]::-webkit-outer-spin-button {
     opacity: 1 !important;
   }
   #song_name,
-#song_game {
+  #song_game {
     font-size: 0.8rem;
   }
   footer {
