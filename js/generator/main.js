@@ -72,7 +72,7 @@ function addPreexistingJSON(file, fileName) {
     })
     .catch((err) => {
       console.log( err.message )
-      updateMessage(`<span class="error">Error with song list <b>"${fileName}"</b>...<br>Make sure JSON is formatted as per <a target="_blank" href="https://github.com/adsuth/VGMVersus.git">Github specs</a>.</span>`)
+      updateMessage( `<span class="error">Error with song list <b>"${fileName}"</b>...<br>Make sure JSON is formatted as per <a target="_blank" href="https://github.com/adsuth/VGMVersus.git">Github specs</a>.</span>` )
       addPopup( `Error with "${fileName}"...`, "error"  )
     })
 }

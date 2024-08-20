@@ -52,8 +52,6 @@ function calcStartTime()
 }
 
 function playVideo() {
-  // player.seekTo( calcStartTime() )
-  console.log( {StartTime: calcStartTime()} )
   player.seekTo( calcStartTime() )
   player.playVideo()
 }

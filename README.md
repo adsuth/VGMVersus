@@ -1,4 +1,7 @@
 # VGM Versus
+## ⚠️ Note on Ads in Youtube Videos
+A (seemingly) recent change, ads may play in the YouTube iframe that powers the song list. This doesn't seem to be an issue if you have an ad blocker, but I would *never* suggest downloading an adblocker such as uBlock Origin to prevent this issue and protect your online privacy! That would be like, immoral or something.
+
 ## History
 The game was made to practice for [The Chase VGM](https://www.twitch.tv/thechasevgm), a gameshow on the livestreaming platform Twitch which itself is based on *The Chase*, a now-global quiz show where players answer questions to elude the primary antagonist, "the Chaser", and take home a large cash prize. Should they get caught, it's game over and they'll leave the game with nothing.
 

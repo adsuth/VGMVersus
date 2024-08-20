@@ -14,6 +14,7 @@ function modalEvents() {
   })
 
   $("#btn_setSongs").click(() => {
+    SESSION_STARTED = true
     $("#btn_restart").html( "Restart" ) 
     $("#caption_message").html("")
     resetGeneratorData()
@@ -24,6 +25,7 @@ function modalEvents() {
   
   $("#settings_start").click(() => {
     GAME_PAUSED = false
+    SESSION_STARTED = true
     applySettings()
     hideSettings()
   })

@@ -34,6 +34,8 @@ function formatAsJSON(data) {
     let output = {}
     let i = 0
     for ( let row of data ) {
+        if ( [''][0] === '' ) continue;
+        
         // add entry for game
         if ( !output.hasOwnProperty( row[1] ) ) {
             output[row[1]] = []
